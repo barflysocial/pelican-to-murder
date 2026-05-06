@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Pelican to Murder — Player</title>
+  <link rel="stylesheet" href="/shared/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div>
+        <h1>Pelican to Murder</h1>
+        <small>Case 001 · Pelican to Mars</small>
+      </div>
+      <div class="statusPills">
+        <span class="pill" id="phasePill">Lobby</span>
+        <span class="pill roundPill hidden" id="roundPill">Round 1</span>
+        <span class="pill good" id="timerPill">00:00</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card" id="joinCard">
+      <h2>Join Investigation</h2>
+      <p>Scan the Pelican to Mars QR code or enter the session code from the host screen.</p>
+      <label for="sessionCode">Session Code</label>
+      <input id="sessionCode" maxlength="8" autocomplete="off" placeholder="Example: ABC12" />
+      <label for="playerName">Detective Name</label>
+      <input id="playerName" maxlength="40" autocomplete="name" placeholder="Enter your name" />
+      <div class="actions" style="margin-top:14px">
+        <button id="joinBtn">Join Investigation</button>
+      </div>
+      <p class="mini" id="joinError"></p>
+    </section>
+
+    <section class="card hidden" id="lobbyCard">
+      <h2>Lobby</h2>
+      <p class="notice">You joined the investigation. The evidence dashboard will open when the host starts the table.</p>
+      <div class="row">
+        <p><b>Session:</b> <span id="lobbyCode"></span></p>
+        <p><b>Detectives connected:</b> <span id="lobbyPlayers">0</span></p>
+      </div>
+      <div class="actions">
+        <button class="secondary" id="helpLobbyBtn">Request Host Help</button>
+      </div>
+    </section>
+
+    <section class="card hidden" id="roundCard">
+      <div class="roundHeader">
+        <div>
+          <h2 id="roundTitle">Round 1</h2>
+          <p id="roundObjective">Objective</p>
+        </div>
+        <div class="statusPills">
+          <span class="pill" id="roundWindowPill">00:00 - 00:00</span>
+        </div>
+      </div>
+      <div class="timeline" id="roundTimeline"></div>
+    </section>
+
+    <section class="card hidden" id="hostMessageCard">
+      <h3>Host Messages</h3>
+      <div id="hostMessages"></div>
+    </section>
+
+    <section class="card hidden" id="homeCard">
+      <h2>Pelican Investigation Dashboard</h2>
+      <p>All detectives receive the same unified clue feed. Open apps as evidence unlocks.</p>
+      <div class="grid" id="appGrid"></div>
+    </section>
+
+    <section class="card hidden" id="publicFeedCard">
+      <h3>Public Case Feed</h3>
+      <div id="publicFeed"></div>
+    </section>
+
+    <section class="card hidden" id="appDetailCard">
+      <div class="actions">
+        <button class="secondary" id="backHomeBtn">← Dashboard</button>
+        <button class="secondary" id="helpBtn">Request Host Help</button>
+      </div>
+      <h2 id="appTitle" style="margin-top:14px">App</h2>
+      <div id="appEvidence"></div>
+    </section>
+
+    <section class="card hidden" id="accuseCard">
+      <h2>Final Accusation</h2>
+      <p id="accuseStatus">The accusation phase opens near the end of the game.</p>
+      <div id="accuseFormWrap" class="hidden">
+        <label>Culprit</label>
+        <input id="culpritInput" placeholder="Who did it?" />
+        <label>Weapon / Method</label>
+        <input id="weaponInput" placeholder="How was it done?" />
+        <label>Motive</label>
+        <textarea id="motiveInput" placeholder="Why did they do it?"></textarea>
+        <label>Evidence Notes</label>
+        <textarea id="notesInput" placeholder="What clues support your accusation?"></textarea>
+        <div class="actions" style="margin-top:14px">
+          <button class="danger" id="submitAccuseBtn">Submit Final Accusation</button>
+        </div>
+      </div>
+      <p class="mini" id="accuseResult"></p>
+    </section>
+
+    <section class="card hidden" id="revealCard">
+      <h2>Case Reveal</h2>
+      <div id="answerKey"></div>
+    </section>
+  </main>
+
+  <div class="modalOverlay hidden" id="dialogOverlay">
+    <div class="modalCard">
+      <div class="time" id="dialogMeta">Host Dialogue</div>
+      <h3 id="dialogTitle">Message</h3>
+      <p id="dialogText"></p>
+      <div class="actions" style="margin-top:18px">
+        <button id="dialogOkBtn">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modalOverlay hidden countdownOverlay" id="countdownOverlay">
+    <div class="modalCard countdownCard">
+      <div class="time" id="countdownMeta">Round Transition</div>
+      <h3 id="countdownTitle">Next Round</h3>
+      <p id="countdownReview"></p>
+      <div class="countdownNumber" id="countdownNumber">10</div>
+      <p class="countdownNext" id="countdownNext"></p>
+    </div>
+  </div>
+
+  <script src="/player/player.js"></script>
+</body>
+</html>
