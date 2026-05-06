@@ -1,0 +1,197 @@
+const $ = id => document.getElementById(id);
+let sessions = [];
+let packs = [];
+let sockets = new Map();
+let pollTimer = null;
+
+$('createBtn').onclick = createSession;
+$('refreshBtn').onclick = loadAll;
+
+function api(path, options = {}) {
+  return fetch(path, {
+    headers: { 'Content-Type': 'application/json' },
+    ...options,
+    body: options.body ? JSON.stringify(options.body) : undefined
+  }).then(async res => {
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(data.error || 'Request failed');
+    return data;
+  });
+}
+
+async function loadAll() {
+  packs = await api('/api/truth-packs');
+  $('truthPackSelect').innerHTML = packs.map(p => `<option value="${p.id}" ${p.id === 'pelican-to-murder' ? 'selected' : ''}>${escapeHtml(p.title)}</option>`).join('');
+  sessions = await api('/api/sessions');
+  sessions.forEach(s => connectSocket(s.sessionCode));
+  render();
+}
+
+async function createSession() {
+  const tableName = $('tableName').value.trim() || 'Table';
+  const truthPackId = $('truthPackSelect').value || 'demo';
+  const state = await api('/api/sessions', { method:'POST', body:{ tableName, truthPackId } });
+  upsertSession(state);
+  connectSocket(state.sessionCode);
+  render();
+}
+
+function connectSocket(code) {
+  if (sockets.has(code)) return;
+  const protocol = location.protocol === 'https:' ? 'wss' : 'ws';
+  const ws = new WebSocket(`${protocol}://${location.host}?code=${encodeURIComponent(code)}`);
+  sockets.set(code, ws);
+  ws.onmessage = evt => {
+    const msg = JSON.parse(evt.data);
+    if (msg.type === 'state') {
+      upsertSession(msg.state);
+      render();
+    }
+  };
+  ws.onclose = () => {
+    sockets.delete(code);
+    setTimeout(() => connectSocket(code), 3000);
+  };
+}
+
+function startPolling() {
+  if (pollTimer) clearInterval(pollTimer);
+  pollTimer = setInterval(async () => {
+    try {
+      sessions = await api('/api/sessions');
+      sessions.forEach(s => connectSocket(s.sessionCode));
+      render();
+    } catch (_err) {}
+  }, 5000);
+}
+
+function upsertSession(state) {
+  const i = sessions.findIndex(s => s.sessionCode === state.sessionCode);
+  if (i >= 0) sessions[i] = state;
+  else sessions.unshift(state);
+}
+
+function fmt(sec) {
+  sec = Math.max(0, Number(sec || 0));
+  const m = Math.floor(sec / 60).toString().padStart(2,'0');
+  const s = Math.floor(sec % 60).toString().padStart(2,'0');
+  return `${m}:${s}`;
+}
+
+function phaseLabel(phase) {
+  return ({ lobby:'Lobby', investigation:'Investigation', accusation:'Accusation Open', accusation_locked:'Accusation Locked', revealed:'Revealed' })[phase] || phase;
+}
+
+function render() {
+  $('tables').innerHTML = sessions.length ? sessions.map(tableHtml).join('') : '<p class="muted">No table sessions yet.</p>';
+}
+
+function tableHtml(s) {
+  const playerList = s.players.length ? s.players.map(p => `<span class="pill ${p.connected ? 'good' : ''}">${escapeHtml(p.name)} ${p.connected ? '●' : '○'}</span>`).join(' ') : '<span class="muted">No players connected.</span>';
+  const help = (s.helpRequests || []).slice(0,4).map(h => `<div class="feedItem"><div class="time">${new Date(h.createdAt).toLocaleTimeString()}</div><h4>${escapeHtml(h.playerName)}</h4><p>${escapeHtml(h.text)}</p></div>`).join('') || '<p class="muted">No help requests.</p>';
+  const submissions = (s.submissions || []).slice(0,4).map(sub => `<div class="feedItem"><div class="time">${new Date(sub.createdAt).toLocaleTimeString()}</div><h4>${escapeHtml(sub.playerName)}</h4><p><b>Culprit:</b> ${escapeHtml(sub.culprit)}<br><b>Method:</b> ${escapeHtml(sub.weapon)}<br><b>Motive:</b> ${escapeHtml(sub.motive)}</p></div>`).join('') || '<p class="muted">No submissions yet.</p>';
+  const messages = (s.hostMessages || []).slice(-3).reverse().map(m => `<div class="feedItem hostMsg"><div class="time">${new Date(m.createdAt).toLocaleTimeString()}</div><h4>${escapeHtml(m.title || 'Host')}</h4><p>${escapeHtml(m.text)}</p></div>`).join('') || '<p class="muted">No host dialogue sent yet.</p>';
+  const playerUrl = `${location.origin}/player/?code=${encodeURIComponent(s.sessionCode)}`;
+  const roundHtml = (s.rounds || []).map(r => {
+    const cls = s.currentRound?.id === r.id ? 'roundNode active' : (s.elapsedSec >= r.endSec ? 'roundNode done' : 'roundNode');
+    return `<div class="${cls}"><b>${escapeHtml(r.shortTitle || r.title)}</b><small>${fmt(r.startSec)} - ${fmt(r.endSec)}</small></div>`;
+  }).join('');
+  const currentScript = s.currentRound?.dialogue || 'Start the game to begin the hosted narration flow.';
+  const openingScript = s.openingNarration || 'No opening narration loaded.';
+  const revealScript = s.revealScript || 'No reveal script loaded.';
+  return `
+    <article class="tableCard">
+      <div class="row">
+        <div>
+          <h3>${escapeHtml(s.tableName)} · ${escapeHtml(s.sessionCode)}</h3>
+          <p class="mini">${escapeHtml(s.truthPackTitle)} · Detective Mode · Unified Evidence</p>
+        </div>
+        <div class="statusPills">
+          <span class="pill">${phaseLabel(s.phase)}</span>
+          <span class="pill">${s.currentRound ? escapeHtml(s.currentRound.title) : 'No Round Yet'}</span>
+          <span class="pill good">${fmt(s.elapsedSec)}</span>
+          <span class="pill">${s.players.length} Detectives</span>
+        </div>
+      </div>
+      <label>Player Join URL</label>
+      <input readonly value="${playerUrl}" onclick="this.select();navigator.clipboard?.writeText(this.value)" />
+      <div class="actions" style="margin-top:12px">
+        <button class="good" onclick="startTable('${s.sessionCode}')">Start</button>
+        <button class="secondary" onclick="sendOpeningNarration('${s.sessionCode}')">Opening Popup</button>
+        <button class="secondary" onclick="sendRoundDialogue('${s.sessionCode}')">Round Popup</button>
+        <button class="secondary" onclick="sendHostMessage('${s.sessionCode}')">Custom Popup</button>
+        <button class="danger" onclick="sendRevealNarration('${s.sessionCode}')">Reveal Popup</button>
+        <button class="secondary" onclick="revealTable('${s.sessionCode}')">Reveal Answer</button>
+        <button class="secondary" onclick="resetTable('${s.sessionCode}')">Reset</button>
+      </div>
+      <div class="card" style="box-shadow:none">
+        <h3>Round Structure</h3>
+        <p class="mini">Current objective: ${escapeHtml(s.currentRound?.objective || 'Waiting to start the case.')}</p>
+        <div class="timeline">${roundHtml}</div>
+      </div>
+      <div class="grid">
+        <div class="card" style="box-shadow:none">
+          <h3>Current Host Script</h3>
+          <div class="feedItem"><div class="time">Current Round</div><p>${escapeHtml(currentScript)}</p></div>
+          <div class="feedItem"><div class="time">Opening</div><p>${escapeHtml(openingScript)}</p></div>
+          <div class="feedItem"><div class="time">Reveal</div><p>${escapeHtml(revealScript)}</p></div>
+        </div>
+        <div class="card" style="box-shadow:none">
+          <h3>Connected Detectives</h3>
+          <div>${playerList}</div>
+          <h3 style="margin-top:14px">Host Dialogue Log</h3>
+          ${messages}
+        </div>
+      </div>
+      <div class="grid">
+        <div class="card" style="box-shadow:none"><h3>Help Requests</h3>${help}</div>
+        <div class="card" style="box-shadow:none"><h3>Submissions</h3>${submissions}</div>
+      </div>
+    </article>`;
+}
+
+window.startTable = async code => {
+  await api(`/api/sessions/${code}/start`, { method:'POST' });
+  const session = sessions.find(s => s.sessionCode === code);
+  await api(`/api/sessions/${code}/message`, {
+    method:'POST',
+    body:{ title: 'Opening Briefing', text: session?.openingNarration || 'Detectives, the case is beginning.', kind: 'opening' }
+  });
+};
+window.revealTable = async code => { await api(`/api/sessions/${code}/reveal`, { method:'POST' }); };
+window.resetTable = async code => { if (confirm('Reset this table to lobby and clear messages/submissions?')) await api(`/api/sessions/${code}/reset`, { method:'POST' }); };
+window.sendHostMessage = async code => {
+  const text = prompt('Host dialogue popup text:');
+  if (!text) return;
+  const title = prompt('Popup title:', 'Host Update');
+  await api(`/api/sessions/${code}/message`, { method:'POST', body:{ title: title || 'Host Update', text, kind: 'dialog' } });
+};
+window.sendRoundDialogue = async code => {
+  const session = sessions.find(s => s.sessionCode === code);
+  if (!session?.currentRound) return alert('No active round is available yet. Start the game first.');
+  await api(`/api/sessions/${code}/message`, {
+    method:'POST',
+    body:{ title: session.currentRound.title, text: session.currentRound.dialogue || session.currentRound.objective || 'Review the newly unlocked evidence.', kind: 'dialog' }
+  });
+};
+window.sendOpeningNarration = async code => {
+  const session = sessions.find(s => s.sessionCode === code);
+  await api(`/api/sessions/${code}/message`, {
+    method:'POST',
+    body:{ title: 'Opening Briefing', text: session?.openingNarration || 'Detectives, the case is beginning.', kind: 'opening' }
+  });
+};
+window.sendRevealNarration = async code => {
+  const session = sessions.find(s => s.sessionCode === code);
+  await api(`/api/sessions/${code}/message`, {
+    method:'POST',
+    body:{ title: 'Case Closed', text: session?.revealScript || 'Detectives, the case is closed.', kind: 'reveal' }
+  });
+};
+
+function escapeHtml(str) {
+  return String(str ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+}
+
+loadAll();
+startPolling();
