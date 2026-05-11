@@ -1,0 +1,576 @@
+{
+  "id": "pelican-to-murder",
+  "title": "Pelican to Murder — Level 2 Rookie Detective",
+  "venue": "Pelican to Mars",
+  "description": "Level 2 version with clear but connected venue, money, and digital evidence.",
+  "answerKey": {
+    "culprit": "Owen Landry",
+    "method": "Switched Lena’s allergy-safe drink and hid her injector",
+    "motive": "To stop Lena from exposing the stolen sponsor money",
+    "keyEvidence": "Camera export gap, safe access log, and fake sponsor invoices",
+    "explanation": "Owen had the financial motive, the office access, and the ability to alter both the drink path and the camera export. The safe log and fake invoices point to the sponsor theft, while the camera gap proves he tried to hide the moment that connects him to the switch."
+  },
+  "publicClues": [
+    {
+      "id": "rookie-pub-000",
+      "unlockSec": 0,
+      "title": "Case Opened",
+      "text": "Pelican to Murder begins as a live investigation. This session is Level 2: Rookie Detective Case."
+    },
+    {
+      "id": "rookie-pub-001",
+      "unlockSec": 10,
+      "title": "Difficulty Loaded",
+      "text": "This is Level 2: Rookie Detective Case. Evidence and answers are unique to this level."
+    },
+    {
+      "id": "rookie-pub-002",
+      "unlockSec": 300,
+      "title": "Checkpoint 1 Available",
+      "text": "Round 1 is ready. Answer the checkpoint after reviewing the collapse."
+    },
+    {
+      "id": "rookie-pub-003",
+      "unlockSec": 600,
+      "title": "Checkpoint 2 Available",
+      "text": "Round 2 is ready. Compare timeline movement before answering."
+    },
+    {
+      "id": "rookie-pub-004",
+      "unlockSec": 900,
+      "title": "Checkpoint 3 Available",
+      "text": "Round 3 is ready. Digital evidence now matters."
+    },
+    {
+      "id": "rookie-pub-005",
+      "unlockSec": 1200,
+      "title": "Checkpoint 4 Available",
+      "text": "Round 4 is ready. Find the motive evidence."
+    },
+    {
+      "id": "rookie-pub-006",
+      "unlockSec": 1440,
+      "title": "Final Accusation Open",
+      "text": "Final questions are open. Complete all 10 total questions before the lock."
+    }
+  ],
+  "apps": {
+    "phone": [
+      {
+        "id": "rookie-phone-1",
+        "unlockSec": 60,
+        "title": "Phone Evidence 1",
+        "text": "Lena missed two calls from Owen at 7:41 and 7:44 PM."
+      },
+      {
+        "id": "rookie-phone-2",
+        "unlockSec": 180,
+        "title": "Phone Evidence 2",
+        "text": "A third call from Owen lasted nine seconds as she left the host table."
+      }
+    ],
+    "messages": [
+      {
+        "id": "rookie-messages-1",
+        "unlockSec": 300,
+        "title": "Messages Evidence 1",
+        "text": "Lena texted Owen: “We need to talk before the reveal.”"
+      },
+      {
+        "id": "rookie-messages-2",
+        "unlockSec": 420,
+        "title": "Messages Evidence 2",
+        "text": "Owen replied: “Not here. Patio corridor in two.”"
+      }
+    ],
+    "maps": [
+      {
+        "id": "rookie-maps-1",
+        "unlockSec": 540,
+        "title": "Maps Evidence 1",
+        "text": "Lena’s phone moved to the patio corridor at 8:07 PM."
+      },
+      {
+        "id": "rookie-maps-2",
+        "unlockSec": 660,
+        "title": "Maps Evidence 2",
+        "text": "Owen’s phone appeared in the same corridor for under one minute."
+      }
+    ],
+    "bank": [
+      {
+        "id": "rookie-bank-1",
+        "unlockSec": 780,
+        "title": "Bank Evidence 1",
+        "text": "A sponsor deposit appears once in the public ledger and once under a private vendor label."
+      },
+      {
+        "id": "rookie-bank-2",
+        "unlockSec": 900,
+        "title": "Bank Evidence 2",
+        "text": "The private vendor payout routes to a prepaid account tied to Owen’s office computer."
+      }
+    ],
+    "photos": [
+      {
+        "id": "rookie-photos-1",
+        "unlockSec": 1020,
+        "title": "Photos Evidence 1",
+        "text": "A guest photo shows Owen near the bar service rail during Tessa’s distraction."
+      },
+      {
+        "id": "rookie-photos-2",
+        "unlockSec": 1140,
+        "title": "Photos Evidence 2",
+        "text": "Another photo shows Lena holding a glass without her normal allergy marker."
+      }
+    ],
+    "social": [
+      {
+        "id": "rookie-social-1",
+        "unlockSec": 1260,
+        "title": "Social Evidence 1",
+        "text": "Brielle’s livestream catches Owen stepping behind the bar before the clip cuts."
+      },
+      {
+        "id": "rookie-social-2",
+        "unlockSec": 1380,
+        "title": "Social Evidence 2",
+        "text": "The posted version removes the seconds before Lena receives her drink."
+      }
+    ],
+    "contacts": [
+      {
+        "id": "rookie-contacts-1",
+        "unlockSec": 60,
+        "title": "Contacts Evidence 1",
+        "text": "Owen saved “Mars Event Services,” which traces to a prepaid sponsor payment line."
+      },
+      {
+        "id": "rookie-contacts-2",
+        "unlockSec": 180,
+        "title": "Contacts Evidence 2",
+        "text": "Lena saved the same contact with the note “fake vendor?”"
+      }
+    ],
+    "notes": [
+      {
+        "id": "rookie-notes-1",
+        "unlockSec": 300,
+        "title": "Notes Evidence 1",
+        "text": "Detective note: the killer needed both venue access and a reason to silence Lena."
+      },
+      {
+        "id": "rookie-notes-2",
+        "unlockSec": 420,
+        "title": "Notes Evidence 2",
+        "text": "Detective note: the drink switch and missing injector point to planning, not panic."
+      }
+    ],
+    "files": [
+      {
+        "id": "rookie-files-1",
+        "unlockSec": 540,
+        "title": "Files Evidence 1",
+        "text": "Security export skips the exact patio corridor window."
+      },
+      {
+        "id": "rookie-files-2",
+        "unlockSec": 660,
+        "title": "Files Evidence 2",
+        "text": "The file properties show the export was made from Owen’s manager login."
+      }
+    ],
+    "browser": [
+      {
+        "id": "rookie-browser-1",
+        "unlockSec": 780,
+        "title": "Browser Evidence 1",
+        "text": "Owen searched how to remove metadata from security clips."
+      },
+      {
+        "id": "rookie-browser-2",
+        "unlockSec": 900,
+        "title": "Browser Evidence 2",
+        "text": "His browser history also includes vendor invoice templates."
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "id": "ptm-round-1",
+      "title": "Round 1: The Collapse",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Review evidence connected to the collapse and answer the checkpoint before the next round begins.",
+      "dialogue": "Round 1 is open. Focus on the collapse. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 1 opens during the final minute of this round. Answer before the next round begins."
+    },
+    {
+      "id": "ptm-round-2",
+      "title": "Round 2: The Corridor Window",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Review evidence connected to the corridor window and answer the checkpoint before the next round begins.",
+      "dialogue": "Round 2 is open. Focus on the corridor window. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 2 opens during the final minute of this round. Answer before the next round begins."
+    },
+    {
+      "id": "ptm-round-3",
+      "title": "Round 3: The Camera Gap",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Review evidence connected to the camera gap and answer the checkpoint before the next round begins.",
+      "dialogue": "Round 3 is open. Focus on the camera gap. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 3 opens during the final minute of this round. Answer before the next round begins."
+    },
+    {
+      "id": "ptm-round-4",
+      "title": "Round 4: The Sponsor Money",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Review evidence connected to the sponsor money and answer the checkpoint before the next round begins.",
+      "dialogue": "Round 4 is open. Focus on the sponsor money. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 4 opens during the final minute of this round. Answer before the next round begins."
+    },
+    {
+      "id": "ptm-round-5",
+      "title": "Round 5: The Office Cover-Up",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1440,
+      "objective": "Review evidence connected to the office cover-up and answer the checkpoint before the next round begins.",
+      "dialogue": "Round 5 is open. Focus on the office cover-up. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 5 opens during the final minute of this round. Answer before the next round begins."
+    },
+    {
+      "id": "ptm-round-final",
+      "title": "Final Accusation",
+      "shortTitle": "Final",
+      "startSec": 1440,
+      "endSec": 1680,
+      "objective": "Answer the final five questions to close the case.",
+      "dialogue": "The final accusation window is open. Choose the culprit, method, motive, key evidence, and the statement that fails.",
+      "countdownReview": "The final window is closing. Submit all answers before the case locks."
+    }
+  ],
+  "openingNarration": "Detectives, welcome to Pelican to Murder. You are playing Level 2: Rookie Detective Case. Study each app carefully. Every level has its own truth path, evidence trail, and final answer set.",
+  "revealScript": "Case closed. This was Level 2: Rookie Detective Case. The culprit was Owen Landry. The method: Switched Lena’s allergy-safe drink and hid her injector. The motive: To stop Lena from exposing the stolen sponsor money. The proof: Camera export gap, safe access log, and fake sponsor invoices.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "cp1",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-1",
+        "unlockSec": 240,
+        "prompt": "Checkpoint 1: What detail makes Lena’s collapse suspicious?",
+        "correctOptionId": "injector-missing",
+        "options": [
+          {
+            "id": "host-mic",
+            "label": "The host mic goes dead"
+          },
+          {
+            "id": "injector-missing",
+            "label": "Her injector is missing after the wrong drink appears"
+          },
+          {
+            "id": "candle-melts",
+            "label": "A table candle melts"
+          },
+          {
+            "id": "napkin-color",
+            "label": "A napkin is folded the wrong way"
+          }
+        ],
+        "lockSec": 300
+      },
+      {
+        "id": "cp2",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-2",
+        "unlockSec": 540,
+        "prompt": "Checkpoint 2: Which timeline issue matters most?",
+        "correctOptionId": "owen-corridor",
+        "options": [
+          {
+            "id": "brielle-early",
+            "label": "Brielle posts too early"
+          },
+          {
+            "id": "cole-song",
+            "label": "Cole changes songs"
+          },
+          {
+            "id": "owen-corridor",
+            "label": "Owen and Lena overlap in the corridor window"
+          },
+          {
+            "id": "tessa-ticket",
+            "label": "Tessa reprints a drink ticket"
+          }
+        ],
+        "lockSec": 600
+      },
+      {
+        "id": "cp3",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-3",
+        "unlockSec": 840,
+        "prompt": "Checkpoint 3: Which digital clue suggests evidence was altered?",
+        "correctOptionId": "export-gap",
+        "options": [
+          {
+            "id": "blurred-selfie",
+            "label": "A blurred selfie"
+          },
+          {
+            "id": "export-gap",
+            "label": "The security export gap from Owen’s login"
+          },
+          {
+            "id": "low-battery",
+            "label": "A low battery warning"
+          },
+          {
+            "id": "wrong-hashtag",
+            "label": "A misspelled event hashtag"
+          }
+        ],
+        "lockSec": 900
+      },
+      {
+        "id": "cp4",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-4",
+        "unlockSec": 1140,
+        "prompt": "Checkpoint 4: What financial clue points to motive?",
+        "correctOptionId": "fake-invoices",
+        "options": [
+          {
+            "id": "wrong-drink-tab",
+            "label": "A wrong drink tab"
+          },
+          {
+            "id": "cash-tip",
+            "label": "A cash tip jar count"
+          },
+          {
+            "id": "fake-invoices",
+            "label": "Fake sponsor invoices tied to Owen"
+          },
+          {
+            "id": "venue-rental",
+            "label": "A normal venue rental receipt"
+          }
+        ],
+        "lockSec": 1200
+      },
+      {
+        "id": "cp5",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-5",
+        "unlockSec": 1380,
+        "prompt": "Checkpoint 5: Which paired clues connect the cover-up?",
+        "correctOptionId": "safe-log",
+        "options": [
+          {
+            "id": "guest-chart",
+            "label": "Guest seating chart"
+          },
+          {
+            "id": "parking-angle",
+            "label": "Parking camera angle"
+          },
+          {
+            "id": "lost-wristband",
+            "label": "A lost wristband at the bar"
+          },
+          {
+            "id": "safe-log",
+            "label": "Manager safe access plus camera export login"
+          }
+        ],
+        "lockSec": 1440
+      },
+      {
+        "id": "final_culprit",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 1: Who killed Lena Broussard?",
+        "correctOptionId": "owen",
+        "options": [
+          {
+            "id": "tessa",
+            "label": "Tessa Marchand"
+          },
+          {
+            "id": "owen",
+            "label": "Owen Landry"
+          },
+          {
+            "id": "cole",
+            "label": "Cole Vinet"
+          },
+          {
+            "id": "brielle",
+            "label": "Brielle Hart"
+          }
+        ],
+        "lockSec": 1680
+      },
+      {
+        "id": "final_method",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 2: How was the murder carried out?",
+        "correctOptionId": "drink-switch",
+        "options": [
+          {
+            "id": "punch",
+            "label": "Poisoned a shared punch bowl"
+          },
+          {
+            "id": "lights",
+            "label": "Cut the stage lights"
+          },
+          {
+            "id": "drink-switch",
+            "label": "Switched the allergy-safe drink and hid the injector"
+          },
+          {
+            "id": "patio-fall",
+            "label": "Staged a fall near the patio"
+          }
+        ],
+        "lockSec": 1680
+      },
+      {
+        "id": "final_motive",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 3: Why was Lena killed?",
+        "correctOptionId": "money",
+        "options": [
+          {
+            "id": "talent-contest",
+            "label": "To win a talent contest"
+          },
+          {
+            "id": "viral-video",
+            "label": "To protect a viral video"
+          },
+          {
+            "id": "money",
+            "label": "To hide the stolen sponsor money"
+          },
+          {
+            "id": "family-secret",
+            "label": "To hide a family secret"
+          }
+        ],
+        "lockSec": 1680
+      },
+      {
+        "id": "final_evidence",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 4: Which evidence best proves it?",
+        "correctOptionId": "documents",
+        "options": [
+          {
+            "id": "guest-rumor",
+            "label": "A guest rumor"
+          },
+          {
+            "id": "lipstick-mark",
+            "label": "A lipstick mark"
+          },
+          {
+            "id": "missed-call",
+            "label": "A missed call only"
+          },
+          {
+            "id": "documents",
+            "label": "Camera gap, safe log, and fake invoices"
+          }
+        ],
+        "lockSec": 1680
+      },
+      {
+        "id": "final_statement",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 5: Which suspect statement falls apart?",
+        "correctOptionId": "owen-statement",
+        "options": [
+          {
+            "id": "owen-statement",
+            "label": "Owen said he never left the office"
+          },
+          {
+            "id": "tessa-statement",
+            "label": "Tessa said she marked Lena’s glass"
+          },
+          {
+            "id": "brielle-statement",
+            "label": "Brielle said she filmed the toast"
+          },
+          {
+            "id": "cole-statement",
+            "label": "Cole said he stayed by sound"
+          }
+        ],
+        "lockSec": 1680
+      }
+    ]
+  },
+  "difficulty": "Rookie Detective",
+  "difficultyLabel": "LEVEL 2: ROOKIE DETECTIVE CASE",
+  "gameId": "pelican-to-murder",
+  "gameTitle": "Pelican to Murder",
+  "levelId": "rookie",
+  "levelName": "Rookie Detective",
+  "levelLabel": "Level 2: Rookie Detective Case",
+  "briefingSegments": [
+    {
+      "startSec": 0,
+      "endSec": 60,
+      "title": "Level 2 Briefing: The Sponsor Party",
+      "text": "Pelican to Mars was hosting a sponsor launch party meant to prove the bar could become the next big nightlife stop. Neon lights, branded cocktails, photo moments, and a room full of people with something to gain made the event feel bigger than a normal night out. Lena Broussard was there because she understood the money behind the celebration. She had been reviewing sponsor invoices, access logs, and the strange gaps between what was promised and what was paid. For a Rookie Detective case, the first rule is simple: when someone dies at a public event, look for the person who needed the party to stay perfect."
+    },
+    {
+      "startSec": 60,
+      "endSec": 120,
+      "title": "The Crime: A Switch in Plain Sight",
+      "text": "Lena collapsed after taking a drink that should never have reached her. The first story was easy: crowded bar, wrong glass, tragic accident. But the details do not settle that neatly. A camera export has a gap. A safe access log shows movement at the wrong time. Sponsor paperwork does not match the official story. This level asks you to connect more than one clue type. The drink matters, but so does the reason someone might hide what happened around it. The crime is not only about the glass. It is about the cover-up that followed."
+    },
+    {
+      "startSec": 120,
+      "endSec": 180,
+      "title": "The Victim: Lena Broussard",
+      "text": "Lena was the person people underestimated until she started asking for receipts. She had a talent for finding numbers that did not belong and conversations people thought were private. In the days before the event, she was quietly comparing sponsor payments, fake invoices, and staff access to the office safe. She did not accuse anyone publicly, but several people knew she was close to exposing something. Lena’s mistake may have been believing the launch party was too public for anyone to act. In a crowded bar, though, panic can become camouflage."
+    },
+    {
+      "startSec": 180,
+      "endSec": 240,
+      "title": "The Circle: Money, Access, and Pressure",
+      "text": "Owen Landry had business ties to the sponsors and cared about the money flow. Tessa Marchand knew the drink system and could explain the bar side of the night. Brielle Hart wanted the event’s online image protected. Cole Vinet controlled music cues and crowd timing. Marisol Vega had staff access and knew which rooms stayed locked. Each suspect has a relationship to Lena, but your focus should be motive plus opportunity. Who benefited if Lena stopped asking questions? Who could change the drink path? Who could hide the record afterward?"
+    },
+    {
+      "startSec": 240,
+      "endSec": 300,
+      "title": "Your Assignment: Connect the Records",
+      "text": "This is a Rookie Detective case. The clues will not all sit in one app. Phone records may explain contact. Bank or Files evidence may explain motive. Photos and Browser records may explain the cover-up. When a checkpoint opens, answer before the next round begins. Do not wait until the end, because missed checkpoints cost points. The final accusation will ask who did it, how, why, and what evidence proves it. Start with the money, follow the access, and remember: the killer did not only need to harm Lena. They needed the room to believe it was an accident."
+    }
+  ]
+}
