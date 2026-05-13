@@ -1,0 +1,590 @@
+{
+  "id": "pelican-to-murder-junior",
+  "title": "Pelican to Murder \u2014 Level 3 Junior Detective",
+  "venue": "Pelican to Mars",
+  "description": "Level 3 version with social-media misdirection and cross-app evidence matching.",
+  "answerKey": {
+    "culprit": "Brielle Hart",
+    "method": "Lured Lena to the photo alcove and triggered her allergy by switching garnish oil",
+    "motive": "To stop Lena from exposing a staged charity livestream scam",
+    "keyEvidence": "Raw livestream cache, garnish bottle photo, and deleted DM thread",
+    "explanation": "Brielle used the livestream chaos to create an alibi while raw cache files placed her near the photo alcove. The garnish oil photo and deleted DMs show both the method and motive: Lena had proof that Brielle\u2019s charity promo was staged."
+  },
+  "publicClues": [
+    {
+      "id": "junior-pub-000",
+      "unlockSec": 0,
+      "title": "Case Opened",
+      "text": "Pelican to Murder begins as a live investigation. This session is Level 3: Junior Detective Case."
+    },
+    {
+      "id": "junior-pub-001",
+      "unlockSec": 60,
+      "title": "Difficulty Loaded",
+      "text": "This is Level 3: Junior Detective Case. Evidence and answers are unique to this level."
+    },
+    {
+      "id": "junior-pub-002",
+      "unlockSec": 360,
+      "title": "Checkpoint 1 Available",
+      "text": "Round 1 is ready. Answer the checkpoint after reviewing the photo alcove."
+    },
+    {
+      "id": "junior-pub-003",
+      "unlockSec": 780,
+      "title": "Checkpoint 2 Available",
+      "text": "Round 2 is ready. Compare timeline movement before answering."
+    },
+    {
+      "id": "junior-pub-004",
+      "unlockSec": 1080,
+      "title": "Checkpoint 3 Available",
+      "text": "Round 3 is ready. Digital evidence now matters."
+    },
+    {
+      "id": "junior-pub-005",
+      "unlockSec": 1380,
+      "title": "Checkpoint 4 Available",
+      "text": "Round 4 is ready. Find the motive evidence."
+    },
+    {
+      "id": "junior-pub-006",
+      "unlockSec": 1560,
+      "title": "Final Accusation Open",
+      "text": "Final questions are open. Complete all 10 total questions before the lock."
+    }
+  ],
+  "apps": {
+    "phone": [
+      {
+        "id": "junior-phone-1",
+        "unlockSec": 120,
+        "title": "Phone Evidence 1",
+        "text": "Lena received a \u201ccome to the photo wall\u201d call from a blocked number."
+      },
+      {
+        "id": "junior-phone-2",
+        "unlockSec": 240,
+        "title": "Phone Evidence 2",
+        "text": "The blocked number matches the recovery contact on Brielle\u2019s creator account."
+      }
+    ],
+    "messages": [
+      {
+        "id": "junior-messages-1",
+        "unlockSec": 420,
+        "title": "Messages Evidence 1",
+        "text": "Lena messaged Brielle: \u201cThe charity total does not match what you posted.\u201d"
+      },
+      {
+        "id": "junior-messages-2",
+        "unlockSec": 540,
+        "title": "Messages Evidence 2",
+        "text": "Brielle deleted a reply that said, \u201cDon\u2019t ruin this night for both of us.\u201d"
+      }
+    ],
+    "maps": [
+      {
+        "id": "junior-maps-1",
+        "unlockSec": 660,
+        "title": "Maps Evidence 1",
+        "text": "Lena\u2019s phone paused at the photo alcove before the collapse."
+      },
+      {
+        "id": "junior-maps-2",
+        "unlockSec": 840,
+        "title": "Maps Evidence 2",
+        "text": "Brielle\u2019s device briefly left the livestream table and entered the same alcove."
+      }
+    ],
+    "bank": [
+      {
+        "id": "junior-bank-1",
+        "unlockSec": 960,
+        "title": "Bank Evidence 1",
+        "text": "The charity landing page shows only a small transfer to the named nonprofit."
+      },
+      {
+        "id": "junior-bank-2",
+        "unlockSec": 1140,
+        "title": "Bank Evidence 2",
+        "text": "A larger payment went to a creator management account linked to Brielle."
+      }
+    ],
+    "photos": [
+      {
+        "id": "junior-photos-1",
+        "unlockSec": 1260,
+        "title": "Photos Evidence 1",
+        "text": "A backstage photo shows a garnish oil bottle on Brielle\u2019s prop tray."
+      },
+      {
+        "id": "junior-photos-2",
+        "unlockSec": 1320,
+        "title": "Photos Evidence 2",
+        "text": "A reflection in the photo wall mirror shows Brielle handing Lena a drink."
+      }
+    ],
+    "social": [
+      {
+        "id": "junior-social-1",
+        "unlockSec": 1440,
+        "title": "Social Evidence 1",
+        "text": "The published livestream skips the alcove handoff."
+      },
+      {
+        "id": "junior-social-2",
+        "unlockSec": 1500,
+        "title": "Social Evidence 2",
+        "text": "The raw cache keeps three seconds showing Brielle moving the garnish bottle."
+      }
+    ],
+    "contacts": [
+      {
+        "id": "junior-alibi-1",
+        "unlockSec": 90,
+        "title": "Suspect Statement: Tessa Marin",
+        "text": "Tessa says she wore the sash because the show required a dramatic reveal. She says the glitter found later proves she was visible, not hidden.",
+        "type": "statement"
+      },
+      {
+        "id": "junior-contacts-1",
+        "unlockSec": 180,
+        "title": "Contacts Evidence 1",
+        "text": "Brielle\u2019s manager is saved as \u201cDonation Push.\u201d"
+      },
+      {
+        "id": "junior-alibi-2",
+        "unlockSec": 270,
+        "title": "Suspect Statement: Owen Landry",
+        "text": "Owen says he argued with Lena about money, but he claims he left because he was tired of being accused in public.",
+        "type": "statement"
+      },
+      {
+        "id": "junior-contacts-2",
+        "unlockSec": 300,
+        "title": "Contacts Evidence 2",
+        "text": "Lena saved the same number under \u201ccharity mismatch.\u201d"
+      },
+      {
+        "id": "junior-alibi-3",
+        "unlockSec": 450,
+        "title": "Suspect Statement: Brielle Dupr\u00e9",
+        "text": "Brielle says her livestream was delayed by the venue Wi-Fi. She insists the delay makes her look suspicious, but does not prove she moved evidence.",
+        "type": "statement"
+      },
+      {
+        "id": "junior-alibi-4",
+        "unlockSec": 630,
+        "title": "Suspect Statement: Cole Vinet",
+        "text": "Cole says he never touched the trophy table after sound check. He remembers Tessa pacing near it, but admits he was focused on audio.",
+        "type": "statement"
+      },
+      {
+        "id": "junior-alibi-5",
+        "unlockSec": 810,
+        "title": "Suspect Statement: Marisol Reyes",
+        "text": "Marisol says Lena disliked shortcuts and fake drama. She believes Lena would have confronted someone privately before exposing them publicly.",
+        "type": "statement"
+      },
+      {
+        "id": "junior-alibi-6",
+        "unlockSec": 990,
+        "title": "Suspect Statement: Andre Batiste",
+        "text": "Andre says the back hall mirror makes it hard to tell who turned toward the trophy table and who simply passed it.",
+        "type": "statement"
+      },
+      {
+        "id": "junior-alibi-7",
+        "unlockSec": 1170,
+        "title": "Suspect Statement: Nina Savoie",
+        "text": "Nina says Tessa wanted attention, but not disgrace. She suggests humiliation may explain Tessa\u2019s temper better than murder.",
+        "type": "statement"
+      },
+      {
+        "id": "junior-alibi-8",
+        "unlockSec": 1350,
+        "title": "Suspect Statement: Quinn Rabalais",
+        "text": "Quinn says the prop table was reset twice before doors opened. After that, anyone with a staff badge could get close.",
+        "type": "statement"
+      }
+    ],
+    "notes": [
+      {
+        "id": "junior-notes-1",
+        "unlockSec": 480,
+        "title": "Notes Evidence 1",
+        "text": "Detective note: Brielle\u2019s public clip is not the same as the raw cache."
+      },
+      {
+        "id": "junior-notes-2",
+        "unlockSec": 600,
+        "title": "Notes Evidence 2",
+        "text": "Detective note: the alcove mirror catches what the main camera hides."
+      }
+    ],
+    "files": [
+      {
+        "id": "junior-files-1",
+        "unlockSec": 720,
+        "title": "Files Evidence 1",
+        "text": "Deleted DM export shows Brielle knew Lena had the charity numbers."
+      },
+      {
+        "id": "junior-files-2",
+        "unlockSec": 900,
+        "title": "Files Evidence 2",
+        "text": "Creator payout file lists the same transaction ID as the disputed donation."
+      }
+    ],
+    "browser": [
+      {
+        "id": "junior-browser-1",
+        "unlockSec": 1020,
+        "title": "Browser Evidence 1",
+        "text": "Brielle searched \u201chow long livestream cache stays available.\u201d"
+      },
+      {
+        "id": "junior-browser-2",
+        "unlockSec": 1200,
+        "title": "Browser Evidence 2",
+        "text": "Her device also opened a page about removing metadata from stories."
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "id": "ptm-round-1",
+      "title": "Round 1: The Photo Alcove",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Review evidence connected to the photo alcove and answer the checkpoint question.",
+      "dialogue": "Round 1 is open. Focus on the photo alcove. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 1 is nearly complete. Lock in what the photo alcove proves before the next round opens."
+    },
+    {
+      "id": "ptm-round-2",
+      "title": "Round 2: The Raw Clip",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Review evidence connected to the raw clip and answer the checkpoint question.",
+      "dialogue": "Round 2 is open. Focus on the raw clip. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 2 is nearly complete. Lock in what the raw clip proves before the next round opens."
+    },
+    {
+      "id": "ptm-round-3",
+      "title": "Round 3: The Deleted DMs",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Review evidence connected to the deleted dms and answer the checkpoint question.",
+      "dialogue": "Round 3 is open. Focus on the deleted dms. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 3 is nearly complete. Lock in what the deleted dms proves before the next round opens."
+    },
+    {
+      "id": "ptm-round-4",
+      "title": "Round 4: The Charity Scam",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Review evidence connected to the charity scam and answer the checkpoint question.",
+      "dialogue": "Round 4 is open. Focus on the charity scam. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 4 is nearly complete. Lock in what the charity scam proves before the next round opens."
+    },
+    {
+      "id": "ptm-round-5",
+      "title": "Round 5: The Garnish Bottle",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1440,
+      "objective": "Review evidence connected to the garnish bottle and answer the checkpoint question.",
+      "dialogue": "Round 5 is open. Focus on the garnish bottle. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 5 is nearly complete. Lock in what the garnish bottle proves before the next round opens."
+    },
+    {
+      "id": "ptm-round-final",
+      "title": "Final Accusation",
+      "shortTitle": "Final",
+      "startSec": 1440,
+      "endSec": 1680,
+      "objective": "Answer the final five questions to close the case.",
+      "dialogue": "The final accusation window is open. Choose the culprit, method, motive, key evidence, and the statement that fails.",
+      "countdownReview": "The final window is closing. Submit all answers before the case locks."
+    }
+  ],
+  "openingNarration": "Detectives, welcome to Pelican to Murder. You are playing Level 3: Junior Detective Case. Study each app carefully. Every level has its own truth path, evidence trail, and final answer set.",
+  "revealScript": "Case closed. This was Level 3: Junior Detective Case. The culprit was Brielle Hart. The method: Lured Lena to the photo alcove and triggered her allergy by switching garnish oil. The motive: To stop Lena from exposing a staged charity livestream scam. The proof: Raw livestream cache, garnish bottle photo, and deleted DM thread.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "cp1",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-1",
+        "unlockSec": 300,
+        "prompt": "Checkpoint 1: Where was Lena lured before the collapse?",
+        "correctOptionId": "photo-alcove",
+        "options": [
+          {
+            "id": "manager-office",
+            "label": "The manager office"
+          },
+          {
+            "id": "photo-alcove",
+            "label": "The photo alcove"
+          },
+          {
+            "id": "patio-gate",
+            "label": "The patio gate"
+          },
+          {
+            "id": "sound-booth",
+            "label": "The sound booth steps"
+          }
+        ]
+      },
+      {
+        "id": "cp2",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-2",
+        "unlockSec": 600,
+        "prompt": "Checkpoint 2: Which movement clue breaks the livestream alibi?",
+        "correctOptionId": "device-alcove",
+        "options": [
+          {
+            "id": "safe-open",
+            "label": "Owen opened the safe"
+          },
+          {
+            "id": "water-served",
+            "label": "Tessa served water"
+          },
+          {
+            "id": "playlist-change",
+            "label": "Cole changed the playlist"
+          },
+          {
+            "id": "device-alcove",
+            "label": "Her device left the livestream table"
+          }
+        ]
+      },
+      {
+        "id": "cp3",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-3",
+        "unlockSec": 900,
+        "prompt": "Checkpoint 3: Which digital record matters most?",
+        "correctOptionId": "raw-cache",
+        "options": [
+          {
+            "id": "raw-cache",
+            "label": "The raw livestream cache"
+          },
+          {
+            "id": "public-hashtag",
+            "label": "A public hashtag"
+          },
+          {
+            "id": "follower-count",
+            "label": "A follower count spike"
+          },
+          {
+            "id": "comment-thread",
+            "label": "A fan comment thread"
+          }
+        ]
+      },
+      {
+        "id": "cp4",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-4",
+        "unlockSec": 1200,
+        "prompt": "Checkpoint 4: What points toward Brielle\u2019s motive?",
+        "correctOptionId": "charity-mismatch",
+        "options": [
+          {
+            "id": "charity-mismatch",
+            "label": "The charity donation mismatch"
+          },
+          {
+            "id": "late-food",
+            "label": "A late food order"
+          },
+          {
+            "id": "broken-prop",
+            "label": "A broken prop fan"
+          },
+          {
+            "id": "parking-ticket",
+            "label": "An unpaid parking ticket"
+          }
+        ]
+      },
+      {
+        "id": "cp5",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-5",
+        "unlockSec": 1440,
+        "prompt": "Checkpoint 5: Which physical clue supports the method?",
+        "correctOptionId": "garnish-oil",
+        "options": [
+          {
+            "id": "blue-napkin",
+            "label": "A blue napkin"
+          },
+          {
+            "id": "cracked-case",
+            "label": "A cracked phone case"
+          },
+          {
+            "id": "garnish-oil",
+            "label": "The garnish oil bottle on the prop tray"
+          },
+          {
+            "id": "stage-tape",
+            "label": "A strip of stage tape"
+          }
+        ]
+      },
+      {
+        "id": "final_culprit",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 1: Who killed Lena Broussard?",
+        "correctOptionId": "brielle",
+        "options": [
+          {
+            "id": "cole",
+            "label": "Cole Vinet"
+          },
+          {
+            "id": "tessa",
+            "label": "Tessa Marchand"
+          },
+          {
+            "id": "owen",
+            "label": "Owen Landry"
+          },
+          {
+            "id": "brielle",
+            "label": "Brielle Hart"
+          }
+        ]
+      },
+      {
+        "id": "final_method",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 2: How was the murder carried out?",
+        "correctOptionId": "garnish-switch",
+        "options": [
+          {
+            "id": "garnish-switch",
+            "label": "Brielle used garnish oil during the alcove handoff"
+          },
+          {
+            "id": "locked-office",
+            "label": "Owen locked the office"
+          },
+          {
+            "id": "speaker-cable",
+            "label": "Cole cut the speaker cable"
+          },
+          {
+            "id": "wrong-register",
+            "label": "Tessa keyed the wrong register code"
+          }
+        ]
+      },
+      {
+        "id": "final_motive",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 3: Why was Lena killed?",
+        "correctOptionId": "charity-scam",
+        "options": [
+          {
+            "id": "steal-phone",
+            "label": "To steal a phone"
+          },
+          {
+            "id": "karaoke-win",
+            "label": "To win karaoke"
+          },
+          {
+            "id": "charity-scam",
+            "label": "To stop Lena exposing the charity livestream scam"
+          },
+          {
+            "id": "recipe-secret",
+            "label": "To protect a cocktail recipe"
+          }
+        ]
+      },
+      {
+        "id": "final_evidence",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 4: Which evidence best proves it?",
+        "correctOptionId": "raw-dm-photo",
+        "options": [
+          {
+            "id": "shared-punch",
+            "label": "A shared punch bowl"
+          },
+          {
+            "id": "broken-sign",
+            "label": "A broken sign"
+          },
+          {
+            "id": "menu-typo",
+            "label": "A menu typo"
+          },
+          {
+            "id": "raw-dm-photo",
+            "label": "Raw cache, deleted DMs, and garnish photo"
+          }
+        ]
+      },
+      {
+        "id": "final_statement",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 5: Which statement falls apart?",
+        "correctOptionId": "brielle-statement",
+        "options": [
+          {
+            "id": "tessa-statement",
+            "label": "Tessa said the glass had a marker"
+          },
+          {
+            "id": "brielle-statement",
+            "label": "Brielle claimed she never left the livestream table"
+          },
+          {
+            "id": "owen-statement",
+            "label": "Owen said he checked invoices"
+          },
+          {
+            "id": "cole-statement",
+            "label": "Cole said he reset the booth"
+          }
+        ]
+      }
+    ]
+  },
+  "difficulty": "Junior Detective",
+  "difficultyLabel": "Level 3: Junior Detective Case",
+  "gameId": "pelican-to-murder",
+  "gameTitle": "Pelican to Murder",
+  "levelId": "junior",
+  "levelName": "Junior Detective",
+  "levelLabel": "Level 3: Junior Detective Case"
+}
