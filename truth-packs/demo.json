@@ -1,0 +1,220 @@
+{
+  "id": "demo",
+  "title": "Pelican to Murder \u2014 Training Level 1",
+  "venue": "Velvet Room, Baton Rouge",
+  "description": "A reusable demo mystery pack showing timed Detective Mode clue unlocks.",
+  "answerKey": {
+    "culprit": "Mara Voss",
+    "weapon": "Sabotaged microphone cable",
+    "motive": "The victim discovered Mara was rigging the contest and planned to expose her before the finale.",
+    "explanation": "The bank transfer, deleted social post, backstage map ping, and recovered audio note all point to Mara arranging the fatal stage setup before the final song."
+  },
+  "publicClues": [
+    {
+      "id": "pub-001",
+      "unlockSec": 0,
+      "title": "Case Opened",
+      "text": "Detectives are assigned to the venue after a performer collapses during the karaoke finale. The scene is secured and all evidence will be released into the shared investigation feed.",
+      "evidenceTime": "8:30 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    },
+    {
+      "id": "pub-002",
+      "unlockSec": 180,
+      "title": "Witness Pattern",
+      "text": "Several witnesses remember a staff member asking the victim to test the microphone shortly before the final performance. Nobody agrees on the exact wording.",
+      "evidenceTime": "8:42 PM",
+      "sound": "The sound/fog cue timing gives players a way to place movement during the noisy moment.",
+      "physics": "Fog drift and cue timing point to controlled equipment behavior, not random chaos."
+    },
+    {
+      "id": "pub-003",
+      "unlockSec": 540,
+      "title": "Timeline Tightens",
+      "text": "The stage was unattended for less than four minutes. The suspect must have known the backstage hallway and the contest schedule.",
+      "evidenceTime": "8:51 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    },
+    {
+      "id": "pub-004",
+      "unlockSec": 900,
+      "title": "Accusation Window Opening Soon",
+      "text": "Detectives should review the app evidence and prepare a final accusation when the accusation phase opens.",
+      "evidenceTime": "8:59 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    }
+  ],
+  "apps": {
+    "phone": [
+      {
+        "id": "phone-001",
+        "unlockSec": 60,
+        "title": "Missed Call Log",
+        "text": "The victim missed three calls from Mara Voss between 7:42 PM and 7:49 PM. The calls stopped after the victim entered the backstage hallway.",
+        "evidenceTime": "8:34 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline."
+      },
+      {
+        "id": "phone-002",
+        "unlockSec": 660,
+        "title": "Deleted Voicemail Fragment",
+        "text": "A recovered fragment catches a tense voice saying, 'You were supposed to keep quiet until after tonight.'",
+        "evidenceTime": "8:54 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      }
+    ],
+    "messages": [
+      {
+        "id": "msg-001",
+        "unlockSec": 120,
+        "title": "Contest Text Thread",
+        "text": "A message from the victim reads: 'If the scores are fake, the crowd deserves to know before the trophy goes out.'",
+        "evidenceTime": "8:38 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      },
+      {
+        "id": "msg-002",
+        "unlockSec": 840,
+        "title": "Unsent Draft",
+        "text": "The victim drafted a message naming Mara but never sent it. The draft says Mara controlled the score sheet and the stage order.",
+        "evidenceTime": "8:58 PM",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      }
+    ],
+    "maps": [
+      {
+        "id": "maps-001",
+        "unlockSec": 240,
+        "title": "Backstage Location Ping",
+        "text": "Mara's phone pinged near the backstage service door at 8:56 PM, two minutes before the microphone check.",
+        "evidenceTime": "8:44 PM",
+        "sound": "The sound/fog cue timing gives players a way to place movement during the noisy moment.",
+        "physics": "Fog drift and cue timing point to controlled equipment behavior, not random chaos.",
+        "weather": "Humidity and rain near the patio/corridor affect footprints, visibility, and movement claims.",
+        "sight": "Wet surfaces and sight lines matter when checking movement claims."
+      }
+    ],
+    "bank": [
+      {
+        "id": "bank-001",
+        "unlockSec": 420,
+        "title": "Unusual Transfer",
+        "text": "A transfer labeled 'finale cleanup' was sent from Mara's account to a temporary sound technician that afternoon.",
+        "evidenceTime": "8:48 PM",
+        "sound": "The sound/fog cue timing gives players a way to place movement during the noisy moment.",
+        "physics": "Fog drift and cue timing point to controlled equipment behavior, not random chaos."
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-001",
+        "unlockSec": 300,
+        "title": "Stage Photo",
+        "text": "A fan photo shows the victim's microphone cable lying cleanly coiled at 8:37 PM. A later photo shows it routed under a loose floor mat.",
+        "evidenceTime": "8:46 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Fog drift and cue timing point to controlled equipment behavior, not random chaos.",
+        "sound": "The sound/fog cue timing gives players a way to place movement during the noisy moment."
+      }
+    ],
+    "social": [
+      {
+        "id": "social-001",
+        "unlockSec": 480,
+        "title": "Deleted Post Screenshot",
+        "text": "A screenshot of Mara's deleted post says, 'No one ruins my finale twice.' It was posted thirty minutes before the collapse.",
+        "evidenceTime": "8:50 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      }
+    ],
+    "contacts": [
+      {
+        "id": "demo-alibi-1",
+        "unlockSec": 90,
+        "title": "Suspect Statement: Owen Landry",
+        "text": "Owen says the sponsor money was \u201calready being corrected\u201d and that Lena misunderstood the books. He sounds defensive, but he never admits to touching her drink.",
+        "type": "statement",
+        "claimTime": "8:36 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Fog drift and cue timing point to controlled equipment behavior, not random chaos.",
+        "sound": "The sound/fog cue timing gives players a way to place movement during the noisy moment.",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "demo-alibi-2",
+        "unlockSec": 270,
+        "title": "Suspect Statement: Tessa Marin",
+        "text": "Tessa says her public fight with Lena made her look guilty, but she argues that a loud argument is a terrible cover for a quiet crime.",
+        "type": "statement",
+        "claimTime": "8:45 PM",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "demo-alibi-3",
+        "unlockSec": 450,
+        "title": "Suspect Statement: Brielle Dupr\u00e9",
+        "text": "Brielle says she wanted the mystery night to trend. She admits she framed some shots dramatically, but says she did not stage the emergency.",
+        "type": "statement",
+        "claimTime": "8:49 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "contacts-001",
+        "unlockSec": 600,
+        "title": "Technician Contact",
+        "text": "The temporary technician was saved in Mara's contacts under the nickname 'Wire Guy.'",
+        "evidenceTime": "8:52 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      },
+      {
+        "id": "demo-alibi-4",
+        "unlockSec": 630,
+        "title": "Suspect Statement: Cole Vinet",
+        "text": "Cole says he saw Owen near the office earlier, but he also admits the bar was crowded enough for almost anyone to disappear for a minute.",
+        "type": "statement",
+        "claimTime": "8:53 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Glass placement, ice melt, and service-rail timing help show whether the drink waited before it reached Lena.",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      }
+    ],
+    "notes": [
+      {
+        "id": "notes-001",
+        "unlockSec": 360,
+        "title": "Victim's Notebook",
+        "text": "The victim wrote, 'Mara has the wrong numbers. Ask for the original score cards before she announces the winner.'",
+        "evidenceTime": "8:47 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      }
+    ],
+    "files": [
+      {
+        "id": "file-001",
+        "unlockSec": 720,
+        "title": "Score Sheet Comparison",
+        "text": "The official file and the printed score sheet disagree. Only Mara had edit access after 7:30 PM.",
+        "evidenceTime": "8:55 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      }
+    ],
+    "browser": [
+      {
+        "id": "browser-001",
+        "unlockSec": 780,
+        "title": "Search History",
+        "text": "A browser search from Mara's phone asks how to make a cable fault look like an accident.",
+        "evidenceTime": "8:56 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      }
+    ]
+  },
+  "difficulty": "Training Detective",
+  "difficultyLabel": "Level 1: Training Detective Case",
+  "levelName": "Training Detective",
+  "levelLabel": "Training Level 1"
+}
