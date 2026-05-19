@@ -1,0 +1,716 @@
+{
+  "id": "pelican-to-murder-rookie",
+  "title": "Pelican to Murder \u2014 Chapter 2: The Sponsor Gap",
+  "venue": "Pelican to Mars",
+  "description": "After the first murder, detectives follow the Black Pelican thread into fake sponsor money, access logs, and a manager whose alibi cracks under the timeline. The case is harder because the killer uses a staged gap instead of one obvious object.",
+  "answerKey": {
+    "culprit": "Owen Landry",
+    "method": "Switched Lena\u2019s allergy-safe drink and hid her injector",
+    "motive": "To stop Lena from exposing the stolen sponsor money",
+    "keyEvidence": "Camera export gap, safe access log, and fake sponsor invoices",
+    "explanation": "Owen had the financial motive, the office access, and the ability to alter both the drink path and the camera export. The safe log and fake invoices point to the sponsor theft, while the camera gap proves he tried to hide the moment that connects him to the switch."
+  },
+  "publicClues": [
+    {
+      "id": "rookie-pub-000",
+      "unlockSec": 0,
+      "title": "Chapter 2 Opened",
+      "text": "Pelican to Murder \u2014 Chapter 2: The Sponsor Gap begins as one chapter of The Pelican Files. This level is a complete case, but its final thread pushes the larger story forward.",
+      "evidenceTime": "8:30 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    },
+    {
+      "id": "rookie-pub-001",
+      "unlockSec": 60,
+      "title": "Case Difficulty Loaded",
+      "text": "Chapter 2 \u2014 Rookie Detective is active. The mystery is harder than the previous chapter, and the larger Black Pelican story is becoming more elaborate.",
+      "evidenceTime": "8:34 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    },
+    {
+      "id": "rookie-pub-002",
+      "unlockSec": 360,
+      "title": "Checkpoint 1 Available",
+      "text": "This round 1 is ready. Answer the checkpoint after reviewing the collapse.",
+      "evidenceTime": "8:47 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    },
+    {
+      "id": "rookie-pub-003",
+      "unlockSec": 780,
+      "title": "Checkpoint 2 Available",
+      "text": "This round 2 is ready. Compare timeline movement before answering.",
+      "evidenceTime": "8:56 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    },
+    {
+      "id": "rookie-pub-004",
+      "unlockSec": 1080,
+      "title": "Checkpoint 3 Available",
+      "text": "This round 3 is ready. Digital evidence now matters.",
+      "evidenceTime": "9:03 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    },
+    {
+      "id": "rookie-pub-005",
+      "unlockSec": 1380,
+      "title": "Checkpoint 4 Available",
+      "text": "This round 4 is ready. Find the motive evidence.",
+      "evidenceTime": "9:10 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    },
+    {
+      "id": "rookie-pub-006",
+      "unlockSec": 1560,
+      "title": "Final Accusation Open",
+      "text": "Final questions are open. Complete all 10 total questions before the lock.",
+      "evidenceTime": "9:13 PM",
+      "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+    },
+    {
+      "id": "pelican-to-murder-rookie-arc-thread",
+      "unlockSec": 1500,
+      "title": "Deleted Charity Tag",
+      "text": "At 9:08 PM, a recovered invoice draft shows Bayou Night Logistics attached to a charity livestream note. The money trail did not stop with Owen.",
+      "evidenceTime": "9:05 PM",
+      "type": "continuing-story-thread"
+    }
+  ],
+  "apps": {
+    "phone": [
+      {
+        "id": "rookie-phone-1",
+        "unlockSec": 120,
+        "title": "Phone Evidence 1",
+        "text": "Lena missed two calls from Owen at 7:41 and 7:44 PM.",
+        "evidenceTime": "8:38 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      },
+      {
+        "id": "rookie-phone-2",
+        "unlockSec": 240,
+        "title": "Phone Evidence 2",
+        "text": "A third call from Owen lasted nine seconds as she left the host table.",
+        "evidenceTime": "8:44 PM",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      }
+    ],
+    "messages": [
+      {
+        "id": "rookie-messages-1",
+        "unlockSec": 420,
+        "title": "Messages Evidence 1",
+        "text": "Lena texted Owen: \u201cWe need to talk before the reveal.\u201d",
+        "evidenceTime": "8:48 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      },
+      {
+        "id": "rookie-messages-2",
+        "unlockSec": 540,
+        "title": "Messages Evidence 2",
+        "text": "Owen replied: \u201cNot here. Patio corridor in two.\u201d",
+        "evidenceTime": "8:51 PM",
+        "weather": "Humidity and rain near the patio/corridor affect footprints, visibility, and movement claims.",
+        "sight": "Wet surfaces and sight lines matter when checking movement claims."
+      }
+    ],
+    "maps": [
+      {
+        "id": "rookie-maps-1",
+        "unlockSec": 660,
+        "title": "Maps Evidence 1",
+        "text": "Lena\u2019s phone moved to the patio corridor at 8:07 PM.",
+        "evidenceTime": "8:54 PM",
+        "weather": "Humidity and rain near the patio/corridor affect footprints, visibility, and movement claims.",
+        "sight": "Wet surfaces and sight lines matter when checking movement claims."
+      },
+      {
+        "id": "rookie-maps-2",
+        "unlockSec": 840,
+        "title": "Maps Evidence 2",
+        "text": "Owen\u2019s phone appeared in the same corridor for under one minute.",
+        "evidenceTime": "8:58 PM",
+        "weather": "Humidity and rain near the patio/corridor affect footprints, visibility, and movement claims.",
+        "sight": "Wet surfaces and sight lines matter when checking movement claims."
+      }
+    ],
+    "bank": [
+      {
+        "id": "rookie-bank-1",
+        "unlockSec": 960,
+        "title": "Bank Evidence 1",
+        "text": "A sponsor deposit appears once in the public ledger and once under a private vendor label.",
+        "evidenceTime": "9:00 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      },
+      {
+        "id": "rookie-bank-2",
+        "unlockSec": 1140,
+        "title": "Bank Evidence 2",
+        "text": "The private vendor payout routes to a prepaid account tied to Owen\u2019s office computer.",
+        "evidenceTime": "9:04 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      }
+    ],
+    "photos": [
+      {
+        "id": "rookie-photos-1",
+        "unlockSec": 1260,
+        "title": "Photos Evidence 1",
+        "text": "A guest photo shows Owen near the bar service rail during Tessa\u2019s distraction.",
+        "evidenceTime": "9:07 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Glass placement, ice melt, and service-rail timing help show whether the drink waited before it reached Lena."
+      },
+      {
+        "id": "rookie-photos-2",
+        "unlockSec": 1320,
+        "title": "Photos Evidence 2",
+        "text": "Another photo shows Lena holding a glass without her normal allergy marker.",
+        "evidenceTime": "9:08 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Glass placement, ice melt, and service-rail timing help show whether the drink waited before it reached Lena."
+      }
+    ],
+    "social": [
+      {
+        "id": "rookie-social-1",
+        "unlockSec": 1440,
+        "title": "Social Evidence 1",
+        "text": "Brielle\u2019s livestream catches Owen stepping behind the bar before the clip cuts.",
+        "evidenceTime": "9:11 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Glass placement, ice melt, and service-rail timing help show whether the drink waited before it reached Lena."
+      },
+      {
+        "id": "rookie-social-2",
+        "unlockSec": 1500,
+        "title": "Social Evidence 2",
+        "text": "The posted version removes the seconds before Lena receives her drink.",
+        "evidenceTime": "9:12 PM",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Glass placement, ice melt, and service-rail timing help show whether the drink waited before it reached Lena."
+      }
+    ],
+    "contacts": [
+      {
+        "id": "rookie-alibi-1",
+        "unlockSec": 90,
+        "title": "Suspect Statement: Owen Landry",
+        "text": "Owen says the sponsor money was \u201calready being corrected\u201d and that Lena misunderstood the books. He sounds defensive, but he never admits to touching her drink.",
+        "type": "statement",
+        "claimTime": "8:36 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Fog drift and cue timing point to controlled equipment behavior, not random chaos.",
+        "sound": "The sound/fog cue timing gives players a way to place movement during the noisy moment.",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "rookie-contacts-1",
+        "unlockSec": 180,
+        "title": "Contacts Evidence 1",
+        "text": "Owen saved \u201cMars Event Services,\u201d which traces to a prepaid sponsor payment line.",
+        "evidenceTime": "8:42 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      },
+      {
+        "id": "rookie-alibi-2",
+        "unlockSec": 270,
+        "title": "Suspect Statement: Tessa Marin",
+        "text": "Tessa says her public fight with Lena made her look guilty, but she argues that a loud argument is a terrible cover for a quiet crime.",
+        "type": "statement",
+        "claimTime": "8:45 PM",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "rookie-contacts-2",
+        "unlockSec": 300,
+        "title": "Contacts Evidence 2",
+        "text": "Lena saved the same contact with the note \u201cfake vendor?\u201d",
+        "evidenceTime": "8:46 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      },
+      {
+        "id": "rookie-alibi-3",
+        "unlockSec": 450,
+        "title": "Suspect Statement: Brielle Dupr\u00e9",
+        "text": "Brielle says she wanted the mystery night to trend. She admits she framed some shots dramatically, but says she did not stage the emergency.",
+        "type": "statement",
+        "claimTime": "8:49 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "rookie-alibi-4",
+        "unlockSec": 630,
+        "title": "Suspect Statement: Cole Vinet",
+        "text": "Cole says he saw Owen near the office earlier, but he also admits the bar was crowded enough for almost anyone to disappear for a minute.",
+        "type": "statement",
+        "claimTime": "8:53 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Glass placement, ice melt, and service-rail timing help show whether the drink waited before it reached Lena.",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "rookie-alibi-5",
+        "unlockSec": 810,
+        "title": "Suspect Statement: Marisol Reyes",
+        "text": "Marisol says Lena kept repeating that \u201cthe numbers do not match.\u201d She thought Lena meant ticket totals, not sponsor money.",
+        "type": "statement",
+        "claimTime": "8:57 PM",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "rookie-alibi-6",
+        "unlockSec": 990,
+        "title": "Suspect Statement: Andre Batiste",
+        "text": "Andre says the service rail was constantly blocked by guests, staff, and performers. He could identify movement, but not every hand.",
+        "type": "statement",
+        "claimTime": "9:01 PM",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "rookie-alibi-7",
+        "unlockSec": 1170,
+        "title": "Suspect Statement: Nina Savoie",
+        "text": "Nina says Owen hated being embarrassed by Lena. She also warns that several people benefited if Owen looked like the obvious suspect.",
+        "type": "statement",
+        "claimTime": "9:05 PM",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Glass placement, ice melt, and service-rail timing help show whether the drink waited before it reached Lena.",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      },
+      {
+        "id": "rookie-alibi-8",
+        "unlockSec": 1350,
+        "title": "Suspect Statement: Quinn Rabalais",
+        "text": "Quinn says allergy-safe drinks were supposed to be marked with a blue stirrer. He remembers seeing one missing from the rack later.",
+        "type": "statement",
+        "claimTime": "9:09 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline.",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Glass placement, ice melt, and service-rail timing help show whether the drink waited before it reached Lena.",
+        "timelineNote": "Compare this statement against the evidence time before trusting the alibi."
+      }
+    ],
+    "notes": [
+      {
+        "id": "rookie-notes-1",
+        "unlockSec": 480,
+        "title": "Notes Evidence 1",
+        "text": "Detective note: the killer needed both venue access and a reason to silence Lena.",
+        "evidenceTime": "8:50 PM",
+        "timelineNote": "This detail belongs on the case timeline and should be compared against later evidence."
+      },
+      {
+        "id": "rookie-notes-2",
+        "unlockSec": 600,
+        "title": "Notes Evidence 2",
+        "text": "Detective note: the drink switch and missing injector point to planning, not panic.",
+        "evidenceTime": "8:52 PM",
+        "smell": "Sweet praline/cocktail notes around the service area make the drink path important.",
+        "physics": "Glass placement, ice melt, and service-rail timing help show whether the drink waited before it reached Lena."
+      }
+    ],
+    "files": [
+      {
+        "id": "rookie-files-1",
+        "unlockSec": 720,
+        "title": "Files Evidence 1",
+        "text": "Security export skips the exact patio corridor window.",
+        "evidenceTime": "8:55 PM",
+        "weather": "Humidity and rain near the patio/corridor affect footprints, visibility, and movement claims.",
+        "sight": "Wet surfaces and sight lines matter when checking movement claims."
+      },
+      {
+        "id": "rookie-files-2",
+        "unlockSec": 900,
+        "title": "Files Evidence 2",
+        "text": "The file properties show the export was made from Owen\u2019s manager login.",
+        "evidenceTime": "8:59 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline."
+      }
+    ],
+    "browser": [
+      {
+        "id": "rookie-browser-1",
+        "unlockSec": 1020,
+        "title": "Browser Evidence 1",
+        "text": "Owen searched how to remove metadata from security clips.",
+        "evidenceTime": "9:02 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline."
+      },
+      {
+        "id": "rookie-browser-2",
+        "unlockSec": 1200,
+        "title": "Browser Evidence 2",
+        "text": "His browser history also includes vendor invoice templates.",
+        "evidenceTime": "9:06 PM",
+        "sight": "A visible record or object detail can be compared against the suspect timeline."
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "id": "ptm-round-1",
+      "title": "Round 1: The Collapse",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Review evidence connected to the collapse and answer the checkpoint question.",
+      "dialogue": "Round 1 is open. This chapter stands on its own, but every clue may also reveal how the larger Black Pelican story is expanding.",
+      "countdownReview": "Checkpoint 1 is nearly complete. Lock in what the collapse proves before the next round opens.",
+      "breakingUpdate": "Chapter 2 is open: The Sponsor Gap. Solve this chapter\u2019s immediate case, but watch for the thread that connects to The Pelican Files."
+    },
+    {
+      "id": "ptm-round-2",
+      "title": "Round 2: The Corridor Window",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Review evidence connected to the corridor window and answer the checkpoint question.",
+      "dialogue": "Round 2 is open. Focus on the corridor window. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 2 is nearly complete. Lock in what the corridor window proves before the next round opens.",
+      "breakingUpdate": "A new contradiction has surfaced. Compare the latest clue against the suspect statements before answering the checkpoint."
+    },
+    {
+      "id": "ptm-round-3",
+      "title": "Round 3: The Camera Gap",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Review evidence connected to the camera gap and answer the checkpoint question.",
+      "dialogue": "Round 3 is open. Focus on the camera gap. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 3 is nearly complete. Lock in what the camera gap proves before the next round opens.",
+      "breakingUpdate": "The evidence path is widening. Look for the clue that connects a claim to a physical record."
+    },
+    {
+      "id": "ptm-round-4",
+      "title": "Round 4: The Sponsor Money",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Review evidence connected to the sponsor money and answer the checkpoint question.",
+      "dialogue": "Round 4 is open. Focus on the sponsor money. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 4 is nearly complete. Lock in what the sponsor money proves before the next round opens.",
+      "breakingUpdate": "Pressure is building. A suspicious detail may be a red herring unless it connects method, motive, and opportunity."
+    },
+    {
+      "id": "ptm-round-5",
+      "title": "Round 5: The Office Cover-Up",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1440,
+      "objective": "Review evidence connected to the office cover-up and answer the checkpoint question.",
+      "dialogue": "Round 5 is open. Focus on the office cover-up. The clues in this round are built to test one part of the case logic.",
+      "countdownReview": "Checkpoint 5 is nearly complete. Lock in this chapter\u2019s case logic before the final accusation connects the bigger arc.",
+      "breakingUpdate": "Final round of Chapter 2: the immediate case and the larger story thread are converging."
+    },
+    {
+      "id": "ptm-round-final",
+      "title": "Final Accusation",
+      "shortTitle": "Final",
+      "startSec": 1440,
+      "endSec": 1680,
+      "objective": "Answer the final five questions to close the case.",
+      "dialogue": "The final accusation window is open. Choose the culprit, method, motive, key evidence, and the statement that fails.",
+      "countdownReview": "The final window is closing. Submit all answers before the case locks.",
+      "breakingUpdate": "Final round evidence is live. One detail should help separate the loudest suspect from the provable answer."
+    }
+  ],
+  "openingNarration": "The Black Pelican line from Chapter 1 leads to sponsor invoices, office access, and a missing injector. This chapter is still a complete murder case, but the motive now stretches beyond jealousy. Someone used the confusion around Lena\u2019s allergy to protect stolen money.",
+  "revealScript": "Case closed. This was Level 2: Rookie Detective Case. The culprit was Owen Landry. The method: Switched Lena\u2019s allergy-safe drink and hid her injector. The motive: To stop Lena from exposing the stolen sponsor money. The proof: Camera export gap, safe access log, and fake sponsor invoices.\n\nContinuing Story Thread: Owen is exposed, but his fake invoice folder contains a deleted charity tag and the name Bayou Night Logistics. That unanswered thread carries into Chapter 3.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "cp1",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-1",
+        "unlockSec": 300,
+        "prompt": "Checkpoint 1: What detail makes Lena\u2019s collapse suspicious?",
+        "correctOptionId": "injector-missing",
+        "options": [
+          {
+            "id": "host-mic",
+            "label": "The host mic goes dead"
+          },
+          {
+            "id": "injector-missing",
+            "label": "Her injector is missing after the wrong drink appears"
+          },
+          {
+            "id": "candle-melts",
+            "label": "A table candle melts"
+          },
+          {
+            "id": "napkin-color",
+            "label": "A napkin is folded the wrong way"
+          }
+        ],
+        "roundScope": "Use only this round\u2019s evidence, statements, story times, and natural sensory details. The larger story thread matters later, not for guessing this checkpoint."
+      },
+      {
+        "id": "cp2",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-2",
+        "unlockSec": 600,
+        "prompt": "Checkpoint 2: Which timeline issue matters most?",
+        "correctOptionId": "owen-corridor",
+        "options": [
+          {
+            "id": "brielle-early",
+            "label": "Brielle posts too early"
+          },
+          {
+            "id": "cole-song",
+            "label": "Cole changes songs"
+          },
+          {
+            "id": "owen-corridor",
+            "label": "Owen and Lena overlap in the corridor window"
+          },
+          {
+            "id": "tessa-ticket",
+            "label": "Tessa reprints a drink ticket"
+          }
+        ],
+        "roundScope": "Use only this round\u2019s evidence, statements, story times, and natural sensory details. The larger story thread matters later, not for guessing this checkpoint."
+      },
+      {
+        "id": "cp3",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-3",
+        "unlockSec": 900,
+        "prompt": "Checkpoint 3: Which digital clue suggests evidence was altered?",
+        "correctOptionId": "export-gap",
+        "options": [
+          {
+            "id": "blurred-selfie",
+            "label": "A blurred selfie"
+          },
+          {
+            "id": "export-gap",
+            "label": "The security export gap from Owen\u2019s login"
+          },
+          {
+            "id": "low-battery",
+            "label": "A low battery warning"
+          },
+          {
+            "id": "wrong-hashtag",
+            "label": "A misspelled event hashtag"
+          }
+        ],
+        "roundScope": "Use only this round\u2019s evidence, statements, story times, and natural sensory details. The larger story thread matters later, not for guessing this checkpoint."
+      },
+      {
+        "id": "cp4",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-4",
+        "unlockSec": 1200,
+        "prompt": "Checkpoint 4: What financial clue points to motive?",
+        "correctOptionId": "fake-invoices",
+        "options": [
+          {
+            "id": "wrong-drink-tab",
+            "label": "A wrong drink tab"
+          },
+          {
+            "id": "cash-tip",
+            "label": "A cash tip jar count"
+          },
+          {
+            "id": "fake-invoices",
+            "label": "Fake sponsor invoices tied to Owen"
+          },
+          {
+            "id": "venue-rental",
+            "label": "A normal venue rental receipt"
+          }
+        ],
+        "roundScope": "Use only this round\u2019s evidence, statements, story times, and natural sensory details. The larger story thread matters later, not for guessing this checkpoint."
+      },
+      {
+        "id": "cp5",
+        "stage": "checkpoint",
+        "roundId": "ptm-round-5",
+        "unlockSec": 1440,
+        "prompt": "Checkpoint 5: Which paired clues connect the cover-up?",
+        "correctOptionId": "safe-log",
+        "options": [
+          {
+            "id": "guest-chart",
+            "label": "Guest seating chart"
+          },
+          {
+            "id": "parking-angle",
+            "label": "Parking camera angle"
+          },
+          {
+            "id": "lost-wristband",
+            "label": "A lost wristband at the bar"
+          },
+          {
+            "id": "safe-log",
+            "label": "Manager safe access plus camera export login"
+          }
+        ],
+        "roundScope": "Use only this round\u2019s evidence, statements, story times, and natural sensory details. The larger story thread matters later, not for guessing this checkpoint."
+      },
+      {
+        "id": "final_culprit",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 1: Who killed Lena Broussard?",
+        "correctOptionId": "owen",
+        "options": [
+          {
+            "id": "tessa",
+            "label": "Tessa Marchand"
+          },
+          {
+            "id": "owen",
+            "label": "Owen Landry"
+          },
+          {
+            "id": "cole",
+            "label": "Cole Vinet"
+          },
+          {
+            "id": "brielle",
+            "label": "Brielle Hart"
+          }
+        ],
+        "arcScope": "This final answer closes Chapter 2 and may reveal a continuing story thread."
+      },
+      {
+        "id": "final_method",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 2: How was the murder carried out?",
+        "correctOptionId": "drink-switch",
+        "options": [
+          {
+            "id": "punch",
+            "label": "Poisoned a shared punch bowl"
+          },
+          {
+            "id": "lights",
+            "label": "Cut the stage lights"
+          },
+          {
+            "id": "drink-switch",
+            "label": "Switched the allergy-safe drink and hid the injector"
+          },
+          {
+            "id": "patio-fall",
+            "label": "Staged a fall near the patio"
+          }
+        ],
+        "arcScope": "This final answer closes Chapter 2 and may reveal a continuing story thread."
+      },
+      {
+        "id": "final_motive",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 3: Why was Lena killed?",
+        "correctOptionId": "money",
+        "options": [
+          {
+            "id": "talent-contest",
+            "label": "To win a talent contest"
+          },
+          {
+            "id": "viral-video",
+            "label": "To protect a viral video"
+          },
+          {
+            "id": "money",
+            "label": "To hide the stolen sponsor money"
+          },
+          {
+            "id": "family-secret",
+            "label": "To hide a family secret"
+          }
+        ],
+        "arcScope": "This final answer closes Chapter 2 and may reveal a continuing story thread."
+      },
+      {
+        "id": "final_evidence",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 4: Which evidence best proves it?",
+        "correctOptionId": "documents",
+        "options": [
+          {
+            "id": "guest-rumor",
+            "label": "A guest rumor"
+          },
+          {
+            "id": "lipstick-mark",
+            "label": "A lipstick mark"
+          },
+          {
+            "id": "missed-call",
+            "label": "A missed call only"
+          },
+          {
+            "id": "documents",
+            "label": "Camera gap, safe log, and fake invoices"
+          }
+        ],
+        "arcScope": "This final answer closes Chapter 2 and may reveal a continuing story thread."
+      },
+      {
+        "id": "final_statement",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 5: Which suspect statement falls apart?",
+        "correctOptionId": "owen-statement",
+        "options": [
+          {
+            "id": "owen-statement",
+            "label": "Owen said he never left the office"
+          },
+          {
+            "id": "tessa-statement",
+            "label": "Tessa said she marked Lena\u2019s glass"
+          },
+          {
+            "id": "brielle-statement",
+            "label": "Brielle said she filmed the toast"
+          },
+          {
+            "id": "cole-statement",
+            "label": "Cole said he stayed by sound"
+          }
+        ],
+        "arcScope": "This final answer closes Chapter 2 and may reveal a continuing story thread."
+      }
+    ]
+  },
+  "difficulty": "Rookie Detective",
+  "difficultyLabel": "Level 2: Rookie Detective Case",
+  "gameId": "pelican-to-murder",
+  "gameTitle": "Pelican to Murder",
+  "levelId": "rookie",
+  "levelName": "Rookie Detective",
+  "levelLabel": "Chapter 2 \u2014 Rookie Detective",
+  "seriesTitle": "The Pelican Files",
+  "seriesArc": {
+    "format": "continuing-story-levels",
+    "chapter": "Chapter 2",
+    "arcTitle": "The Sponsor Gap",
+    "nextThread": "Chapter 3 follows the charity livestream trail."
+  }
+}
