@@ -1,0 +1,647 @@
+{
+  "id": "velvet-cypress-hard",
+  "title": "The Midnight Reservation",
+  "venue": "The Velvet Cypress Supper Club • Fictional Baton Rouge, Louisiana",
+  "description": "A silent investor is killed near the black-curtain corridor while the music continues. This hard case uses sound, movement tags, scent, fibers, and hidden reservation ledgers to test a sophisticated alibi.",
+  "answerKey": {
+    "culprit": "Cressida Ward",
+    "method": "Used a brass curtain tieback in the black-curtain corridor and covered the attack with a prerecorded audio segment.",
+    "motive": "To protect an off-book midnight reservation cash scheme that Nathalie was about to shut down.",
+    "keyEvidence": "Audio automation log, empty booth reflection, staff tag movement, violet perfume and fiber trace, and hidden-table ledger.",
+    "explanation": "Cressida’s live-DJ alibi was false because the music was automated. Her tag left the booth, trace evidence tied her to the corridor, and the booking ledger gave her a motive to stop Nathalie."
+  },
+  "publicClues": [
+    {
+      "id": "hard-feed-0",
+      "unlockSec": 0,
+      "title": "Case Opened",
+      "text": "Silent investor Nathalie Quinn is found in the black-curtain corridor after a midnight private reservation. The dining room’s sound system kept playing as if no one left the room.",
+      "evidenceTime": "8:52 PM"
+    },
+    {
+      "id": "hard-live-1",
+      "unlockSec": 115,
+      "title": "Live Scene Update",
+      "text": "The entertainment director says the DJ booth never went unattended. Then the audio screen shows a preloaded set running without a live operator.",
+      "evidenceTime": "8:55 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "hard-feed-1",
+      "unlockSec": 360,
+      "title": "Detective Decision 1 Available",
+      "text": "The first decision depends on whether the corridor death was hidden by sound and timing.",
+      "evidenceTime": "8:58 PM"
+    },
+    {
+      "id": "hard-live-2",
+      "unlockSec": 415,
+      "title": "Live Scene Update",
+      "text": "A curtain hook clinks when security opens the corridor. Cressida Ward flinches before anyone says what was found there.",
+      "evidenceTime": "9:02 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "hard-feed-2",
+      "unlockSec": 660,
+      "title": "Detective Decision 2 Available",
+      "text": "The first timeline gap now involves a prerecorded sound cue and a missing booth operator.",
+      "evidenceTime": "9:06 PM"
+    },
+    {
+      "id": "hard-live-3",
+      "unlockSec": 715,
+      "title": "Live Scene Update",
+      "text": "The reservation screen flickers. One canceled “midnight table” reappears for half a second under a false initials-only booking.",
+      "evidenceTime": "9:09 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "hard-feed-3",
+      "unlockSec": 960,
+      "title": "Detective Decision 3 Available",
+      "text": "Forensic findings can now separate a fall from staged corridor contact.",
+      "evidenceTime": "9:13 PM"
+    },
+    {
+      "id": "hard-live-4",
+      "unlockSec": 1015,
+      "title": "Live Scene Update",
+      "text": "A witness says the corridor smelled like expensive violet perfume, not kitchen smoke. Cressida’s scarf carries the same scent, but so do the curtain ropes.",
+      "evidenceTime": "9:15 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "hard-feed-4",
+      "unlockSec": 1260,
+      "title": "Detective Decision 4 Available",
+      "text": "The motive hides inside private booking kickbacks and a closing investment vote.",
+      "evidenceTime": "9:18 PM"
+    },
+    {
+      "id": "hard-live-5",
+      "unlockSec": 1315,
+      "title": "Live Scene Update",
+      "text": "The room is silent when the audio automation log plays back. The applause track fires at 8:48 PM, exactly when someone needed the corridor noise covered.",
+      "evidenceTime": "9:20 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "hard-feed-5",
+      "unlockSec": 1500,
+      "title": "Final Accusation Open",
+      "text": "The corridor, automation log, fibers, private booking ledger, and false alibi are ready for final accusation.",
+      "evidenceTime": "9:23 PM"
+    }
+  ],
+  "apps": {
+    "phone": [
+      {
+        "id": "hard-phone-1",
+        "unlockSec": 120,
+        "title": "Nathalie’s Draft Note",
+        "text": "Nathalie drafted a note at 8:34 PM: “Close the off-book tables tonight. C.W. cannot keep taking cash.”",
+        "evidenceTime": "8:34 PM"
+      },
+      {
+        "id": "hard-phone-2",
+        "unlockSec": 780,
+        "title": "Silent Mode Change",
+        "text": "Cressida’s phone entered Do Not Disturb at 8:43 PM and reconnected at 8:51 PM.",
+        "evidenceTime": "8:43 PM"
+      }
+    ],
+    "messages": [
+      {
+        "id": "hard-msg-1",
+        "unlockSec": 420,
+        "title": "Initials-Only Booking",
+        "text": "A message to Cressida reads: “Midnight reservation is cash only. No full names.”",
+        "evidenceTime": "7:18 PM"
+      },
+      {
+        "id": "hard-msg-2",
+        "unlockSec": 1080,
+        "title": "Threat From Nathalie",
+        "text": "Nathalie wrote, “If I see another hidden table tonight, I remove you from the entertainment contract.”",
+        "evidenceTime": "8:29 PM"
+      }
+    ],
+    "maps": [
+      {
+        "id": "hard-map-1",
+        "unlockSec": 720,
+        "title": "Booth Location Gap",
+        "text": "Cressida’s staff tag leaves the DJ booth zone at 8:46 PM, during a preloaded track segment.",
+        "evidenceTime": "8:46 PM"
+      },
+      {
+        "id": "hard-map-2",
+        "unlockSec": 1320,
+        "title": "Corridor Return",
+        "text": "The same tag returns from the black-curtain corridor at 8:50 PM, just before the live mic comes back.",
+        "evidenceTime": "8:50 PM"
+      }
+    ],
+    "bank": [
+      {
+        "id": "hard-bank-1",
+        "unlockSec": 1140,
+        "title": "Cash Table Pattern",
+        "text": "Three private deposits match initials-only reservations handled through entertainment rather than the front desk.",
+        "evidenceTime": "6:10 PM"
+      },
+      {
+        "id": "hard-bank-2",
+        "unlockSec": 1440,
+        "title": "Contract Loss",
+        "text": "If Nathalie closed the hidden-table scheme, Cressida would lose the lounge programming contract and the off-book cash stream.",
+        "evidenceTime": "8:22 PM"
+      }
+    ],
+    "photos": [
+      {
+        "id": "hard-photo-1",
+        "unlockSec": 180,
+        "title": "Curtain Tieback Photo",
+        "text": "A photo from the corridor shows one brass tieback hook missing and a dark fiber caught on the remaining bracket.",
+        "evidenceTime": "8:53 PM"
+      },
+      {
+        "id": "hard-photo-2",
+        "unlockSec": 840,
+        "title": "DJ Booth Reflection",
+        "text": "A mirrored wall photo shows the booth chair empty while the music display still reads “LIVE SET.”",
+        "evidenceTime": "8:47 PM"
+      }
+    ],
+    "social": [
+      {
+        "id": "hard-social-1",
+        "unlockSec": 1020,
+        "title": "Lounge Clip",
+        "text": "A guest clip includes an applause swell at 8:48 PM, but no one in the room is clapping.",
+        "evidenceTime": "8:48 PM"
+      },
+      {
+        "id": "hard-social-2",
+        "unlockSec": 1380,
+        "title": "Deleted Promo Post",
+        "text": "Cressida deleted a promo promising “midnight tables for people who know how to ask.”",
+        "evidenceTime": "7:02 PM"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "hard-wit-1",
+        "unlockSec": 90,
+        "title": "Witness Statement: Iris Bell",
+        "text": "Iris says Nathalie left the investor table after whispering, “I am ending the midnight list.”",
+        "type": "statement",
+        "claimTime": "8:42 PM"
+      },
+      {
+        "id": "hard-wit-2",
+        "unlockSec": 480,
+        "title": "Witness Statement: Cressida Ward",
+        "text": "Cressida says she was live-mixing in the DJ booth from 8:40 PM to 8:55 PM and never entered the corridor.",
+        "type": "statement",
+        "claimTime": "8:40 PM"
+      },
+      {
+        "id": "hard-wit-3",
+        "unlockSec": 900,
+        "title": "Witness Statement: Malik Dorsey",
+        "text": "Malik says the music never changed, but he did not actually see Cressida at the controls during the applause swell.",
+        "type": "statement",
+        "claimTime": "8:48 PM"
+      },
+      {
+        "id": "hard-wit-4",
+        "unlockSec": 1200,
+        "title": "Witness Statement: Vera St. John",
+        "text": "Vera says the corridor smelled strongly of violet perfume after the body was found, and Cressida had been wearing that scent all evening.",
+        "type": "statement",
+        "claimTime": "8:53 PM"
+      }
+    ],
+    "notes": [
+      {
+        "id": "hard-note-1",
+        "unlockSec": 240,
+        "title": "Detective Note: Sound Is Alibi",
+        "text": "In this case, sound may create a false alibi. A continuous track does not prove a person stayed at the booth.",
+        "evidenceTime": "8:55 PM"
+      },
+      {
+        "id": "hard-note-2",
+        "unlockSec": 600,
+        "title": "Detective Note: Corridor Physics",
+        "text": "The bruising pattern and missing brass tieback matter because a simple fall would not remove hardware from the wall.",
+        "evidenceTime": "8:54 PM"
+      }
+    ],
+    "files": [
+      {
+        "id": "hard-file-1",
+        "unlockSec": 300,
+        "title": "Audio Automation Log",
+        "text": "The DJ software shows a 7-minute automation block starting at 8:45 PM.",
+        "evidenceTime": "8:45 PM"
+      },
+      {
+        "id": "hard-file-2",
+        "unlockSec": 900,
+        "title": "Private Booking Ledger",
+        "text": "The initials-only midnight tables were managed under Cressida’s entertainment account, not the normal reservation system.",
+        "evidenceTime": "7:45 PM"
+      }
+    ],
+    "browser": [
+      {
+        "id": "hard-browser-1",
+        "unlockSec": 540,
+        "title": "Search Cache",
+        "text": "Cressida searched “disable live booth presence indicator” before doors opened.",
+        "evidenceTime": "6:55 PM"
+      },
+      {
+        "id": "hard-browser-2",
+        "unlockSec": 1260,
+        "title": "Contract Clause",
+        "text": "The entertainment contract ends immediately if off-book reservations are confirmed.",
+        "evidenceTime": "8:15 PM"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "id": "round-1",
+      "title": "Round 1: The Black-Curtain Corridor",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Search the corridor and decide whether the death was a fall or contact staged as a fall.",
+      "dialogue": "Begin with the corridor, missing hardware, and body location.",
+      "countdownReview": "Detective Decision 1 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 1 update: Search the corridor and decide whether the death was a fall or contact staged as a fall.",
+      "liveActionTitle": "The corridor refuses to stay quiet.",
+      "liveActionDialogue": "A brass hook sits slightly twisted, and the curtain sways even though no air moves through the hall.",
+      "liveActionSec": 115,
+      "openingDialogue": "The Black-Curtain Corridor begins. Begin with the corridor, missing hardware, and body location. Objective: Search the corridor and decide whether the death was a fall or contact staged as a fall.",
+      "recapDialogue": "Round 1 showed the corridor scene was staged and the missing brass hardware mattered."
+    },
+    {
+      "id": "round-2",
+      "title": "Round 2: The Sound Alibi",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Test whether continuous music proves Cressida stayed in the booth.",
+      "dialogue": "Compare the booth reflection, automation log, and staff tag movement.",
+      "countdownReview": "Detective Decision 2 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 2 update: Test whether continuous music proves Cressida stayed in the booth.",
+      "liveActionTitle": "The booth plays without a person.",
+      "liveActionDialogue": "The audio automation screen keeps moving while the chair behind it stays empty in the mirrored wall.",
+      "liveActionSec": 415,
+      "openingDialogue": "The Sound Alibi begins. Compare the booth reflection, automation log, and staff tag movement. Objective: Test whether continuous music proves Cressida stayed in the booth.",
+      "recapDialogue": "Round 2 broke the live-DJ alibi by proving the set could run without Cressida."
+    },
+    {
+      "id": "round-3",
+      "title": "Round 3: The Corridor Trace",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Use forensic findings to link the corridor contact to a specific person.",
+      "dialogue": "Let lab work separate coincidence from contact.",
+      "countdownReview": "Detective Decision 3 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 3 update: Use forensic findings to link the corridor contact to a specific person.",
+      "liveActionTitle": "The scent becomes evidence, not atmosphere.",
+      "liveActionDialogue": "The violet perfume seems decorative until forensics finds it in the curtain fibers and on the torn glove thread.",
+      "liveActionSec": 715,
+      "openingDialogue": "The Corridor Trace begins. Let lab work separate coincidence from contact. Objective: Use forensic findings to link the corridor contact to a specific person.",
+      "recapDialogue": "Round 3 tied the corridor trace to Cressida’s movement and clothing."
+    },
+    {
+      "id": "round-4",
+      "title": "Round 4: The Midnight List",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Find the financial reason Nathalie was silenced.",
+      "dialogue": "Follow the private booking ledger and contract threat.",
+      "countdownReview": "Detective Decision 4 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 4 update: Find the financial reason Nathalie was silenced.",
+      "liveActionTitle": "The reservations become a second room.",
+      "liveActionDialogue": "Every hidden table has initials, cash, and Cressida’s account behind it.",
+      "liveActionSec": 1015,
+      "openingDialogue": "The Midnight List begins. Follow the private booking ledger and contract threat. Objective: Find the financial reason Nathalie was silenced.",
+      "recapDialogue": "Round 4 established the motive: Nathalie was ending Cressida’s off-book reservation scheme."
+    },
+    {
+      "id": "round-5",
+      "title": "Round 5: The Applause Cover",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1500,
+      "objective": "Close the timeline using sound, movement, and motive together.",
+      "dialogue": "Use the audio cue, corridor trace, and ledger to make the final accusation.",
+      "countdownReview": "Detective Decision 5 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 5 update: Close the timeline using sound, movement, and motive together.",
+      "liveActionTitle": "The fake applause finally sounds guilty.",
+      "liveActionDialogue": "The applause track covers the exact corridor window, and no living guest remembers clapping.",
+      "liveActionSec": 1315,
+      "openingDialogue": "The Applause Cover begins. Use the audio cue, corridor trace, and ledger to make the final accusation. Objective: Close the timeline using sound, movement, and motive together.",
+      "recapDialogue": "Round 5 proved the soundscape was used to hide the attack and protect a false alibi."
+    }
+  ],
+  "openingNarration": "Welcome to The Midnight Reservation. This is a hard case: trust the timeline you build, not the soundscape the room gives you.",
+  "revealScript": "The case closes on Cressida Ward. She hid behind music, perfume, and private luxury, but the timeline cut through the performance. The midnight list was motive, the corridor was method, and the prerecorded applause was cover.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "hard-cp1",
+        "stage": "checkpoint",
+        "roundId": "round-1",
+        "unlockSec": 300,
+        "prompt": "Detective Decision 1: What first shows the corridor scene was not a simple fall?",
+        "correctOptionId": "missing-tieback",
+        "options": [
+          {
+            "id": "wet-floor",
+            "label": "A wet floor sign"
+          },
+          {
+            "id": "missing-tieback",
+            "label": "The missing brass tieback hook and fiber on the bracket"
+          },
+          {
+            "id": "empty-chair",
+            "label": "An empty chair in the dining room"
+          },
+          {
+            "id": "cold-soup",
+            "label": "A cold soup bowl"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "hard-cp2",
+        "stage": "checkpoint",
+        "roundId": "round-2",
+        "unlockSec": 600,
+        "prompt": "Detective Decision 2: Why does the DJ booth alibi weaken?",
+        "correctOptionId": "automation-empty",
+        "options": [
+          {
+            "id": "automation-empty",
+            "label": "The audio automation ran while the booth chair was empty"
+          },
+          {
+            "id": "guest-danced",
+            "label": "A guest kept dancing"
+          },
+          {
+            "id": "menu-changed",
+            "label": "The menu changed fonts"
+          },
+          {
+            "id": "server-late",
+            "label": "A server arrived late"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "hard-cp3",
+        "stage": "checkpoint",
+        "roundId": "round-3",
+        "unlockSec": 900,
+        "prompt": "Detective Decision 3: Which finding ties Cressida to the corridor?",
+        "correctOptionId": "violet-fiber",
+        "options": [
+          {
+            "id": "violet-fiber",
+            "label": "Violet perfume and dark fiber on the curtain hardware"
+          },
+          {
+            "id": "red-wine",
+            "label": "Red wine on a napkin"
+          },
+          {
+            "id": "caviar-spoon",
+            "label": "A caviar spoon in the sink"
+          },
+          {
+            "id": "rain-coat",
+            "label": "Rain on a coat sleeve"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "hard-cp4",
+        "stage": "checkpoint",
+        "roundId": "round-4",
+        "unlockSec": 1200,
+        "prompt": "Detective Decision 4: What was Nathalie trying to stop?",
+        "correctOptionId": "hidden-tables",
+        "options": [
+          {
+            "id": "hidden-tables",
+            "label": "Off-book midnight tables controlled through entertainment"
+          },
+          {
+            "id": "wine-forgery",
+            "label": "Forged wine allocations"
+          },
+          {
+            "id": "guest-list-sale",
+            "label": "A guest-list sale"
+          },
+          {
+            "id": "dessert-theft",
+            "label": "A stolen dessert recipe"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "hard-cp5",
+        "stage": "checkpoint",
+        "roundId": "round-5",
+        "unlockSec": 1440,
+        "prompt": "Detective Decision 5: Which timing detail completes the alibi challenge?",
+        "correctOptionId": "applause-window",
+        "options": [
+          {
+            "id": "applause-window",
+            "label": "The applause track covered the exact corridor window"
+          },
+          {
+            "id": "rain-window",
+            "label": "Rain started before dinner"
+          },
+          {
+            "id": "dessert-window",
+            "label": "Dessert took too long"
+          },
+          {
+            "id": "toast-window",
+            "label": "The first toast was early"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "hard-final-culprit",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 1: Who killed Nathalie Quinn?",
+        "correctOptionId": "cressida-ward",
+        "options": [
+          {
+            "id": "iris",
+            "label": "Iris Bell"
+          },
+          {
+            "id": "malik",
+            "label": "Malik Dorsey"
+          },
+          {
+            "id": "cressida-ward",
+            "label": "Cressida Ward"
+          },
+          {
+            "id": "vera",
+            "label": "Vera St. John"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "hard-final-method",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 2: What was the method?",
+        "correctOptionId": "corridor-tieback",
+        "options": [
+          {
+            "id": "corridor-tieback",
+            "label": "Cressida struck Nathalie in the black-curtain corridor with the brass tieback, then staged the fall"
+          },
+          {
+            "id": "poison-caviar",
+            "label": "She poisoned the caviar service"
+          },
+          {
+            "id": "salt-block",
+            "label": "She used a tableside salt block"
+          },
+          {
+            "id": "elevator-lock",
+            "label": "She locked Nathalie in an elevator"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "hard-final-motive",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 3: What was Cressida protecting?",
+        "correctOptionId": "off-book-cash",
+        "options": [
+          {
+            "id": "off-book-cash",
+            "label": "The off-book midnight reservation cash scheme"
+          },
+          {
+            "id": "chef-title",
+            "label": "A chef promotion"
+          },
+          {
+            "id": "photo-leak",
+            "label": "A photo leak"
+          },
+          {
+            "id": "parking-contract",
+            "label": "A parking contract"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "hard-final-proof",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 4: Which evidence combination is strongest?",
+        "correctOptionId": "audio-tag-fiber-ledger",
+        "options": [
+          {
+            "id": "audio-tag-fiber-ledger",
+            "label": "Audio automation, staff tag movement, corridor fiber/perfume, and hidden-table ledger"
+          },
+          {
+            "id": "menu-rain-chair",
+            "label": "Menu typo, rain, and chair position"
+          },
+          {
+            "id": "phone-cake-dj",
+            "label": "Phone battery, cake order, and DJ request"
+          },
+          {
+            "id": "coat-caviar-key",
+            "label": "Coat check, caviar spoon, and key tag"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "hard-final-lie",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 5: Which alibi was false?",
+        "correctOptionId": "live-mixing",
+        "options": [
+          {
+            "id": "live-mixing",
+            "label": "Cressida claimed she was live-mixing in the booth the whole time"
+          },
+          {
+            "id": "investor-table",
+            "label": "Iris claimed she stayed at the investor table"
+          },
+          {
+            "id": "saw-crowd",
+            "label": "Malik claimed he watched the whole crowd"
+          },
+          {
+            "id": "smelled-smoke",
+            "label": "Vera claimed she smelled kitchen smoke"
+          }
+        ],
+        "roundScope": null
+      }
+    ]
+  },
+  "difficulty": "hard",
+  "difficultyLabel": "Hard",
+  "gameId": "barfly-mystery-template",
+  "gameTitle": "The Velvet Cypress Mysteries",
+  "levelId": "hard",
+  "levelName": "Hard",
+  "levelLabel": "Hard",
+  "seriesTitle": "The Velvet Cypress Mysteries",
+  "seriesArc": "Three separate mysteries inside a fictional upscale Baton Rouge supper club inspired by candlelit fine dining, dress-code drama, private tables, and late-night lounge energy.",
+  "lobbyBackstory": "The Velvet Cypress Supper Club is hosting a private investor dinner behind black curtains and curated sound. When Nathalie Quinn is found in the corridor, the music keeps playing — and that may be the first lie.",
+  "titleGraphic": "/assets/velvet-cypress-hard-title.png",
+  "rsvpExcerpt": "A private investor dies while the music never stops. In this hard mystery, the alibi is hidden inside sound, scent, movement, and a midnight reservation no one was supposed to see."
+}

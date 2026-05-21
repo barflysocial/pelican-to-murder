@@ -1,0 +1,647 @@
+{
+  "id": "velvet-cypress-easy",
+  "title": "The Candlelit Cut",
+  "venue": "The Velvet Cypress Supper Club • Fictional Baton Rouge, Louisiana",
+  "description": "An upscale Baton Rouge supper club dinner turns deadly when a photographer is found in the candle alcove. This easy case guides players through physical evidence, forensics, witness statements, and a clear alibi contradiction.",
+  "answerKey": {
+    "culprit": "Nora Vale",
+    "method": "Shoved Elise in the candle alcove, then staged the scene as a fall using the curtain and wax trail.",
+    "motive": "To hide that she was selling private guest-list information from the supper club.",
+    "keyEvidence": "Wax trail, gold cufflink, Elise’s photo burst, staff tracker, and service-door chime.",
+    "explanation": "Nora had access to the host terminal and guest list, was placed near the alcove during the critical window, and lied about staying at the host stand. The waxed cufflink and photo burst connect her to the staged fall."
+  },
+  "publicClues": [
+    {
+      "id": "easy-feed-0",
+      "unlockSec": 0,
+      "title": "Case Opened",
+      "text": "The Velvet Cypress dining room is sealed after photographer Elise Renaud is found in the candle service alcove. The room smells of warm wax, truffle butter, and rain-soaked coats from the porte-cochère.",
+      "evidenceTime": "8:52 PM"
+    },
+    {
+      "id": "easy-live-1",
+      "unlockSec": 115,
+      "title": "Live Scene Update",
+      "text": "A server whispers that the candle alcove was checked twice tonight. The maître d’ insists the second check never happened, but the reservation stand still has fresh wax on one corner.",
+      "evidenceTime": "8:55 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "easy-feed-1",
+      "unlockSec": 360,
+      "title": "Detective Decision 1 Available",
+      "text": "You have enough from the first scene search to decide which physical detail made Elise’s fall look staged.",
+      "evidenceTime": "8:58 PM"
+    },
+    {
+      "id": "easy-live-2",
+      "unlockSec": 415,
+      "title": "Live Scene Update",
+      "text": "Nora Vale straightens the brass table numbers while asking if anyone has seen her gold cufflink. The question lands badly because no one had mentioned a cufflink yet.",
+      "evidenceTime": "9:02 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "easy-feed-2",
+      "unlockSec": 660,
+      "title": "Detective Decision 2 Available",
+      "text": "The witness timeline now conflicts with the candle-service records.",
+      "evidenceTime": "9:06 PM"
+    },
+    {
+      "id": "easy-live-3",
+      "unlockSec": 715,
+      "title": "Live Scene Update",
+      "text": "Rain taps against the covered entry. A runner says the wax trail at the alcove door stayed glossy longer than the candles on the tables, as if it was moved after service began.",
+      "evidenceTime": "9:08 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "easy-feed-3",
+      "unlockSec": 960,
+      "title": "Detective Decision 3 Available",
+      "text": "Forensics can now help you decide whose story does not fit the physical evidence.",
+      "evidenceTime": "9:12 PM"
+    },
+    {
+      "id": "easy-live-4",
+      "unlockSec": 1015,
+      "title": "Live Scene Update",
+      "text": "A private guest demands their phone back from the evidence table. The screen shows Elise’s last photo still open: Nora standing too close to the alcove curtain.",
+      "evidenceTime": "9:14 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "easy-feed-4",
+      "unlockSec": 1260,
+      "title": "Detective Decision 4 Available",
+      "text": "The motive trail has moved from the scene to the reservation list.",
+      "evidenceTime": "9:18 PM"
+    },
+    {
+      "id": "easy-live-5",
+      "unlockSec": 1315,
+      "title": "Live Scene Update",
+      "text": "The DJ lowers the room music. For the first time, everyone hears the service-door chime repeat in the security log playback.",
+      "evidenceTime": "9:19 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "easy-feed-5",
+      "unlockSec": 1500,
+      "title": "Final Accusation Open",
+      "text": "All five Detective Decisions are complete. Close the case by naming the killer, method, motive, and key proof.",
+      "evidenceTime": "9:23 PM"
+    }
+  ],
+  "apps": {
+    "phone": [
+      {
+        "id": "easy-phone-1",
+        "unlockSec": 120,
+        "title": "Elise’s Last Photo Queue",
+        "text": "Elise’s phone shows a burst of photos taken at 8:47 PM near the candle alcove. One blurred frame catches Nora’s white maître d’ sleeve reflected in the black lacquer wall.",
+        "evidenceTime": "8:47 PM"
+      },
+      {
+        "id": "easy-phone-2",
+        "unlockSec": 720,
+        "title": "Missed Call From Reservation Stand",
+        "text": "At 8:50 PM, Elise ignored a call from the reservation stand even though she had just photographed that area.",
+        "evidenceTime": "8:50 PM"
+      }
+    ],
+    "messages": [
+      {
+        "id": "easy-msg-1",
+        "unlockSec": 420,
+        "title": "Text About the Guest List",
+        "text": "Elise texted her assistant: “Nora is selling private guest names. I have the photo.”",
+        "evidenceTime": "8:43 PM"
+      },
+      {
+        "id": "easy-msg-2",
+        "unlockSec": 1080,
+        "title": "Assistant Reply",
+        "text": "The assistant replied, “Do not confront her alone. Send me the picture first.” Elise never did.",
+        "evidenceTime": "8:44 PM"
+      }
+    ],
+    "maps": [
+      {
+        "id": "easy-map-1",
+        "unlockSec": 780,
+        "title": "Staff Tracker Ping",
+        "text": "Nora’s staff tracker shows her near the candle alcove at 8:49 PM, not at the host stand as she claimed.",
+        "evidenceTime": "8:49 PM"
+      },
+      {
+        "id": "easy-map-2",
+        "unlockSec": 1320,
+        "title": "Service Door Chime Map",
+        "text": "The side service door chime logs movement from the alcove corridor toward the reservation stand at 8:51 PM.",
+        "evidenceTime": "8:51 PM"
+      }
+    ],
+    "bank": [
+      {
+        "id": "easy-bank-1",
+        "unlockSec": 1140,
+        "title": "Guest List Payment",
+        "text": "A payment labeled “private seating lead” hit Nora’s personal account two days before the dinner.",
+        "evidenceTime": "6:12 PM"
+      },
+      {
+        "id": "easy-bank-2",
+        "unlockSec": 1440,
+        "title": "Refund Pressure",
+        "text": "A VIP threatened to pull future bookings if the guest-list leak became public.",
+        "evidenceTime": "7:30 PM"
+      }
+    ],
+    "photos": [
+      {
+        "id": "easy-photo-1",
+        "unlockSec": 180,
+        "title": "Wax Trail Photo",
+        "text": "The first scene photo shows a narrow wax trail ending at the alcove door. It bends upward on the door trim, which would not happen if Elise simply tripped forward.",
+        "evidenceTime": "8:53 PM"
+      },
+      {
+        "id": "easy-photo-2",
+        "unlockSec": 840,
+        "title": "Gold Cufflink Close-Up",
+        "text": "A gold cufflink sits under the alcove curtain. Wax fills its hinge, as if it was pressed against a still-warm service candle.",
+        "evidenceTime": "8:54 PM"
+      }
+    ],
+    "social": [
+      {
+        "id": "easy-social-1",
+        "unlockSec": 1020,
+        "title": "Tagged Dinner Reel",
+        "text": "A guest reel shows Nora wearing matching gold cufflinks during the first toast.",
+        "evidenceTime": "8:35 PM"
+      },
+      {
+        "id": "easy-social-2",
+        "unlockSec": 1380,
+        "title": "Deleted Caption",
+        "text": "Elise’s deleted caption read: “Some secrets are seated before the guests arrive.”",
+        "evidenceTime": "8:41 PM"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "easy-wit-1",
+        "unlockSec": 90,
+        "title": "Witness Statement: Briant the Server",
+        "text": "Briant says Nora personally handled the candle alcove after the first course and told servers not to touch the curtain.",
+        "type": "statement",
+        "claimTime": "8:40 PM"
+      },
+      {
+        "id": "easy-wit-2",
+        "unlockSec": 480,
+        "title": "Witness Statement: Nora Vale",
+        "text": "Nora says she stayed at the host stand after 8:45 PM and never entered the alcove once guests sat down.",
+        "type": "statement",
+        "claimTime": "8:45 PM"
+      },
+      {
+        "id": "easy-wit-3",
+        "unlockSec": 900,
+        "title": "Witness Statement: Margo Chen",
+        "text": "Margo says she heard Elise say, “I got the photo,” just before the service-door chime sounded.",
+        "type": "statement",
+        "claimTime": "8:48 PM"
+      },
+      {
+        "id": "easy-wit-4",
+        "unlockSec": 1200,
+        "title": "Witness Statement: Theo Lark",
+        "text": "Theo says Nora asked about a missing cufflink before anyone had searched the alcove.",
+        "type": "statement",
+        "claimTime": "8:56 PM"
+      }
+    ],
+    "notes": [
+      {
+        "id": "easy-note-1",
+        "unlockSec": 240,
+        "title": "Detective Note: First Search",
+        "text": "The body location is obvious, but the wax pattern is the first clue that the scene was arranged after contact.",
+        "evidenceTime": "8:53 PM"
+      },
+      {
+        "id": "easy-note-2",
+        "unlockSec": 600,
+        "title": "Detective Note: Alibi Target",
+        "text": "Nora’s alibi depends on the host stand, so any movement record between 8:45 and 8:51 matters.",
+        "evidenceTime": "8:57 PM"
+      }
+    ],
+    "files": [
+      {
+        "id": "easy-file-1",
+        "unlockSec": 300,
+        "title": "Reservation Stand Log",
+        "text": "The host terminal was unlocked under Nora’s manager code at 8:50 PM.",
+        "evidenceTime": "8:50 PM"
+      },
+      {
+        "id": "easy-file-2",
+        "unlockSec": 900,
+        "title": "Door Chime Export",
+        "text": "The service-door chime recorded one exit from the alcove corridor at 8:51 PM.",
+        "evidenceTime": "8:51 PM"
+      }
+    ],
+    "browser": [
+      {
+        "id": "easy-browser-1",
+        "unlockSec": 540,
+        "title": "Search History",
+        "text": "Nora’s tablet searched “how to delete shared photo burst iPhone” at 8:52 PM.",
+        "evidenceTime": "8:52 PM"
+      },
+      {
+        "id": "easy-browser-2",
+        "unlockSec": 1260,
+        "title": "VIP Directory Draft",
+        "text": "A browser tab shows a drafted private guest directory with prices beside several names.",
+        "evidenceTime": "7:58 PM"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "id": "round-1",
+      "title": "Round 1: The Candle Alcove",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Search the scene, inspect the wax trail, and send the first physical evidence to Forensics.",
+      "dialogue": "Begin with the body, the alcove, and what could be observed without trusting anyone’s story.",
+      "countdownReview": "Detective Decision 1 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 1 update: Search the scene, inspect the wax trail, and send the first physical evidence to Forensics.",
+      "liveActionTitle": "The alcove becomes the room’s center of gravity.",
+      "liveActionDialogue": "A server tries to pull the curtain closed, but the wax has dried in a shape that points back toward the room instead of the floor.",
+      "liveActionSec": 115,
+      "openingDialogue": "The Candle Alcove begins. Begin with the body, the alcove, and what could be observed without trusting anyone’s story. Objective: Search the scene, inspect the wax trail, and send the first physical evidence to Forensics.",
+      "recapDialogue": "Round 1 confirmed Elise’s fall was staged. The wax did not behave like a normal trip scene."
+    },
+    {
+      "id": "round-2",
+      "title": "Round 2: The Host Stand",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Compare Nora’s host-stand alibi against movement records.",
+      "dialogue": "Use the host records and staff movement to test whether Nora stayed where she claimed.",
+      "countdownReview": "Detective Decision 2 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 2 update: Compare Nora’s host-stand alibi against movement records.",
+      "liveActionTitle": "Nora notices the search moving toward the host stand.",
+      "liveActionDialogue": "Nora says, “Every reservation came through me,” then stops when she realizes that sentence explains access as much as innocence.",
+      "liveActionSec": 415,
+      "openingDialogue": "The Host Stand begins. Use the host records and staff movement to test whether Nora stayed where she claimed. Objective: Compare Nora’s host-stand alibi against movement records.",
+      "recapDialogue": "Round 2 tied Nora to the critical corridor window and showed her alibi depended on a false location."
+    },
+    {
+      "id": "round-3",
+      "title": "Round 3: The Missing Photo",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Use phone and image evidence to decide what Elise saw.",
+      "dialogue": "Connect the missing photo to the physical object found at the alcove.",
+      "countdownReview": "Detective Decision 3 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 3 update: Use phone and image evidence to decide what Elise saw.",
+      "liveActionTitle": "The photo queue changes the room.",
+      "liveActionDialogue": "Margo sees the blurred photo and goes silent before saying, “That sleeve is not mine.”",
+      "liveActionSec": 715,
+      "openingDialogue": "The Missing Photo begins. Connect the missing photo to the physical object found at the alcove. Objective: Use phone and image evidence to decide what Elise saw.",
+      "recapDialogue": "Round 3 showed Elise had evidence before she died and that someone tried to erase it."
+    },
+    {
+      "id": "round-4",
+      "title": "Round 4: The Guest List",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Find the motive behind the confrontation.",
+      "dialogue": "Look for the reason Elise confronted someone before dessert.",
+      "countdownReview": "Detective Decision 4 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 4 update: Find the motive behind the confrontation.",
+      "liveActionTitle": "The polite dinner becomes a transaction.",
+      "liveActionDialogue": "A VIP demands discretion, and for the first time the leaked guest list feels more valuable than the meal.",
+      "liveActionSec": 1015,
+      "openingDialogue": "The Guest List begins. Look for the reason Elise confronted someone before dessert. Objective: Find the motive behind the confrontation.",
+      "recapDialogue": "Round 4 established Nora’s motive: Elise found the guest-list sale."
+    },
+    {
+      "id": "round-5",
+      "title": "Round 5: The Service Door",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1500,
+      "objective": "Lock the method by matching timing, object, and movement.",
+      "dialogue": "Use the service-door timing and cufflink evidence to close the case.",
+      "countdownReview": "Detective Decision 5 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 5 update: Lock the method by matching timing, object, and movement.",
+      "liveActionTitle": "The door chime repeats.",
+      "liveActionDialogue": "When the chime plays, Nora looks at the service door before anyone else reacts.",
+      "liveActionSec": 1315,
+      "openingDialogue": "The Service Door begins. Use the service-door timing and cufflink evidence to close the case. Objective: Lock the method by matching timing, object, and movement.",
+      "recapDialogue": "Round 5 connected method, opportunity, and motive into one clear accusation."
+    }
+  ],
+  "openingNarration": "Welcome to The Candlelit Cut. Search the candle alcove first, then let the evidence, forensics, and witness statements build the timeline.",
+  "revealScript": "The case closes on Nora Vale. She tried to turn a confrontation into an accident, but the room remembered what she moved: the wax, the cufflink, the door chime, and Elise’s final photo.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "easy-cp1",
+        "stage": "checkpoint",
+        "roundId": "round-1",
+        "unlockSec": 300,
+        "prompt": "Detective Decision 1: What first proves the scene was staged?",
+        "correctOptionId": "wax-trail",
+        "options": [
+          {
+            "id": "fallen-menu",
+            "label": "A fallen menu by the table"
+          },
+          {
+            "id": "wax-trail",
+            "label": "The wax trail bending onto the alcove door trim"
+          },
+          {
+            "id": "dj-song",
+            "label": "The DJ changing songs"
+          },
+          {
+            "id": "unused-fork",
+            "label": "An unused fork at Elise’s place"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "easy-cp2",
+        "stage": "checkpoint",
+        "roundId": "round-2",
+        "unlockSec": 600,
+        "prompt": "Detective Decision 2: Which record weakens Nora’s host-stand alibi?",
+        "correctOptionId": "tracker-alcove",
+        "options": [
+          {
+            "id": "tracker-alcove",
+            "label": "Nora’s staff tracker near the candle alcove at 8:49 PM"
+          },
+          {
+            "id": "vip-coat",
+            "label": "A VIP coat checked at 8:20 PM"
+          },
+          {
+            "id": "dessert-ticket",
+            "label": "A dessert ticket printed early"
+          },
+          {
+            "id": "rain-log",
+            "label": "The rain log at the porte-cochère"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "easy-cp3",
+        "stage": "checkpoint",
+        "roundId": "round-3",
+        "unlockSec": 900,
+        "prompt": "Detective Decision 3: What did Elise likely capture before she died?",
+        "correctOptionId": "nora-sleeve",
+        "options": [
+          {
+            "id": "service-menu",
+            "label": "The tasting menu cover"
+          },
+          {
+            "id": "nora-sleeve",
+            "label": "Nora’s sleeve reflected near the alcove curtain"
+          },
+          {
+            "id": "empty-chair",
+            "label": "An empty chair at table six"
+          },
+          {
+            "id": "champagne-label",
+            "label": "A champagne label from the bar"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "easy-cp4",
+        "stage": "checkpoint",
+        "roundId": "round-4",
+        "unlockSec": 1200,
+        "prompt": "Detective Decision 4: What gives Nora a motive?",
+        "correctOptionId": "guest-list-sale",
+        "options": [
+          {
+            "id": "guest-list-sale",
+            "label": "The paid private guest-list leak"
+          },
+          {
+            "id": "lost-ring",
+            "label": "A missing dinner ring"
+          },
+          {
+            "id": "late-soup",
+            "label": "A cold soup complaint"
+          },
+          {
+            "id": "parking-ticket",
+            "label": "A parking ticket dispute"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "easy-cp5",
+        "stage": "checkpoint",
+        "roundId": "round-5",
+        "unlockSec": 1440,
+        "prompt": "Detective Decision 5: Which combination closes the method?",
+        "correctOptionId": "cufflink-door",
+        "options": [
+          {
+            "id": "tablecloth-guest",
+            "label": "A tablecloth and a guest complaint"
+          },
+          {
+            "id": "cufflink-door",
+            "label": "The waxed cufflink and service-door chime"
+          },
+          {
+            "id": "dj-reel",
+            "label": "The DJ reel and rain noise"
+          },
+          {
+            "id": "wine-list",
+            "label": "The wine list and dessert order"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "easy-final-culprit",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 1: Who killed Elise Renaud?",
+        "correctOptionId": "nora-vale",
+        "options": [
+          {
+            "id": "briant",
+            "label": "Briant the Server"
+          },
+          {
+            "id": "nora-vale",
+            "label": "Nora Vale"
+          },
+          {
+            "id": "margo",
+            "label": "Margo Chen"
+          },
+          {
+            "id": "theo",
+            "label": "Theo Lark"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "easy-final-method",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 2: How was the death staged?",
+        "correctOptionId": "alcove-shove",
+        "options": [
+          {
+            "id": "alcove-shove",
+            "label": "Elise was shoved in the candle alcove and the fall was staged with wax and curtain evidence"
+          },
+          {
+            "id": "poison-dessert",
+            "label": "A poisoned dessert was served at table six"
+          },
+          {
+            "id": "locked-freezer",
+            "label": "She was locked in the freezer"
+          },
+          {
+            "id": "electric-mic",
+            "label": "A microphone cable was electrified"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "easy-final-motive",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 3: Why did Nora kill Elise?",
+        "correctOptionId": "hide-guest-list",
+        "options": [
+          {
+            "id": "hide-guest-list",
+            "label": "To hide that she was selling private guest-list information"
+          },
+          {
+            "id": "steal-wagyu",
+            "label": "To steal imported Wagyu"
+          },
+          {
+            "id": "win-dj-night",
+            "label": "To win control of the DJ schedule"
+          },
+          {
+            "id": "avoid-review",
+            "label": "To avoid a bad food review"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "easy-final-proof",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 4: Which proof matters most?",
+        "correctOptionId": "photo-cufflink-tracker",
+        "options": [
+          {
+            "id": "photo-cufflink-tracker",
+            "label": "The blurred photo, waxed cufflink, and tracker ping"
+          },
+          {
+            "id": "rain-coat-menu",
+            "label": "A wet coat and a menu typo"
+          },
+          {
+            "id": "fork-call-song",
+            "label": "A fork, a missed call, and a song request"
+          },
+          {
+            "id": "receipt-cake-key",
+            "label": "A receipt, cake knife, and parking key"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "easy-final-lie",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 5: Which lie exposes Nora?",
+        "correctOptionId": "host-stand-lie",
+        "options": [
+          {
+            "id": "host-stand-lie",
+            "label": "She said she never left the host stand after 8:45 PM"
+          },
+          {
+            "id": "dessert-lie",
+            "label": "She said she never ate dessert"
+          },
+          {
+            "id": "wine-lie",
+            "label": "She said she hated champagne"
+          },
+          {
+            "id": "weather-lie",
+            "label": "She said it never rained"
+          }
+        ],
+        "roundScope": null
+      }
+    ]
+  },
+  "difficulty": "easy",
+  "difficultyLabel": "Easy",
+  "gameId": "barfly-mystery-template",
+  "gameTitle": "The Velvet Cypress Mysteries",
+  "levelId": "easy",
+  "levelName": "Easy",
+  "levelLabel": "Easy",
+  "seriesTitle": "The Velvet Cypress Mysteries",
+  "seriesArc": "Three separate mysteries inside a fictional upscale Baton Rouge supper club inspired by candlelit fine dining, dress-code drama, private tables, and late-night lounge energy.",
+  "lobbyBackstory": "You are checked in at The Velvet Cypress Supper Club, a fictional candlelit Baton Rouge dining room where privacy is part of the price. Tonight, photographer Elise Renaud is found in a service alcove before dessert. Start with the scene, then let evidence and testimony fill the truth.",
+  "titleGraphic": "/assets/velvet-cypress-easy-title.png",
+  "rsvpExcerpt": "A candlelit private dinner turns deadly when a photographer is found behind the velvet curtain. Search the scene, test the alibi, and uncover what one polished host was desperate to hide."
+}

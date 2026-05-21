@@ -1,0 +1,647 @@
+{
+  "id": "velvet-cypress-medium",
+  "title": "Smoke Over Table Twelve",
+  "venue": "The Velvet Cypress Supper Club • Fictional Baton Rouge, Louisiana",
+  "description": "A private Wagyu tasting turns lethal when a chef consultant dies beside a missing salt block. This medium case asks players to compare movement records, forensic trace, and a financial motive hidden inside rare wine allocations.",
+  "answerKey": {
+    "culprit": "Jonas Pell",
+    "method": "Struck Beau with the heavy pink salt block from the tasting cart and staged a kitchen reset.",
+    "motive": "To stop Beau from exposing forged rare wine allocations sold to two private buyers.",
+    "keyEvidence": "Salt block inventory, before/after cart photos, cellar badge ping, mineral trace, and duplicate buyer deposits.",
+    "explanation": "Jonas lied about not touching the cart. His badge placed him in the cellar hallway, forensics tied mineral trace to the cart route, and the duplicate deposits gave him motive."
+  },
+  "publicClues": [
+    {
+      "id": "med-feed-0",
+      "unlockSec": 0,
+      "title": "Case Opened",
+      "text": "Celebrity chef consultant Beau Calvet is found dead beside Table Twelve after a private Wagyu tasting. The heavy salt block used for tableside service is missing from the cart.",
+      "evidenceTime": "8:52 PM"
+    },
+    {
+      "id": "med-live-1",
+      "unlockSec": 115,
+      "title": "Live Scene Update",
+      "text": "The wine director keeps insisting the tasting cart was “reset by kitchen.” The executive chef answers without looking at him: “Then why are your cellar shoes leaving salt dust?”",
+      "evidenceTime": "8:55 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "med-feed-1",
+      "unlockSec": 360,
+      "title": "Detective Decision 1 Available",
+      "text": "The first scene search can identify which service object is missing and why it matters.",
+      "evidenceTime": "8:58 PM"
+    },
+    {
+      "id": "med-live-2",
+      "unlockSec": 415,
+      "title": "Live Scene Update",
+      "text": "A runner tries to wheel Table Twelve’s cart away, but one wheel drags. A white mineral scrape appears across the dark floor.",
+      "evidenceTime": "9:02 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "med-feed-2",
+      "unlockSec": 660,
+      "title": "Detective Decision 2 Available",
+      "text": "Movement around the wine cellar and tasting cart is now testable.",
+      "evidenceTime": "9:06 PM"
+    },
+    {
+      "id": "med-live-3",
+      "unlockSec": 715,
+      "title": "Live Scene Update",
+      "text": "Julian’s replacement wine pour sits untouched. The glass smells of oak smoke, but Beau never drank from it. Someone staged the table to point attention in the wrong direction.",
+      "evidenceTime": "9:08 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "med-feed-3",
+      "unlockSec": 960,
+      "title": "Detective Decision 3 Available",
+      "text": "Forensic analysis now links the missing object to a person who denied touching it.",
+      "evidenceTime": "9:12 PM"
+    },
+    {
+      "id": "med-live-4",
+      "unlockSec": 1015,
+      "title": "Live Scene Update",
+      "text": "Jonas Pell laughs too loudly when the forged allocation sheet appears. It is the first sound in the room that feels rehearsed.",
+      "evidenceTime": "9:14 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "med-feed-4",
+      "unlockSec": 1260,
+      "title": "Detective Decision 4 Available",
+      "text": "The motive is no longer about pride. It is about forged wine allocations.",
+      "evidenceTime": "9:18 PM"
+    },
+    {
+      "id": "med-live-5",
+      "unlockSec": 1315,
+      "title": "Live Scene Update",
+      "text": "The lights dim for the next course, but no one moves. The tasting cart sits in the center of the room like a witness.",
+      "evidenceTime": "9:20 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "med-feed-5",
+      "unlockSec": 1500,
+      "title": "Final Accusation Open",
+      "text": "You have the cart, the cellar movement, the forged allocation, and the final forensic link. Make the accusation.",
+      "evidenceTime": "9:23 PM"
+    }
+  ],
+  "apps": {
+    "phone": [
+      {
+        "id": "med-phone-1",
+        "unlockSec": 120,
+        "title": "Beau’s Voice Memo",
+        "text": "At 8:41 PM, Beau recorded: “Jonas sold the cellar twice. Ask for the Bordeaux ledger.” In the background, a cart wheel squeaks once.",
+        "evidenceTime": "8:41 PM"
+      },
+      {
+        "id": "med-phone-2",
+        "unlockSec": 780,
+        "title": "Jonas Call Gap",
+        "text": "Jonas’s phone shows a four-minute airplane-mode gap during the window he claimed to be texting distributors.",
+        "evidenceTime": "8:47 PM"
+      }
+    ],
+    "messages": [
+      {
+        "id": "med-msg-1",
+        "unlockSec": 420,
+        "title": "Allocation Warning",
+        "text": "Beau texted the owner: “If the wine certificates are forged, tonight ends Jonas.”",
+        "evidenceTime": "8:36 PM"
+      },
+      {
+        "id": "med-msg-2",
+        "unlockSec": 1080,
+        "title": "Deleted Vendor Thread",
+        "text": "A deleted thread references “two buyers, one bottle list” and asks Jonas to keep the chef distracted.",
+        "evidenceTime": "7:52 PM"
+      }
+    ],
+    "maps": [
+      {
+        "id": "med-map-1",
+        "unlockSec": 720,
+        "title": "Cellar Door Ping",
+        "text": "Jonas’s staff badge pings at the wine cellar door at 8:46 PM.",
+        "evidenceTime": "8:46 PM"
+      },
+      {
+        "id": "med-map-2",
+        "unlockSec": 1320,
+        "title": "Cart Route",
+        "text": "The tasting cart path runs from Table Twelve toward the cellar hallway, not toward the kitchen where Jonas said it was reset.",
+        "evidenceTime": "8:48 PM"
+      }
+    ],
+    "bank": [
+      {
+        "id": "med-bank-1",
+        "unlockSec": 1140,
+        "title": "Duplicate Deposit",
+        "text": "Two private buyers paid deposits on the same rare bottle allocation.",
+        "evidenceTime": "6:40 PM"
+      },
+      {
+        "id": "med-bank-2",
+        "unlockSec": 1440,
+        "title": "Refund Threat",
+        "text": "One buyer threatened legal action if Beau named the forgery during dinner.",
+        "evidenceTime": "8:05 PM"
+      }
+    ],
+    "photos": [
+      {
+        "id": "med-photo-1",
+        "unlockSec": 180,
+        "title": "Table Twelve Photo",
+        "text": "A guest photo taken before the collapse shows the pink Himalayan salt block on the cart beside Beau.",
+        "evidenceTime": "8:39 PM"
+      },
+      {
+        "id": "med-photo-2",
+        "unlockSec": 840,
+        "title": "Aftermath Photo",
+        "text": "The aftermath photo shows the cart without the salt block and a mineral smear below one wheel.",
+        "evidenceTime": "8:53 PM"
+      }
+    ],
+    "social": [
+      {
+        "id": "med-social-1",
+        "unlockSec": 1020,
+        "title": "Guest Story Clip",
+        "text": "A guest story catches Jonas pushing the tasting cart with his left hand while checking the cellar hallway.",
+        "evidenceTime": "8:45 PM"
+      },
+      {
+        "id": "med-social-2",
+        "unlockSec": 1380,
+        "title": "Wine Caption Draft",
+        "text": "Jonas drafted a caption about “exclusive allocations” before the certificates were verified.",
+        "evidenceTime": "7:28 PM"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "med-wit-1",
+        "unlockSec": 90,
+        "title": "Witness Statement: Clara Venn",
+        "text": "Clara says Beau asked her to photograph the salt block because he thought it had been handled after service.",
+        "type": "statement",
+        "claimTime": "8:42 PM"
+      },
+      {
+        "id": "med-wit-2",
+        "unlockSec": 480,
+        "title": "Witness Statement: Jonas Pell",
+        "text": "Jonas says he never touched the tasting cart and stayed by the wine wall after 8:40 PM.",
+        "type": "statement",
+        "claimTime": "8:40 PM"
+      },
+      {
+        "id": "med-wit-3",
+        "unlockSec": 900,
+        "title": "Witness Statement: Emile Roux",
+        "text": "Emile says Jonas asked him to delay dessert service by exactly five minutes.",
+        "type": "statement",
+        "claimTime": "8:44 PM"
+      },
+      {
+        "id": "med-wit-4",
+        "unlockSec": 1200,
+        "title": "Witness Statement: Daphne Sol",
+        "text": "Daphne says the cellar hallway smelled like truffle salt and wet wool after Jonas walked through it.",
+        "type": "statement",
+        "claimTime": "8:49 PM"
+      }
+    ],
+    "notes": [
+      {
+        "id": "med-note-1",
+        "unlockSec": 240,
+        "title": "Detective Note: Missing Weight",
+        "text": "The missing salt block is heavy enough to injure and distinctive enough to leave mineral trace.",
+        "evidenceTime": "8:53 PM"
+      },
+      {
+        "id": "med-note-2",
+        "unlockSec": 600,
+        "title": "Detective Note: Alibi Anchor",
+        "text": "Jonas’s alibi depends on him staying at the wine wall, away from the cart and cellar hallway.",
+        "evidenceTime": "8:56 PM"
+      }
+    ],
+    "files": [
+      {
+        "id": "med-file-1",
+        "unlockSec": 300,
+        "title": "Tasting Cart Inventory",
+        "text": "The cart inventory lists one 9-pound pink salt block checked out for Table Twelve service.",
+        "evidenceTime": "8:30 PM"
+      },
+      {
+        "id": "med-file-2",
+        "unlockSec": 900,
+        "title": "Wine Certificate Scan",
+        "text": "The rare bottle certificate number appears on two different buyer contracts.",
+        "evidenceTime": "7:50 PM"
+      }
+    ],
+    "browser": [
+      {
+        "id": "med-browser-1",
+        "unlockSec": 540,
+        "title": "Recent Search",
+        "text": "Jonas searched “does pink salt show fingerprints” twenty minutes before service.",
+        "evidenceTime": "8:11 PM"
+      },
+      {
+        "id": "med-browser-2",
+        "unlockSec": 1260,
+        "title": "Certificate Template",
+        "text": "A browser cache shows a blank import certificate template on Jonas’s office laptop.",
+        "evidenceTime": "6:58 PM"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "id": "round-1",
+      "title": "Round 1: The Missing Salt Block",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Search Table Twelve and identify the missing service object.",
+      "dialogue": "Start with the tasting cart and what changed between the before and after photos.",
+      "countdownReview": "Detective Decision 1 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 1 update: Search Table Twelve and identify the missing service object.",
+      "liveActionTitle": "The cart becomes evidence.",
+      "liveActionDialogue": "A server reaches for the cart handle, then pulls back as mineral dust flakes from the wheel.",
+      "liveActionSec": 115,
+      "openingDialogue": "The Missing Salt Block begins. Start with the tasting cart and what changed between the before and after photos. Objective: Search Table Twelve and identify the missing service object.",
+      "recapDialogue": "Round 1 established that the salt block disappeared during the critical window."
+    },
+    {
+      "id": "round-2",
+      "title": "Round 2: The Cellar Hallway",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Test Jonas’s wine-wall alibi against badge and cart movement.",
+      "dialogue": "Compare staff movement with the alibi and decide whether Jonas could reach the cart.",
+      "countdownReview": "Detective Decision 2 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 2 update: Test Jonas’s wine-wall alibi against badge and cart movement.",
+      "liveActionTitle": "The cellar door becomes louder than the music.",
+      "liveActionDialogue": "The badge reader chirps on playback; Jonas says nothing, but his hand covers his left cuff.",
+      "liveActionSec": 415,
+      "openingDialogue": "The Cellar Hallway begins. Compare staff movement with the alibi and decide whether Jonas could reach the cart. Objective: Test Jonas’s wine-wall alibi against badge and cart movement.",
+      "recapDialogue": "Round 2 placed Jonas near the cellar hallway when he claimed to be elsewhere."
+    },
+    {
+      "id": "round-3",
+      "title": "Round 3: The Mineral Trace",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Use forensics to link the object, cart, and suspect.",
+      "dialogue": "Let lab findings turn physical evidence into alibi pressure.",
+      "countdownReview": "Detective Decision 3 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 3 update: Use forensics to link the object, cart, and suspect.",
+      "liveActionTitle": "The lab result lands.",
+      "liveActionDialogue": "The mineral dust is not on the kitchen runners. It is on the path Jonas used to return from the cellar.",
+      "liveActionSec": 715,
+      "openingDialogue": "The Mineral Trace begins. Let lab findings turn physical evidence into alibi pressure. Objective: Use forensics to link the object, cart, and suspect.",
+      "recapDialogue": "Round 3 connected the salt block to movement and handling."
+    },
+    {
+      "id": "round-4",
+      "title": "Round 4: The Forged Allocation",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Find the financial motive behind the violence.",
+      "dialogue": "Follow the money trail behind the wine program.",
+      "countdownReview": "Detective Decision 4 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 4 update: Find the financial motive behind the violence.",
+      "liveActionTitle": "The wine list stops looking luxurious.",
+      "liveActionDialogue": "The same bottle appears promised to two guests, and both names connect back to Jonas.",
+      "liveActionSec": 1015,
+      "openingDialogue": "The Forged Allocation begins. Follow the money trail behind the wine program. Objective: Find the financial motive behind the violence.",
+      "recapDialogue": "Round 4 revealed Jonas’s motive: Beau was about to expose his forged allocations."
+    },
+    {
+      "id": "round-5",
+      "title": "Round 5: The Rehearsed Reset",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1500,
+      "objective": "Prove the staging attempt after the attack.",
+      "dialogue": "Use the cart path, photos, and statements to close the case.",
+      "countdownReview": "Detective Decision 5 is nearly ready. Compare what you found in this round before locking in your answer.",
+      "breakingUpdate": "Round 5 update: Prove the staging attempt after the attack.",
+      "liveActionTitle": "The room sees the reset.",
+      "liveActionDialogue": "Jonas says the kitchen reset the cart, but the cart route and wheel scrape tell a different story.",
+      "liveActionSec": 1315,
+      "openingDialogue": "The Rehearsed Reset begins. Use the cart path, photos, and statements to close the case. Objective: Prove the staging attempt after the attack.",
+      "recapDialogue": "Round 5 showed Jonas staged the cart reset to pull suspicion toward the kitchen."
+    }
+  ],
+  "openingNarration": "Welcome to Smoke Over Table Twelve. Start with the tasting cart, follow the mineral trace, and test the wine director’s alibi against the money trail.",
+  "revealScript": "The case closes on Jonas Pell. The missing salt block was not misplaced; it was the weapon, the cart reset was the cover, and the forged wine allocations were the reason Beau had to be silenced.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "med-cp1",
+        "stage": "checkpoint",
+        "roundId": "round-1",
+        "unlockSec": 300,
+        "prompt": "Detective Decision 1: Which missing object changes the scene from accident to homicide?",
+        "correctOptionId": "salt-block",
+        "options": [
+          {
+            "id": "salt-block",
+            "label": "The heavy pink salt block from the tasting cart"
+          },
+          {
+            "id": "steak-knife",
+            "label": "A steak knife left on the table"
+          },
+          {
+            "id": "wine-cork",
+            "label": "A wine cork by the chair"
+          },
+          {
+            "id": "folded-napkin",
+            "label": "A folded napkin on Beau’s plate"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "med-cp2",
+        "stage": "checkpoint",
+        "roundId": "round-2",
+        "unlockSec": 600,
+        "prompt": "Detective Decision 2: Which evidence challenges Jonas’s wine-wall alibi?",
+        "correctOptionId": "cellar-ping",
+        "options": [
+          {
+            "id": "dish-ticket",
+            "label": "A dish ticket from pastry"
+          },
+          {
+            "id": "cellar-ping",
+            "label": "His badge ping at the wine cellar door"
+          },
+          {
+            "id": "guest-toast",
+            "label": "A guest toast video"
+          },
+          {
+            "id": "coat-check",
+            "label": "The coat-check log"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "med-cp3",
+        "stage": "checkpoint",
+        "roundId": "round-3",
+        "unlockSec": 900,
+        "prompt": "Detective Decision 3: What does the mineral trace prove?",
+        "correctOptionId": "cart-handled",
+        "options": [
+          {
+            "id": "rain-water",
+            "label": "Rainwater entered through the lobby"
+          },
+          {
+            "id": "cart-handled",
+            "label": "The missing block and cart were handled after service"
+          },
+          {
+            "id": "chef-arrived",
+            "label": "The chef arrived late"
+          },
+          {
+            "id": "glass-polished",
+            "label": "The wine glass was polished twice"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "med-cp4",
+        "stage": "checkpoint",
+        "roundId": "round-4",
+        "unlockSec": 1200,
+        "prompt": "Detective Decision 4: What motive did Beau threaten?",
+        "correctOptionId": "forged-wine",
+        "options": [
+          {
+            "id": "bad-review",
+            "label": "A bad food review"
+          },
+          {
+            "id": "forged-wine",
+            "label": "Forged rare wine allocations"
+          },
+          {
+            "id": "stolen-recipe",
+            "label": "A stolen dessert recipe"
+          },
+          {
+            "id": "lost-reservation",
+            "label": "A lost reservation deposit"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "med-cp5",
+        "stage": "checkpoint",
+        "roundId": "round-5",
+        "unlockSec": 1440,
+        "prompt": "Detective Decision 5: Which evidence proves the cart reset was staged?",
+        "correctOptionId": "cart-route-photo",
+        "options": [
+          {
+            "id": "cart-route-photo",
+            "label": "The before/after photos plus the cart route toward the cellar"
+          },
+          {
+            "id": "dj-cue-menu",
+            "label": "The DJ cue and printed menu"
+          },
+          {
+            "id": "candle-wax",
+            "label": "A candle wax drip at the host stand"
+          },
+          {
+            "id": "coat-rack",
+            "label": "A coat rack in the lobby"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "med-final-culprit",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 1: Who killed Beau Calvet?",
+        "correctOptionId": "jonas-pell",
+        "options": [
+          {
+            "id": "jonas-pell",
+            "label": "Jonas Pell"
+          },
+          {
+            "id": "clara",
+            "label": "Clara Venn"
+          },
+          {
+            "id": "emile",
+            "label": "Emile Roux"
+          },
+          {
+            "id": "daphne",
+            "label": "Daphne Sol"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "med-final-method",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 2: What was the method?",
+        "correctOptionId": "salt-block-blow",
+        "options": [
+          {
+            "id": "locked-cooler",
+            "label": "He locked Beau in a cooler"
+          },
+          {
+            "id": "salt-block-blow",
+            "label": "He struck Beau with the heavy tasting salt block and hid it during the cart reset"
+          },
+          {
+            "id": "poison-wine",
+            "label": "He poisoned Beau’s wine"
+          },
+          {
+            "id": "electrical-cord",
+            "label": "He rigged a cord under the table"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "med-final-motive",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 3: Why did Jonas kill Beau?",
+        "correctOptionId": "hide-forgery",
+        "options": [
+          {
+            "id": "hide-forgery",
+            "label": "To stop Beau from exposing forged wine allocations"
+          },
+          {
+            "id": "chef-job",
+            "label": "To become executive chef"
+          },
+          {
+            "id": "inheritance",
+            "label": "To inherit Beau’s estate"
+          },
+          {
+            "id": "social-media",
+            "label": "To avoid a viral video"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "med-final-proof",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 4: Which evidence combination is strongest?",
+        "correctOptionId": "badge-mineral-money",
+        "options": [
+          {
+            "id": "badge-mineral-money",
+            "label": "Cellar badge ping, mineral trace, and duplicate buyer deposits"
+          },
+          {
+            "id": "rain-reel-card",
+            "label": "Rain noise, guest reel, and table card"
+          },
+          {
+            "id": "dessert-coat-phone",
+            "label": "Dessert delay, coat check, and a phone call"
+          },
+          {
+            "id": "menu-candle-dj",
+            "label": "Menu typo, candle wax, and DJ cue"
+          }
+        ],
+        "roundScope": null
+      },
+      {
+        "id": "med-final-lie",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1440,
+        "prompt": "Final 5: Which statement was false?",
+        "correctOptionId": "never-cart",
+        "options": [
+          {
+            "id": "never-cart",
+            "label": "Jonas said he never touched the tasting cart"
+          },
+          {
+            "id": "never-wine",
+            "label": "Clara said she never drank wine"
+          },
+          {
+            "id": "never-dessert",
+            "label": "Emile said dessert was on time"
+          },
+          {
+            "id": "never-rain",
+            "label": "Daphne said it never rained"
+          }
+        ],
+        "roundScope": null
+      }
+    ]
+  },
+  "difficulty": "medium",
+  "difficultyLabel": "Medium",
+  "gameId": "barfly-mystery-template",
+  "gameTitle": "The Velvet Cypress Mysteries",
+  "levelId": "medium",
+  "levelName": "Medium",
+  "levelLabel": "Medium",
+  "seriesTitle": "The Velvet Cypress Mysteries",
+  "seriesArc": "Three separate mysteries inside a fictional upscale Baton Rouge supper club inspired by candlelit fine dining, dress-code drama, private tables, and late-night lounge energy.",
+  "lobbyBackstory": "The Velvet Cypress Supper Club is hosting a private tasting built around rare wine and tableside Wagyu. When Beau Calvet collapses beside Table Twelve, the luxury service pieces become potential evidence.",
+  "titleGraphic": "/assets/velvet-cypress-medium-title.png",
+  "rsvpExcerpt": "A private Wagyu tasting turns deadly when a luxury service cart becomes the center of the case. Follow the salt trace, test the alibi, and uncover the money trail behind Table Twelve."
+}

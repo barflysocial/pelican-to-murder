@@ -1,0 +1,612 @@
+{
+  "id": "bayline-golf-medium",
+  "title": "The Bay Thirteen Blackout",
+  "venue": "Bayline Golf Social \u2022 Fictional Baton Rouge, Louisiana",
+  "description": "A medium-difficulty mystery at a fictional Baton Rouge golf venue. A sponsor rep dies during a corporate tournament, and the truth hides inside a launch monitor calibration, a private bar tab, and a suspicious bay transfer.",
+  "answerKey": {
+    "culprit": "Rafe Danton",
+    "method": "Disabled the Bay Thirteen safety lock and used a miscalibrated ball feeder to trigger a violent close-range shot, then blamed a guest swing.",
+    "motive": "To stop sponsor rep Priya from exposing inflated tournament charges and fake equipment rentals.",
+    "keyEvidence": "Safety-lock bypass, calibration file, bar-tab refund code, and Priya\u2019s sponsor audit draft.",
+    "explanation": "Rafe controlled the equipment desk and billing records. His calibration file changed Bay Thirteen before Priya arrived, and his refund code appears on the fake rentals she was about to report."
+  },
+  "publicClues": [
+    {
+      "id": "bayline-golf-medium-feed-0",
+      "unlockSec": 0,
+      "title": "Case Opened",
+      "text": "Priya Nair, a sponsor auditor, is found inside Bay Thirteen after the corporate tournament pauses for a lightning delay. The turf smells of wet rubber and machine oil, and the ball feeder is still clicking even though the bay is supposed to be locked out.",
+      "evidenceTime": "8:52 PM"
+    },
+    {
+      "id": "bayline-golf-medium-live-1",
+      "unlockSec": 115,
+      "title": "Live Scene Update",
+      "text": "A marshal cuts power to Bay Thirteen, but the feeder clicks one more time after the switch is off. Rafe Danton says, \u201cOld machines do that,\u201d before anyone asks about equipment.",
+      "evidenceTime": "8:55 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "bayline-golf-medium-live-2",
+      "unlockSec": 475,
+      "title": "Live Scene Update",
+      "text": "The sponsor table goes quiet when Priya\u2019s tablet lights up with an unsent audit email. The subject line reads: \u201cBay charges do not match rentals.\u201d",
+      "evidenceTime": "9:02 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "bayline-golf-medium-live-3",
+      "unlockSec": 835,
+      "title": "Live Scene Update",
+      "text": "A guest points out that the feeder tray is too clean except for one oily thumb smear near the manual release.",
+      "evidenceTime": "9:08 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "bayline-golf-medium-live-4",
+      "unlockSec": 1195,
+      "title": "Live Scene Update",
+      "text": "The storm moves over the netting. Thunder covers the sound of the maintenance door chime in the security playback.",
+      "evidenceTime": "9:14 PM",
+      "type": "livescene"
+    },
+    {
+      "id": "bayline-golf-medium-live-5",
+      "unlockSec": 1555,
+      "title": "Live Scene Update",
+      "text": "A bartender finds a refunded tab under the sponsor account. Rafe says refunds are normal, but the code belongs to the equipment desk.",
+      "evidenceTime": "9:20 PM",
+      "type": "livescene"
+    }
+  ],
+  "apps": {
+    "phone": [
+      {
+        "id": "bayline-golf-medium-phone-1",
+        "unlockSec": 120,
+        "title": "Maintenance Door Chime",
+        "text": "The maintenance door beside Bay Thirteen chirped at 8:43 PM. Rafe\u2019s device was the only equipment-staff phone inside the service corridor at that moment.",
+        "evidenceTime": "8:43 PM"
+      },
+      {
+        "id": "bayline-golf-medium-phone-2",
+        "unlockSec": 760,
+        "title": "Priya\u2019s Unsent Call",
+        "text": "Priya tried to call the regional sponsor director at 8:41 PM. The call failed during the storm, but the draft note below it says \u201cRafe controls the rental codes.\u201d",
+        "evidenceTime": "8:41 PM"
+      }
+    ],
+    "messages": [
+      {
+        "id": "bayline-golf-medium-msg-1",
+        "unlockSec": 210,
+        "title": "Equipment Desk Warning",
+        "text": "A text from Rafe to a floor runner reads: \u201cKeep Priya off 13 until I reset it.\u201d The message was sent twelve minutes before the incident.",
+        "evidenceTime": "8:32 PM"
+      },
+      {
+        "id": "bayline-golf-medium-msg-2",
+        "unlockSec": 1020,
+        "title": "Sponsor Audit Reply",
+        "text": "Priya wrote, \u201cThe same clubs are charged to three parties. I need the raw feeder logs.\u201d The reply was never sent.",
+        "evidenceTime": "8:40 PM"
+      }
+    ],
+    "maps": [
+      {
+        "id": "bayline-golf-medium-map-1",
+        "unlockSec": 430,
+        "title": "Bay Transfer Log",
+        "text": "Priya was moved from Bay Ten to Bay Thirteen by an equipment-desk override. The host stand did not make the transfer.",
+        "evidenceTime": "8:35 PM"
+      },
+      {
+        "id": "bayline-golf-medium-map-2",
+        "unlockSec": 1210,
+        "title": "Service Corridor Track",
+        "text": "Rafe\u2019s staff tracker moved from the equipment desk to the Bay Thirteen maintenance door during the lightning delay.",
+        "evidenceTime": "8:42 PM"
+      }
+    ],
+    "bank": [
+      {
+        "id": "bayline-golf-medium-bank-1",
+        "unlockSec": 650,
+        "title": "Fake Rental Charges",
+        "text": "The sponsor account was charged for twelve premium club rentals, but only four sets were checked out. The refund routing code belongs to Rafe\u2019s desk.",
+        "evidenceTime": "7:55 PM"
+      },
+      {
+        "id": "bayline-golf-medium-bank-2",
+        "unlockSec": 1360,
+        "title": "Split Refund Pattern",
+        "text": "Three past tournament refunds were split into small credits under different initials. The same pattern appears on Priya\u2019s audit sheet.",
+        "evidenceTime": "8:18 PM"
+      }
+    ],
+    "photos": [
+      {
+        "id": "bayline-golf-medium-photo-1",
+        "unlockSec": 70,
+        "title": "Feeder Tray Photo",
+        "text": "The feeder tray inside Bay Thirteen is clean except for an oily thumb smear near the manual release. The safety cover is not seated evenly.",
+        "evidenceTime": "8:52 PM"
+      },
+      {
+        "id": "bayline-golf-medium-photo-2",
+        "unlockSec": 900,
+        "title": "Launch Monitor Angle",
+        "text": "The launch monitor was tilted down by a few degrees. That angle would misread a close-range ball as a normal swing path.",
+        "evidenceTime": "8:53 PM"
+      }
+    ],
+    "social": [
+      {
+        "id": "bayline-golf-medium-social-1",
+        "unlockSec": 530,
+        "title": "Corporate Tournament Reel",
+        "text": "A posted reel shows Priya walking toward Bay Thirteen while Rafe stands by the equipment door instead of the desk.",
+        "evidenceTime": "8:39 PM"
+      },
+      {
+        "id": "bayline-golf-medium-social-2",
+        "unlockSec": 1460,
+        "title": "Deleted Sponsor Comment",
+        "text": "Priya had started commenting \u201cAsk for itemized rental logs\u201d under the tournament post. The comment was deleted from her phone, not the public feed.",
+        "evidenceTime": "8:37 PM"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "bayline-golf-medium-stmt-1",
+        "unlockSec": 160,
+        "title": "Witness Statement: Amara West, floor marshal",
+        "text": "Amara says Bay Thirteen was marked locked during the storm delay and should not have accepted balls from the feeder.",
+        "type": "statement",
+        "claimTime": "8:38 PM"
+      },
+      {
+        "id": "bayline-golf-medium-stmt-2",
+        "unlockSec": 500,
+        "title": "Suspect Statement: Rafe Danton, equipment manager",
+        "text": "Rafe says he stayed at the equipment desk and never touched Bay Thirteen after the lightning delay began. He claims the feeder malfunction was old hardware.",
+        "type": "statement",
+        "claimTime": "8:42 PM"
+      },
+      {
+        "id": "bayline-golf-medium-stmt-3",
+        "unlockSec": 860,
+        "title": "Witness Statement: Celia Tru, bartender",
+        "text": "Celia says Rafe asked for the sponsor tab refund printout before Priya was found, even though the audit had not been announced to staff.",
+        "type": "statement",
+        "claimTime": "8:45 PM"
+      },
+      {
+        "id": "bayline-golf-medium-stmt-4",
+        "unlockSec": 1240,
+        "title": "Suspect Statement: Nico LeBlanc, corporate player",
+        "text": "Nico admits he complained about Priya\u2019s audit but says he only wanted the tournament comped. He says Rafe promised the rental issue would disappear.",
+        "type": "statement",
+        "claimTime": "8:34 PM"
+      }
+    ],
+    "notes": [
+      {
+        "id": "bayline-golf-medium-note-1",
+        "unlockSec": 300,
+        "title": "Safety Lock Scrape",
+        "text": "The Bay Thirteen safety lock has a fresh scrape under the latch. The mark is clean and sharp, unlike the older scratches around the frame.",
+        "evidenceTime": "8:44 PM"
+      },
+      {
+        "id": "bayline-golf-medium-note-2",
+        "unlockSec": 1110,
+        "title": "Calibration File Name",
+        "text": "The launch monitor calibration file is saved as \u201cweather-reset,\u201d but the edit time is before the storm warning was issued.",
+        "evidenceTime": "8:31 PM"
+      }
+    ],
+    "files": [
+      {
+        "id": "bayline-golf-medium-file-1",
+        "unlockSec": 585,
+        "title": "Raw Feeder Log",
+        "text": "The feeder accepted a manual release command at 8:43 PM, even though the bay was marked locked.",
+        "evidenceTime": "8:43 PM"
+      },
+      {
+        "id": "bayline-golf-medium-file-2",
+        "unlockSec": 1420,
+        "title": "Sponsor Audit Draft",
+        "text": "Priya\u2019s audit draft names the equipment desk as the source of inflated rental charges and requests a meeting with the sponsor director.",
+        "evidenceTime": "8:40 PM"
+      }
+    ],
+    "browser": [
+      {
+        "id": "bayline-golf-medium-browser-1",
+        "unlockSec": 720,
+        "title": "Search: Override Bay Safety Lock",
+        "text": "The equipment desk browser searched how to bypass a bay safety lock without triggering the front-end alert.",
+        "evidenceTime": "8:20 PM"
+      },
+      {
+        "id": "bayline-golf-medium-browser-2",
+        "unlockSec": 1500,
+        "title": "Search: Hide Refund Routing",
+        "text": "The same browser searched how to split refunds under multiple initials in a point-of-sale export.",
+        "evidenceTime": "8:24 PM"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "id": "round-1",
+      "title": "Round 1: Bay Thirteen Locks Out",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 360,
+      "objective": "Search the bay and decide whether the feeder malfunction was accidental.",
+      "dialogue": "Search the bay and decide whether the feeder malfunction was accidental.",
+      "countdownReview": "Detective Decision 1 is nearly ready. Compare only what this round gave you before locking in your answer.",
+      "breakingUpdate": "Round 1 update: Search the bay and decide whether the feeder malfunction was accidental.",
+      "liveActionTitle": "Bay Thirteen Locks Out",
+      "liveActionDialogue": "The bay was supposed to be locked, but the machine still accepted a manual command.",
+      "liveActionSec": 115,
+      "openingDialogue": "Bay Thirteen Locks Out begins. Search the bay and decide whether the feeder malfunction was accidental.",
+      "recapDialogue": "Round 1 recap: The bay was supposed to be locked, but the machine still accepted a manual command."
+    },
+    {
+      "id": "round-2",
+      "title": "Round 2: The Sponsor Audit",
+      "shortTitle": "R2",
+      "startSec": 360,
+      "endSec": 720,
+      "objective": "Compare Priya\u2019s audit trail with equipment desk records.",
+      "dialogue": "Compare Priya\u2019s audit trail with equipment desk records.",
+      "countdownReview": "Detective Decision 2 is nearly ready. Compare only what this round gave you before locking in your answer.",
+      "breakingUpdate": "Round 2 update: Compare Priya\u2019s audit trail with equipment desk records.",
+      "liveActionTitle": "The Sponsor Audit",
+      "liveActionDialogue": "The money trail points away from players and toward staff-controlled rental codes.",
+      "liveActionSec": 475,
+      "openingDialogue": "The Sponsor Audit begins. Compare Priya\u2019s audit trail with equipment desk records.",
+      "recapDialogue": "Round 2 recap: The money trail points away from players and toward staff-controlled rental codes."
+    },
+    {
+      "id": "round-3",
+      "title": "Round 3: The Service Corridor",
+      "shortTitle": "R3",
+      "startSec": 720,
+      "endSec": 1080,
+      "objective": "Use location and witness statements to test Rafe\u2019s desk alibi.",
+      "dialogue": "Use location and witness statements to test Rafe\u2019s desk alibi.",
+      "countdownReview": "Detective Decision 3 is nearly ready. Compare only what this round gave you before locking in your answer.",
+      "breakingUpdate": "Round 3 update: Use location and witness statements to test Rafe\u2019s desk alibi.",
+      "liveActionTitle": "The Service Corridor",
+      "liveActionDialogue": "The corridor chime and tracker place the equipment manager near Bay Thirteen.",
+      "liveActionSec": 835,
+      "openingDialogue": "The Service Corridor begins. Use location and witness statements to test Rafe\u2019s desk alibi.",
+      "recapDialogue": "Round 3 recap: The corridor chime and tracker place the equipment manager near Bay Thirteen."
+    },
+    {
+      "id": "round-4",
+      "title": "Round 4: The Calibration Lie",
+      "shortTitle": "R4",
+      "startSec": 1080,
+      "endSec": 1440,
+      "objective": "Send equipment evidence to Forensics and compare the result to the claimed malfunction.",
+      "dialogue": "Send equipment evidence to Forensics and compare the result to the claimed malfunction.",
+      "countdownReview": "Detective Decision 4 is nearly ready. Compare only what this round gave you before locking in your answer.",
+      "breakingUpdate": "Round 4 update: Send equipment evidence to Forensics and compare the result to the claimed malfunction.",
+      "liveActionTitle": "The Calibration Lie",
+      "liveActionDialogue": "The launch monitor and safety lock were altered before the storm delay.",
+      "liveActionSec": 1195,
+      "openingDialogue": "The Calibration Lie begins. Send equipment evidence to Forensics and compare the result to the claimed malfunction.",
+      "recapDialogue": "Round 4 recap: The launch monitor and safety lock were altered before the storm delay."
+    },
+    {
+      "id": "round-5",
+      "title": "Round 5: The Refund Pattern",
+      "shortTitle": "R5",
+      "startSec": 1440,
+      "endSec": 1800,
+      "objective": "Connect the method to motive without relying on one clue alone.",
+      "dialogue": "Connect the method to motive without relying on one clue alone.",
+      "countdownReview": "Detective Decision 5 is nearly ready. Compare only what this round gave you before locking in your answer.",
+      "breakingUpdate": "Round 5 update: Connect the method to motive without relying on one clue alone.",
+      "liveActionTitle": "The Refund Pattern",
+      "liveActionDialogue": "The same person controlled the bay, the rental charges, and the refund routing.",
+      "liveActionSec": 1555,
+      "openingDialogue": "The Refund Pattern begins. Connect the method to motive without relying on one clue alone.",
+      "recapDialogue": "Round 5 recap: The same person controlled the bay, the rental charges, and the refund routing."
+    }
+  ],
+  "openingNarration": "The corporate tournament was supposed to impress sponsors. Instead, Priya Nair died in Bay Thirteen while auditing the venue\u2019s rental charges. The machinery, not the leaderboard, is where the first lie begins.",
+  "revealScript": "Rafe Danton turned Bay Thirteen into a weapon by bypassing the safety lock and changing the feeder calibration before Priya entered. He needed her audit buried before the sponsor money trail reached him.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "bay-m-cp1",
+        "stage": "checkpoint",
+        "roundId": "round-1",
+        "unlockSec": 300,
+        "prompt": "Detective Decision 1: What makes Bay Thirteen look intentionally altered?",
+        "correctOptionId": "manual-release",
+        "options": [
+          {
+            "id": "storm",
+            "label": "The storm delayed play"
+          },
+          {
+            "id": "manual-release",
+            "label": "The locked bay still accepted a manual feeder release"
+          },
+          {
+            "id": "guest-swing",
+            "label": "A guest had a bad swing"
+          },
+          {
+            "id": "drink",
+            "label": "A drink spilled near the couch"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "bay-m-cp2",
+        "stage": "checkpoint",
+        "roundId": "round-2",
+        "unlockSec": 600,
+        "prompt": "Detective Decision 2: What was Priya about to expose?",
+        "correctOptionId": "fake-rentals",
+        "options": [
+          {
+            "id": "fake-rentals",
+            "label": "Inflated club rental charges and refund routing"
+          },
+          {
+            "id": "food-cost",
+            "label": "A dispute over food cost"
+          },
+          {
+            "id": "music",
+            "label": "An unpaid DJ invoice"
+          },
+          {
+            "id": "parking",
+            "label": "A valet ticket error"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "bay-m-cp3",
+        "stage": "checkpoint",
+        "roundId": "round-3",
+        "unlockSec": 900,
+        "prompt": "Detective Decision 3: Which evidence weakens Rafe\u2019s alibi?",
+        "correctOptionId": "tracker-chime",
+        "options": [
+          {
+            "id": "tracker-chime",
+            "label": "Tracker and maintenance-door chime near Bay Thirteen"
+          },
+          {
+            "id": "nico-complaint",
+            "label": "Nico complained about the audit"
+          },
+          {
+            "id": "bar-receipt",
+            "label": "A drink receipt printed twice"
+          },
+          {
+            "id": "lightning",
+            "label": "Lightning was nearby"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "bay-m-cp4",
+        "stage": "checkpoint",
+        "roundId": "round-4",
+        "unlockSec": 1200,
+        "prompt": "Detective Decision 4: Why does the calibration file matter?",
+        "correctOptionId": "before-storm",
+        "options": [
+          {
+            "id": "after-incident",
+            "label": "It was created after police arrived"
+          },
+          {
+            "id": "before-storm",
+            "label": "It was edited before the storm warning used as an excuse"
+          },
+          {
+            "id": "wrong-name",
+            "label": "It had a strange file name only"
+          },
+          {
+            "id": "no-score",
+            "label": "It removed the score display"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "bay-m-cp5",
+        "stage": "checkpoint",
+        "roundId": "round-5",
+        "unlockSec": 1500,
+        "prompt": "Detective Decision 5: Which combination best proves method and motive?",
+        "correctOptionId": "combo",
+        "options": [
+          {
+            "id": "combo",
+            "label": "Safety bypass, calibration edit, feeder log, and fake rental audit"
+          },
+          {
+            "id": "storm-video",
+            "label": "Storm video and a bartender statement"
+          },
+          {
+            "id": "guest-anger",
+            "label": "A guest complaint and bay transfer"
+          },
+          {
+            "id": "scoreboard",
+            "label": "A bad score and a deleted post"
+          }
+        ],
+        "roundScope": "Use only the evidence, witness statements, timeline entries, and forensic results uncovered in this round."
+      },
+      {
+        "id": "bay-m-final1",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1560,
+        "prompt": "Final Accusation: Who killed Priya Nair?",
+        "correctOptionId": "rafe",
+        "options": [
+          {
+            "id": "rafe",
+            "label": "Rafe Danton"
+          },
+          {
+            "id": "nico",
+            "label": "Nico LeBlanc"
+          },
+          {
+            "id": "amara",
+            "label": "Amara West"
+          },
+          {
+            "id": "celia",
+            "label": "Celia Tru"
+          }
+        ],
+        "roundScope": "Use the full case record."
+      },
+      {
+        "id": "bay-m-final2",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1570,
+        "prompt": "Final Accusation: What was the method?",
+        "correctOptionId": "feeder",
+        "options": [
+          {
+            "id": "knife",
+            "label": "A knife hidden in a golf bag"
+          },
+          {
+            "id": "feeder",
+            "label": "A bypassed safety lock and miscalibrated ball feeder"
+          },
+          {
+            "id": "poison",
+            "label": "Poisoned sponsor cocktail"
+          },
+          {
+            "id": "fall",
+            "label": "A simple fall during lightning"
+          }
+        ],
+        "roundScope": "Use the full case record."
+      },
+      {
+        "id": "bay-m-final3",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1580,
+        "prompt": "Final Accusation: What was the motive?",
+        "correctOptionId": "audit",
+        "options": [
+          {
+            "id": "audit",
+            "label": "To stop Priya exposing fake rentals and refund routing"
+          },
+          {
+            "id": "romance",
+            "label": "A romantic rivalry"
+          },
+          {
+            "id": "promotion",
+            "label": "A missed promotion"
+          },
+          {
+            "id": "trophy",
+            "label": "A tournament trophy dispute"
+          }
+        ],
+        "roundScope": "Use the full case record."
+      },
+      {
+        "id": "bay-m-final4",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1590,
+        "prompt": "Final Accusation: Which clue was the false cover story?",
+        "correctOptionId": "malfunction",
+        "options": [
+          {
+            "id": "malfunction",
+            "label": "The feeder was just old hardware malfunctioning"
+          },
+          {
+            "id": "audit-draft",
+            "label": "Priya had an audit draft"
+          },
+          {
+            "id": "storm-delay",
+            "label": "There was a lightning delay"
+          },
+          {
+            "id": "sponsor-tab",
+            "label": "The sponsor tab existed"
+          }
+        ],
+        "roundScope": "Use the full case record."
+      },
+      {
+        "id": "bay-m-final5",
+        "stage": "final",
+        "roundId": "final",
+        "unlockSec": 1600,
+        "prompt": "Final Accusation: What ties Rafe to both crime and cover-up?",
+        "correctOptionId": "desk-control",
+        "options": [
+          {
+            "id": "desk-control",
+            "label": "His equipment desk controlled the bay and the fake rental records"
+          },
+          {
+            "id": "guest-list",
+            "label": "He sat with the guests all night"
+          },
+          {
+            "id": "parking-log",
+            "label": "His car left early"
+          },
+          {
+            "id": "song-request",
+            "label": "He changed the playlist"
+          }
+        ],
+        "roundScope": "Use the full case record."
+      }
+    ]
+  },
+  "difficulty": "medium",
+  "difficultyLabel": "Medium",
+  "gameId": "bayline-golf-social",
+  "gameTitle": "Bayline Golf Social Mysteries",
+  "levelId": "bayline-golf-medium",
+  "levelName": "The Bay Thirteen Blackout",
+  "levelLabel": "Medium",
+  "seriesTitle": "Bayline Golf Social Mysteries",
+  "seriesArc": "A fictional Baton Rouge golf lounge mystery collection inspired by high-energy driving bays, private parties, scoreboards, and late-night competition.",
+  "lobbyBackstory": "You are checked in at Bayline Golf Social during a corporate tournament where sponsor money, rented clubs, and bay technology are part of the show. When the case opens, do not trust the scoreboard alone. Search the bay, process the equipment, and question anyone who benefited from a bad audit.",
+  "titleGraphic": "/assets/bayline-golf-medium-title.png",
+  "rsvpExcerpt": "A corporate tournament at a Baton Rouge golf lounge stops for lightning, then turns deadly inside Bay Thirteen. The sponsor audit was almost finished, and someone needed the equipment to tell the wrong story."
+}
