@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Barfly Social Mystery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-dot">🕵️</div>
+      <div><strong>Barfly Social</strong><span>Live Mystery Hub</span></div>
+      <button id="homeBtn" class="ghost small">Home</button>
+    </header>
+
+    <main>
+      <section id="homeView" class="view active">
+        <div class="hero-card">
+          <picture><img src="assets/brand/barfly-social-mystery-hero-9x16.jpg" alt="Barfly Social Mystery" /></picture>
+        </div>
+        <div class="copy-card">
+          <p class="eyebrow">Live Detective Mystery Experiences</p>
+          <h1>Choose the case after you RSVP.</h1>
+          <p>The main page now stays brand-first. Individual mystery title graphics only appear inside the RSVP flow.</p>
+          <div class="actions">
+            <button id="openRsvp" class="primary">RSVP</button>
+            <button id="openMyRsvp" class="secondary">My RSVP</button>
+            <button id="openAccess" class="secondary">Have Access Code</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="rsvpView" class="view">
+        <div class="section-head">
+          <p class="eyebrow">RSVP</p>
+          <h2>Pick your mystery</h2>
+          <p>Each RSVP card uses its own game title graphic.</p>
+        </div>
+        <div class="filters"><button class="chip active">All</button><button class="chip">Easy</button><button class="chip">Medium</button><button class="chip">Hard</button></div>
+        <div id="gameList" class="game-list"></div>
+      </section>
+
+      <section id="detailView" class="view">
+        <button id="backToRsvp" class="ghost">← Back to RSVP</button>
+        <div id="detailMount"></div>
+      </section>
+
+      <section id="myRsvpView" class="view narrow">
+        <p class="eyebrow">My RSVP</p><h2>Find your reservation</h2>
+        <label>First name <input id="lookupName" placeholder="First name" /></label>
+        <label>Phone number <input id="lookupPhone" placeholder="10-digit phone" inputmode="numeric" /></label>
+        <button id="lookupBtn" class="primary">Find RSVP</button>
+        <div id="lookupResult" class="notice"></div>
+      </section>
+
+      <section id="accessView" class="view narrow">
+        <p class="eyebrow">Access Code</p><h2>Check in for a live game</h2>
+        <label>5-digit code <input id="accessCode" placeholder="00000" inputmode="numeric" maxlength="5" /></label>
+        <button id="accessBtn" class="primary">Continue</button>
+        <div id="accessResult" class="notice"></div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
