@@ -1,0 +1,676 @@
+{
+  "id": "sample-episode-01-medium",
+  "title": "The Sponsor Gap",
+  "venue": "Barfly Social Mystery Venue",
+  "description": "A sponsor-money case where financial records, deleted camera metadata, and one office alibi expose a calculated cover-up.",
+  "answerKey": {
+    "culprit": "Owen Landry",
+    "method": "He switched Lena\u2019s allergy-safe drink and hid her emergency injector during the sponsor-reveal window.",
+    "motive": "He needed to stop Lena from exposing stolen sponsor money routed through private vendor invoices.",
+    "keyEvidence": "The camera export gap, sponsor deposit records, fake invoice metadata, and safe-access log connect Owen to both the motive and the cover-up.",
+    "explanation": "Owen controlled the sponsor files and office security export. Forensics shows the exact corridor window was removed, the fake vendor trail came from his office computer, and the safe log places him near the hidden injector."
+  },
+  "publicClues": [],
+  "apps": {
+    "forensics": [
+      {
+        "id": "for-med-for-001",
+        "unlockSec": 60,
+        "title": "Recovered Phone Analysis: Missed Calls",
+        "text": "Lena missed two calls from Owen at 7:41 and 7:44 PM, then received a nine-second call as she left the host table.",
+        "evidenceTime": "7:44 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-med-for-002",
+        "unlockSec": 150,
+        "title": "Message Extraction Report: Private Meeting",
+        "text": "Lena texted Owen, \u201cWe need to talk before the reveal,\u201d and Owen replied, \u201cPatio corridor. No staff.\u201d",
+        "evidenceTime": "8:31 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-med-for-003",
+        "unlockSec": 290,
+        "title": "Location Analysis: Corridor Overlap",
+        "text": "Lena\u2019s phone and Owen\u2019s phone both register near the patio corridor during the sponsor reveal window.",
+        "evidenceTime": "8:38 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-med-for-004",
+        "unlockSec": 450,
+        "title": "Photo / Video Review: Missing Injector",
+        "text": "A hallway still shows Lena reaching into her clutch, but the emergency injector is not inside the open pocket.",
+        "evidenceTime": "8:40 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-med-for-005",
+        "unlockSec": 610,
+        "title": "Document / Metadata Review: Security Export Gap",
+        "text": "The security export skips the exact corridor window. File properties show the export came from Owen\u2019s manager login.",
+        "evidenceTime": "8:43 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-med-for-006",
+        "unlockSec": 780,
+        "title": "Financial Records Review: Duplicate Sponsor Deposit",
+        "text": "The sponsor deposit appears once in the public event ledger and again under a private vendor label.",
+        "evidenceTime": "8:45 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-med-for-007",
+        "unlockSec": 940,
+        "title": "Document / Metadata Review: Fake Invoice Template",
+        "text": "The private vendor invoice was created on Owen\u2019s office computer before the event began.",
+        "evidenceTime": "6:18 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-med-for-008",
+        "unlockSec": 1080,
+        "title": "Browser History Review: Metadata Removal",
+        "text": "The office browser searched how to remove metadata from exported security clips.",
+        "evidenceTime": "7:03 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-med-for-009",
+        "unlockSec": 1240,
+        "title": "Physical Evidence Report: Safe Access Log",
+        "text": "The office safe was opened with Owen\u2019s code minutes before Lena collapsed. The injector wrapper was later found in the safe trash liner.",
+        "evidenceTime": "8:39 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-med-for-010",
+        "unlockSec": 1370,
+        "title": "Final Financial Summary: Sponsor Theft Motive",
+        "text": "Forensics links the duplicate deposit, private vendor invoice, and Owen\u2019s office export into one sponsor-money cover-up.",
+        "evidenceTime": "9:04 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      }
+    ],
+    "interrogation": [
+      {
+        "id": "int-med-int-001",
+        "unlockSec": 90,
+        "title": "Suspect Statement: Owen Landry",
+        "text": "Owen says he called Lena only to calm her down about sponsor timing and never met her alone in the corridor.",
+        "type": "interrogation",
+        "claimTime": "8:35 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-med-int-002",
+        "unlockSec": 250,
+        "title": "Suspect Statement: Tessa Marchand",
+        "text": "Tessa says Owen kept checking the office door and looked angry after Lena asked about the sponsor folder.",
+        "type": "interrogation",
+        "claimTime": "8:36 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-med-int-003",
+        "unlockSec": 510,
+        "title": "Suspect Statement: Marisol Vega",
+        "text": "Marisol says Owen controlled the final sponsor spreadsheet and refused to let finance review it before the reveal.",
+        "type": "interrogation",
+        "claimTime": "8:41 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-med-int-004",
+        "unlockSec": 760,
+        "title": "Suspect Statement: Brielle Fox",
+        "text": "Brielle says she saw Owen return from the corridor while everyone else was watching the sponsor screen.",
+        "type": "interrogation",
+        "claimTime": "8:43 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-med-int-005",
+        "unlockSec": 1040,
+        "title": "Suspect Statement: Cole Darden",
+        "text": "Cole says Owen told staff the camera system \u201cglitched,\u201d even before anyone asked for the footage.",
+        "type": "interrogation",
+        "claimTime": "8:46 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "tl-body-found",
+        "unlockSec": 0,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:52 PM",
+        "title": "Body Found",
+        "text": "Lena Broussard is found after the event turns from staged mystery into a real case.",
+        "source": "Confirmed event"
+      },
+      {
+        "id": "tl-med-for-001",
+        "unlockSec": 60,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "7:44 PM",
+        "title": "Missed Calls",
+        "text": "Verified by Recovered Phone Analysis: Lena missed two calls from Owen at 7:41 and 7:44 PM, then received a nine-second call as she left the host table.",
+        "source": "Recovered Phone Analysis"
+      },
+      {
+        "id": "tl-med-for-002",
+        "unlockSec": 150,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:31 PM",
+        "title": "Private Meeting",
+        "text": "Verified by Message Extraction Report: Lena texted Owen, \u201cWe need to talk before the reveal,\u201d and Owen replied, \u201cPatio corridor. No staff.\u201d",
+        "source": "Message Extraction Report"
+      },
+      {
+        "id": "tl-med-for-003",
+        "unlockSec": 290,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:38 PM",
+        "title": "Location Analysis: Corridor Overlap",
+        "text": "Verified by Location Analysis: Lena\u2019s phone and Owen\u2019s phone both register near the patio corridor during the sponsor reveal window.",
+        "source": "Location Analysis"
+      },
+      {
+        "id": "tl-med-for-004",
+        "unlockSec": 450,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:40 PM",
+        "title": "Missing Injector",
+        "text": "Verified by Photo / Video Review: A hallway still shows Lena reaching into her clutch, but the emergency injector is not inside the open pocket.",
+        "source": "Photo / Video Review"
+      },
+      {
+        "id": "tl-med-for-005",
+        "unlockSec": 610,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:43 PM",
+        "title": "Security Export Gap",
+        "text": "Verified by Document / Metadata Review: The security export skips the exact corridor window. File properties show the export came from Owen\u2019s manager login.",
+        "source": "Document / Metadata Review"
+      },
+      {
+        "id": "tl-med-for-006",
+        "unlockSec": 780,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:45 PM",
+        "title": "Duplicate Sponsor Deposit",
+        "text": "Verified by Financial Records Review: The sponsor deposit appears once in the public event ledger and again under a private vendor label.",
+        "source": "Financial Records Review"
+      },
+      {
+        "id": "tl-med-for-007",
+        "unlockSec": 940,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "6:18 PM",
+        "title": "Fake Invoice Template",
+        "text": "Verified by Document / Metadata Review: The private vendor invoice was created on Owen\u2019s office computer before the event began.",
+        "source": "Document / Metadata Review"
+      },
+      {
+        "id": "tl-med-for-008",
+        "unlockSec": 1080,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "7:03 PM",
+        "title": "Metadata Removal",
+        "text": "Verified by Browser History Review: The office browser searched how to remove metadata from exported security clips.",
+        "source": "Browser History Review"
+      },
+      {
+        "id": "tl-med-for-009",
+        "unlockSec": 1240,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:39 PM",
+        "title": "Safe Access Log",
+        "text": "Verified by Physical Evidence Report: The office safe was opened with Owen\u2019s code minutes before Lena collapsed. The injector wrapper was later found in the safe trash liner.",
+        "source": "Physical Evidence Report"
+      },
+      {
+        "id": "tl-med-for-010",
+        "unlockSec": 1370,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "9:04 PM",
+        "title": "Final Financial Summary: Sponsor Theft Motive",
+        "text": "Verified by Financial Records Review: Forensics links the duplicate deposit, private vendor invoice, and Owen\u2019s office export into one sponsor-money cover-up.",
+        "source": "Financial Records Review"
+      }
+    ],
+    "deduction": []
+  },
+  "rounds": [
+    {
+      "id": "medium-round-1",
+      "title": "Round 1: The Private Meeting",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the private meeting.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Private Meeting shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the private meeting evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 115,
+      "openingDialogue": "The Private Meeting: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "medium-round-2",
+      "title": "Round 2: The Corridor Window",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the corridor window.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Corridor Window shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the corridor window evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 415,
+      "openingDialogue": "The Corridor Window: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "medium-round-3",
+      "title": "Round 3: The Export Gap",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the export gap.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Export Gap shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the export gap evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 715,
+      "openingDialogue": "The Export Gap: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "medium-round-4",
+      "title": "Round 4: The Sponsor Money",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the sponsor money.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Sponsor Money shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the sponsor money evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 1015,
+      "openingDialogue": "The Sponsor Money: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "medium-round-5",
+      "title": "Round 5: The Safe Log",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1440,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the safe log.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Safe Log shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the safe log evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 1315,
+      "openingDialogue": "The Safe Log: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "medium-round-6",
+      "title": "Final Accusation",
+      "shortTitle": "Final",
+      "startSec": 1440,
+      "endSec": 1800,
+      "objective": "Submit the final accusation in Deduction.",
+      "dialogue": "Final accusation is open. Use Deduction to lock in the complete theory.",
+      "breakingUpdate": "Final Accusation is ready in Deduction.",
+      "liveActionTitle": "The room goes quiet.",
+      "liveActionDialogue": "The detectives step back from the evidence board. Every report, statement, and timeline gap now points toward one final decision.",
+      "liveActionSec": 1470,
+      "openingDialogue": "The case is now in final accusation. Open Deduction and choose carefully."
+    }
+  ],
+  "openingNarration": "The scene has been secured and evidence is already in the lab. Read the Forensics reports, challenge suspects in Interrogation, build the Timeline, and use Deduction to cut through the cover-up.",
+  "revealScript": "Owen tried to make the death look like a chaotic event accident, but Forensics made the sponsor gap visible. The money trail gave him motive, the camera gap proved a cover-up, and the safe log connected him to the missing injector.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "cp1",
+        "stage": "deduction",
+        "roundId": "medium-round-1",
+        "unlockSec": 300,
+        "prompt": "Deduction 1: What first connects Owen to Lena before the collapse?",
+        "correctOptionId": "private-meeting",
+        "options": [
+          {
+            "id": "playlist",
+            "label": "A playlist request"
+          },
+          {
+            "id": "private-meeting",
+            "label": "The calls and patio-corridor text"
+          },
+          {
+            "id": "table-lamp",
+            "label": "A table lamp near the bar"
+          },
+          {
+            "id": "guest-book",
+            "label": "A guest book signature"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp2",
+        "stage": "deduction",
+        "roundId": "medium-round-2",
+        "unlockSec": 600,
+        "prompt": "Deduction 2: Which Forensics result makes Owen\u2019s alibi weak?",
+        "correctOptionId": "corridor-overlap",
+        "options": [
+          {
+            "id": "corridor-overlap",
+            "label": "Both phones overlapping near the patio corridor"
+          },
+          {
+            "id": "food-ticket",
+            "label": "A late kitchen ticket"
+          },
+          {
+            "id": "social-caption",
+            "label": "A deleted caption"
+          },
+          {
+            "id": "garnish-tray",
+            "label": "A clean garnish tray"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp3",
+        "stage": "deduction",
+        "roundId": "medium-round-3",
+        "unlockSec": 900,
+        "prompt": "Deduction 3: Which digital clue suggests a cover-up?",
+        "correctOptionId": "export-gap",
+        "options": [
+          {
+            "id": "browser-theme",
+            "label": "A changed browser theme"
+          },
+          {
+            "id": "export-gap",
+            "label": "The missing security window exported by Owen\u2019s login"
+          },
+          {
+            "id": "old-photo",
+            "label": "An old photo from a prior event"
+          },
+          {
+            "id": "wrong-logo",
+            "label": "A wrong sponsor logo color"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp4",
+        "stage": "deduction",
+        "roundId": "medium-round-4",
+        "unlockSec": 1200,
+        "prompt": "Deduction 4: What financial clue gives Owen motive?",
+        "correctOptionId": "duplicate-deposit",
+        "options": [
+          {
+            "id": "payroll-tip",
+            "label": "A payroll tip dispute"
+          },
+          {
+            "id": "duplicate-deposit",
+            "label": "A duplicate sponsor deposit routed through a private vendor"
+          },
+          {
+            "id": "bar-tab",
+            "label": "A high bar tab"
+          },
+          {
+            "id": "parking-fee",
+            "label": "A parking receipt"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp5",
+        "stage": "deduction",
+        "roundId": "medium-round-4",
+        "unlockSec": 1440,
+        "prompt": "Deduction 5: Which clue pairing connects method and cover-up?",
+        "correctOptionId": "safe-export",
+        "options": [
+          {
+            "id": "safe-export",
+            "label": "Safe access log plus altered security export"
+          },
+          {
+            "id": "rain-map",
+            "label": "Weather map plus patio chairs"
+          },
+          {
+            "id": "guestbook-photo",
+            "label": "Guest book plus selfie"
+          },
+          {
+            "id": "playlist-lamp",
+            "label": "Playlist plus lamp dimmer"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "final_culprit",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 1: Who killed Lena Broussard?",
+        "correctOptionId": "owen",
+        "options": [
+          {
+            "id": "tessa",
+            "label": "Tessa Marchand"
+          },
+          {
+            "id": "owen",
+            "label": "Owen Landry"
+          },
+          {
+            "id": "marisol",
+            "label": "Marisol Vega"
+          },
+          {
+            "id": "cole",
+            "label": "Cole Darden"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_method",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 2: How was the murder carried out?",
+        "correctOptionId": "drink-injector",
+        "options": [
+          {
+            "id": "drink-injector",
+            "label": "By switching Lena\u2019s safe drink and hiding her emergency injector"
+          },
+          {
+            "id": "badge-clone",
+            "label": "By cloning a badge only"
+          },
+          {
+            "id": "stage-light",
+            "label": "By rigging the stage light"
+          },
+          {
+            "id": "fake-police",
+            "label": "By sending fake police outside"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_motive",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 3: Why was Lena killed?",
+        "correctOptionId": "sponsor-money",
+        "options": [
+          {
+            "id": "lead-job",
+            "label": "To win a bartender job"
+          },
+          {
+            "id": "sponsor-money",
+            "label": "To stop Lena from exposing stolen sponsor money"
+          },
+          {
+            "id": "romance",
+            "label": "Because of a romance dispute"
+          },
+          {
+            "id": "karaoke",
+            "label": "Because of karaoke rivalry"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_evidence",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 4: Which evidence best proves the case?",
+        "correctOptionId": "documents",
+        "options": [
+          {
+            "id": "documents",
+            "label": "Security export gap, fake invoice metadata, duplicate deposit, and safe log"
+          },
+          {
+            "id": "menu",
+            "label": "Menu typo and napkin"
+          },
+          {
+            "id": "weather",
+            "label": "Rain report and patio umbrella"
+          },
+          {
+            "id": "song",
+            "label": "Playlist and stage cue"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_statement",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 5: Which statement falls apart?",
+        "correctOptionId": "owen-statement",
+        "options": [
+          {
+            "id": "owen-statement",
+            "label": "Owen saying he never met Lena alone"
+          },
+          {
+            "id": "tessa-statement",
+            "label": "Tessa saying Owen looked angry"
+          },
+          {
+            "id": "marisol-statement",
+            "label": "Marisol saying Owen controlled sponsor files"
+          },
+          {
+            "id": "cole-statement",
+            "label": "Cole saying Owen mentioned a glitch"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      }
+    ]
+  },
+  "difficulty": "medium",
+  "difficultyLabel": "Medium",
+  "gameId": "barfly-mystery-template",
+  "gameTitle": "The Sponsor Gap",
+  "levelId": "medium",
+  "levelName": "Medium",
+  "levelLabel": "Medium",
+  "seriesTitle": "Barfly Social Mystery",
+  "seriesArc": "A connected sponsor-thread mystery series built around Forensics, Interrogation, Timeline, and Deduction.",
+  "lobbyBackstory": "The crime scene team recovers Lena\u2019s phone, sponsor folders, office computer exports, safe-access logs, and security files. Forensics will process each piece while suspects try to control the story.",
+  "titleGraphic": "/assets/barfly-social-mystery-fullscreen-bg.png",
+  "rsvpExcerpt": "A missing injector, sponsor deposits, and altered security footage point to a deeper cover-up. Follow Forensics before trusting the office alibi.",
+  "subtitle": "A Live Detective Mystery Experience",
+  "customSubtitle": "Forensics \u2022 Interrogation \u2022 Timeline \u2022 Deduction",
+  "venueName": "Barfly Social Mystery Venue",
+  "venueLogoUrl": ""
+}

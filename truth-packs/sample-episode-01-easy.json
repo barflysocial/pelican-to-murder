@@ -1,0 +1,679 @@
+{
+  "id": "sample-episode-01-easy",
+  "title": "The First Lie",
+  "venue": "Barfly Social Mystery Venue",
+  "description": "A clean starter mystery built around one missing allergy marker, one switched drink, and one suspect whose statement cannot survive Forensics.",
+  "answerKey": {
+    "culprit": "Tessa Marchand",
+    "method": "She switched Lena\u2019s allergy-safe marked drink with an unmarked praline cocktail after moving the blue allergy pick.",
+    "motive": "She feared Lena would replace her as lead event bartender.",
+    "keyEvidence": "Forensics connects the missing blue allergy pick, guest photo sequence, register camera still, and Tessa\u2019s own text.",
+    "explanation": "Tessa knew Lena\u2019s allergy marker system, confirmed the blue pick mattered in her text, and was alone at the service rail during the window when the safe glass became unmarked."
+  },
+  "publicClues": [],
+  "apps": {
+    "forensics": [
+      {
+        "id": "for-easy-for-001",
+        "unlockSec": 60,
+        "title": "Photo / Video Review: Marked Glass",
+        "text": "A guest photo taken before Lena collapsed shows her glass on the service rail with a blue allergy pick inserted through the garnish.",
+        "evidenceTime": "8:42 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "sight": "The blue marker is clearly visible above the rim.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-easy-for-002",
+        "unlockSec": 140,
+        "title": "Message Extraction Report: Blue Marker Text",
+        "text": "Tessa texted Lena, \u201cI marked yours blue like always,\u201d confirming that the blue pick was not decoration; it identified Lena\u2019s allergy-safe drink.",
+        "evidenceTime": "8:44 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-easy-for-003",
+        "unlockSec": 230,
+        "title": "Recovered Phone Analysis: Drink Pickup Window",
+        "text": "Lena\u2019s recovered phone stayed near the host table until 8:47 PM, then moved toward the service rail immediately before the collapse.",
+        "evidenceTime": "8:47 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-easy-for-004",
+        "unlockSec": 360,
+        "title": "Document / Metadata Review: Service Rail Still",
+        "text": "The register camera still shows Tessa alone at the service rail for nineteen seconds during the drink pickup window.",
+        "evidenceTime": "8:48 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "sight": "No other staff member is inside the rail frame.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-easy-for-005",
+        "unlockSec": 520,
+        "title": "Photo / Video Review: Marker Missing",
+        "text": "A second guest image taken after the pickup shows Lena\u2019s glass without the blue allergy pick.",
+        "evidenceTime": "8:49 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-easy-for-006",
+        "unlockSec": 720,
+        "title": "Guest Clip Review: Two Glasses Pulled Together",
+        "text": "A short guest clip catches Tessa pulling two similar glasses together before one leaves the rail.",
+        "evidenceTime": "8:49 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-easy-for-007",
+        "unlockSec": 900,
+        "title": "Physical Evidence Report: Garnish Tray",
+        "text": "The blue allergy pick is recovered from the garnish tray, not from Lena\u2019s glass or table.",
+        "evidenceTime": "8:51 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "physics": "The pick is dry, suggesting it was removed before the drink was spilled.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-easy-for-008",
+        "unlockSec": 1080,
+        "title": "Financial Records Review: Payroll Pressure",
+        "text": "Tessa had a pending payroll dispute and had been warned that Lena might take over lead bartender duties for future events.",
+        "evidenceTime": "8:57 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-easy-for-009",
+        "unlockSec": 1240,
+        "title": "Browser History Review: Termination Policy",
+        "text": "A recovered staff tablet shows Tessa searched the venue handbook section on termination and lead-shift reassignment that afternoon.",
+        "evidenceTime": "5:12 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-easy-for-010",
+        "unlockSec": 1370,
+        "title": "Final Forensic Summary: Drink Swap Confirmed",
+        "text": "The photo sequence, register still, and recovered garnish tray place the marker change inside Tessa\u2019s service-rail window.",
+        "evidenceTime": "9:05 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      }
+    ],
+    "interrogation": [
+      {
+        "id": "int-easy-int-001",
+        "unlockSec": 90,
+        "title": "Suspect Statement: Tessa Marchand",
+        "text": "Tessa says she marked Lena\u2019s glass blue and left it on the rail. She insists the event was too busy for her to track every drink after that.",
+        "type": "interrogation",
+        "claimTime": "8:45 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-easy-int-002",
+        "unlockSec": 260,
+        "title": "Suspect Statement: Owen Landry",
+        "text": "Owen says he was at the office door dealing with a sponsor receipt and only looked toward the rail after people started shouting.",
+        "type": "interrogation",
+        "claimTime": "8:47 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-easy-int-003",
+        "unlockSec": 430,
+        "title": "Suspect Statement: Brielle Fox",
+        "text": "Brielle says she saw Tessa pull two glasses close together, then heard Tessa snap that the blue marker was \u201calready handled.\u201d",
+        "type": "interrogation",
+        "claimTime": "8:49 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-easy-int-004",
+        "unlockSec": 640,
+        "title": "Suspect Statement: Cole Darden",
+        "text": "Cole says the blue allergy pick was on the garnish tray after Lena collapsed, even though he remembered seeing it in the drink earlier.",
+        "type": "interrogation",
+        "claimTime": "8:51 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-easy-int-005",
+        "unlockSec": 980,
+        "title": "Suspect Statement: Mara Quill",
+        "text": "Mara says Tessa had complained that Lena was \u201cgetting handed everything\u201d and might take the lead bartender slot.",
+        "type": "interrogation",
+        "claimTime": "8:57 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "tl-body-found",
+        "unlockSec": 0,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:52 PM",
+        "title": "Body Found",
+        "text": "Lena Broussard is found after the event turns from staged mystery into a real case.",
+        "source": "Confirmed event"
+      },
+      {
+        "id": "tl-easy-for-001",
+        "unlockSec": 60,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:42 PM",
+        "title": "Marked Glass",
+        "text": "Verified by Photo / Video Review: A guest photo taken before Lena collapsed shows her glass on the service rail with a blue allergy pick inserted through the garnish.",
+        "source": "Photo / Video Review"
+      },
+      {
+        "id": "tl-easy-for-002",
+        "unlockSec": 140,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:44 PM",
+        "title": "Blue Marker Text",
+        "text": "Verified by Message Extraction Report: Tessa texted Lena, \u201cI marked yours blue like always,\u201d confirming that the blue pick was not decoration; it identified Lena\u2019s allergy-safe drink.",
+        "source": "Message Extraction Report"
+      },
+      {
+        "id": "tl-easy-for-003",
+        "unlockSec": 230,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:47 PM",
+        "title": "Drink Pickup Window",
+        "text": "Verified by Recovered Phone Analysis: Lena\u2019s recovered phone stayed near the host table until 8:47 PM, then moved toward the service rail immediately before the collapse.",
+        "source": "Recovered Phone Analysis"
+      },
+      {
+        "id": "tl-easy-for-004",
+        "unlockSec": 360,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:48 PM",
+        "title": "Service Rail Still",
+        "text": "Verified by Document / Metadata Review: The register camera still shows Tessa alone at the service rail for nineteen seconds during the drink pickup window.",
+        "source": "Document / Metadata Review"
+      },
+      {
+        "id": "tl-easy-for-005",
+        "unlockSec": 520,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:49 PM",
+        "title": "Marker Missing",
+        "text": "Verified by Photo / Video Review: A second guest image taken after the pickup shows Lena\u2019s glass without the blue allergy pick.",
+        "source": "Photo / Video Review"
+      },
+      {
+        "id": "tl-easy-for-006",
+        "unlockSec": 720,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:49 PM",
+        "title": "Two Glasses Pulled Together",
+        "text": "Verified by Social Media Review: A short guest clip catches Tessa pulling two similar glasses together before one leaves the rail.",
+        "source": "Social Media Review"
+      },
+      {
+        "id": "tl-easy-for-007",
+        "unlockSec": 900,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:51 PM",
+        "title": "Garnish Tray",
+        "text": "Verified by Physical Evidence Report: The blue allergy pick is recovered from the garnish tray, not from Lena\u2019s glass or table.",
+        "source": "Physical Evidence Report"
+      },
+      {
+        "id": "tl-easy-for-008",
+        "unlockSec": 1080,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:57 PM",
+        "title": "Payroll Pressure",
+        "text": "Verified by Financial Records Review: Tessa had a pending payroll dispute and had been warned that Lena might take over lead bartender duties for future events.",
+        "source": "Financial Records Review"
+      },
+      {
+        "id": "tl-easy-for-009",
+        "unlockSec": 1240,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "5:12 PM",
+        "title": "Termination Policy",
+        "text": "Verified by Browser History Review: A recovered staff tablet shows Tessa searched the venue handbook section on termination and lead-shift reassignment that afternoon.",
+        "source": "Browser History Review"
+      },
+      {
+        "id": "tl-easy-for-010",
+        "unlockSec": 1370,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "9:05 PM",
+        "title": "Final Forensic Summary: Drink Swap Confirmed",
+        "text": "Verified by Document / Metadata Review: The photo sequence, register still, and recovered garnish tray place the marker change inside Tessa\u2019s service-rail window.",
+        "source": "Document / Metadata Review"
+      }
+    ],
+    "deduction": []
+  },
+  "rounds": [
+    {
+      "id": "easy-round-1",
+      "title": "Round 1: The Blue Marker",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the blue marker.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Blue Marker shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the blue marker evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 115,
+      "openingDialogue": "The Blue Marker: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "easy-round-2",
+      "title": "Round 2: The Service Rail Window",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the service rail window.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Service Rail Window shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the service rail window evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 415,
+      "openingDialogue": "The Service Rail Window: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "easy-round-3",
+      "title": "Round 3: The Photo Sequence",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the photo sequence.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Photo Sequence shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the photo sequence evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 715,
+      "openingDialogue": "The Photo Sequence: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "easy-round-4",
+      "title": "Round 4: The Motive Pressure",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the motive pressure.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Motive Pressure shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the motive pressure evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 1015,
+      "openingDialogue": "The Motive Pressure: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "easy-round-5",
+      "title": "Round 5: The Swap Confirmed",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1440,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the swap confirmed.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Swap Confirmed shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the swap confirmed evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 1315,
+      "openingDialogue": "The Swap Confirmed: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "easy-round-6",
+      "title": "Final Accusation",
+      "shortTitle": "Final",
+      "startSec": 1440,
+      "endSec": 1800,
+      "objective": "Submit the final accusation in Deduction.",
+      "dialogue": "Final accusation is open. Use Deduction to lock in the complete theory.",
+      "breakingUpdate": "Final Accusation is ready in Deduction.",
+      "liveActionTitle": "The room goes quiet.",
+      "liveActionDialogue": "The detectives step back from the evidence board. Every report, statement, and timeline gap now points toward one final decision.",
+      "liveActionSec": 1470,
+      "openingDialogue": "The case is now in final accusation. Open Deduction and choose carefully."
+    }
+  ],
+  "openingNarration": "Detectives, the crime scene has already been processed. Your job is to read the Forensics reports, test the suspects in Interrogation, place events on the Timeline, and answer each Deduction before the final accusation opens.",
+  "revealScript": "The case turns on the blue allergy pick. Tessa did not need a complicated weapon; she needed the right glass to become the wrong glass at the right moment. Forensics proved the marker changed, Interrogation exposed her pressure, and the Timeline placed her at the service rail.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "cp1",
+        "stage": "deduction",
+        "roundId": "easy-round-1",
+        "unlockSec": 300,
+        "prompt": "Deduction 1: Which forensic result proves the drink was supposed to be marked?",
+        "correctOptionId": "blue-pick",
+        "options": [
+          {
+            "id": "blue-pick",
+            "label": "The blue allergy pick in the first photo"
+          },
+          {
+            "id": "lamp",
+            "label": "A dim table lamp"
+          },
+          {
+            "id": "playlist",
+            "label": "The paused playlist"
+          },
+          {
+            "id": "coaster",
+            "label": "A broken coaster"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp2",
+        "stage": "deduction",
+        "roundId": "easy-round-2",
+        "unlockSec": 600,
+        "prompt": "Deduction 2: Who is confirmed alone at the service rail during the drink window?",
+        "correctOptionId": "tessa-rail",
+        "options": [
+          {
+            "id": "owen-office",
+            "label": "Owen at the office door"
+          },
+          {
+            "id": "brielle-patio",
+            "label": "Brielle near the patio"
+          },
+          {
+            "id": "tessa-rail",
+            "label": "Tessa at the service rail"
+          },
+          {
+            "id": "cole-speakers",
+            "label": "Cole near the speakers"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp3",
+        "stage": "deduction",
+        "roundId": "easy-round-3",
+        "unlockSec": 900,
+        "prompt": "Deduction 3: Which evidence shows the drink changed?",
+        "correctOptionId": "photo-change",
+        "options": [
+          {
+            "id": "photo-change",
+            "label": "The before-and-after photos of the blue marker"
+          },
+          {
+            "id": "guest-book",
+            "label": "A guest book signature"
+          },
+          {
+            "id": "battery",
+            "label": "A low phone battery alert"
+          },
+          {
+            "id": "table-lamp",
+            "label": "The lamp near the table"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp4",
+        "stage": "deduction",
+        "roundId": "easy-round-4",
+        "unlockSec": 1200,
+        "prompt": "Deduction 4: What gives Tessa a motive?",
+        "correctOptionId": "job-threat",
+        "options": [
+          {
+            "id": "song-argument",
+            "label": "A dispute over a playlist"
+          },
+          {
+            "id": "job-threat",
+            "label": "Fear of losing the lead bartender role"
+          },
+          {
+            "id": "fake-vendor",
+            "label": "A fake vendor invoice"
+          },
+          {
+            "id": "late-food",
+            "label": "A late food ticket"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp5",
+        "stage": "deduction",
+        "roundId": "easy-round-4",
+        "unlockSec": 1440,
+        "prompt": "Deduction 5: Which clue pairing locks in the swap?",
+        "correctOptionId": "marker-camera",
+        "options": [
+          {
+            "id": "marker-camera",
+            "label": "The marker photo sequence plus Tessa\u2019s service-rail window"
+          },
+          {
+            "id": "phone-battery",
+            "label": "The phone battery and playlist"
+          },
+          {
+            "id": "patio-map",
+            "label": "The patio map and food ticket"
+          },
+          {
+            "id": "sponsor-logo",
+            "label": "The sponsor logo and guest book"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "final_culprit",
+        "stage": "final",
+        "roundId": "easy-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 1: Who killed Lena Broussard?",
+        "correctOptionId": "tessa",
+        "options": [
+          {
+            "id": "owen",
+            "label": "Owen Landry"
+          },
+          {
+            "id": "brielle",
+            "label": "Brielle Fox"
+          },
+          {
+            "id": "tessa",
+            "label": "Tessa Marchand"
+          },
+          {
+            "id": "cole",
+            "label": "Cole Darden"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_method",
+        "stage": "final",
+        "roundId": "easy-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 2: How was the murder carried out?",
+        "correctOptionId": "wrong-drink",
+        "options": [
+          {
+            "id": "wrong-drink",
+            "label": "By switching the allergy-safe marked drink with an unmarked praline cocktail"
+          },
+          {
+            "id": "power-cut",
+            "label": "By cutting power to the bar"
+          },
+          {
+            "id": "fake-call",
+            "label": "By luring Lena outside with a fake call"
+          },
+          {
+            "id": "poison-envelope",
+            "label": "By hiding poison in an envelope"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_motive",
+        "stage": "final",
+        "roundId": "easy-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 3: Why was Lena killed?",
+        "correctOptionId": "bartender-job",
+        "options": [
+          {
+            "id": "sponsor-money",
+            "label": "To hide sponsor theft"
+          },
+          {
+            "id": "bartender-job",
+            "label": "To protect the lead bartender position"
+          },
+          {
+            "id": "social-post",
+            "label": "To stop a social media post"
+          },
+          {
+            "id": "family-feud",
+            "label": "Because of a family feud"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_evidence",
+        "stage": "final",
+        "roundId": "easy-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 4: Which evidence best proves it?",
+        "correctOptionId": "marker-camera",
+        "options": [
+          {
+            "id": "marker-camera",
+            "label": "Blue marker photos, Tessa\u2019s text, and service-rail camera still"
+          },
+          {
+            "id": "rain-map",
+            "label": "Rain map and patio chairs"
+          },
+          {
+            "id": "playlist",
+            "label": "Playlist and stage light"
+          },
+          {
+            "id": "guest-book",
+            "label": "Guest book and napkin note"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_statement",
+        "stage": "final",
+        "roundId": "easy-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 5: Which statement falls apart?",
+        "correctOptionId": "tessa-statement",
+        "options": [
+          {
+            "id": "owen-statement",
+            "label": "Owen saying he looked over only after shouting"
+          },
+          {
+            "id": "tessa-statement",
+            "label": "Tessa saying the marked glass stayed properly marked"
+          },
+          {
+            "id": "cole-statement",
+            "label": "Cole saying he heard shouting"
+          },
+          {
+            "id": "brielle-statement",
+            "label": "Brielle saying she noticed the rail"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      }
+    ]
+  },
+  "difficulty": "easy",
+  "difficultyLabel": "Easy",
+  "gameId": "barfly-mystery-template",
+  "gameTitle": "The First Lie",
+  "levelId": "easy",
+  "levelName": "Easy",
+  "levelLabel": "Easy",
+  "seriesTitle": "Barfly Social Mystery",
+  "seriesArc": "A connected sponsor-thread mystery series built around Forensics, Interrogation, Timeline, and Deduction.",
+  "lobbyBackstory": "Lena Broussard collapses during a crowded Barfly Social event. The crime scene team recovers her drink glass, photos, service-rail footage, phone records, and staff documents. Forensics will return the results as the live investigation progresses.",
+  "titleGraphic": "/assets/barfly-social-mystery-fullscreen-bg.png",
+  "rsvpExcerpt": "A missing allergy marker turns a simple event death into a solvable first case. Review Forensics, question suspects, and make the right Deduction.",
+  "subtitle": "A Live Detective Mystery Experience",
+  "customSubtitle": "Forensics \u2022 Interrogation \u2022 Timeline \u2022 Deduction",
+  "venueName": "Barfly Social Mystery Venue",
+  "venueLogoUrl": ""
+}

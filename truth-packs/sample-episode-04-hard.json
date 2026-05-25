@@ -1,0 +1,676 @@
+{
+  "id": "sample-episode-04-hard",
+  "title": "The Hidden Sponsor Thread",
+  "venue": "Barfly Social Mystery Venue",
+  "description": "A harder case built around duplicate badges, staged logins, shell vendors, and a frame job designed to make the wrong suspect look guilty.",
+  "answerKey": {
+    "culprit": "Marisol Vega",
+    "method": "She used a duplicate staff badge to move Lena\u2019s emergency kit and staged Owen\u2019s login to frame him.",
+    "motive": "She needed to hide sponsor money routed through Bayou Night Logistics, a shell vendor tied to her apartment mailbox.",
+    "keyEvidence": "Duplicate badge movement, shell vendor ledger, office-terminal metadata, and the recovered emergency kit defeat the Owen frame.",
+    "explanation": "Owen\u2019s login looked guilty until Forensics proved it was used from a finance terminal while Owen\u2019s phone was visible at the bar. The duplicate badge moved with the emergency kit, and the shell vendor points back to Marisol."
+  },
+  "publicClues": [],
+  "apps": {
+    "forensics": [
+      {
+        "id": "for-hard-for-001",
+        "unlockSec": 60,
+        "title": "Document / Metadata Review: Duplicate Badge Export",
+        "text": "A deleted badge-audit export shows a duplicate credential created under Marisol\u2019s finance permissions.",
+        "evidenceTime": "7:58 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-hard-for-002",
+        "unlockSec": 150,
+        "title": "Recovered Phone Analysis: Stationary Device",
+        "text": "Marisol\u2019s phone stayed still near the finance desk while the duplicate badge moved through the office hall.",
+        "evidenceTime": "8:21 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-hard-for-003",
+        "unlockSec": 290,
+        "title": "Location Analysis: Badge Path",
+        "text": "The duplicate badge path runs finance desk \u2192 office \u2192 service hall \u2192 linen cart alcove during the blackout window.",
+        "evidenceTime": "8:26 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-hard-for-004",
+        "unlockSec": 450,
+        "title": "Photo / Video Review: Owen Visible at Bar",
+        "text": "A guest photo shows Owen at the bar while his login is active on an office computer.",
+        "evidenceTime": "8:28 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-hard-for-005",
+        "unlockSec": 610,
+        "title": "Document / Metadata Review: Staged Login Terminal",
+        "text": "Metadata shows Owen\u2019s login was used from a finance-desk terminal, not from Owen\u2019s office workstation.",
+        "evidenceTime": "8:29 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-hard-for-006",
+        "unlockSec": 760,
+        "title": "Financial Records Review: Bayou Night Logistics",
+        "text": "Sponsor deposits route through Bayou Night Logistics, a vendor using Marisol\u2019s apartment mailbox.",
+        "evidenceTime": "8:33 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-hard-for-007",
+        "unlockSec": 920,
+        "title": "Browser History Review: Badge Audit Search",
+        "text": "A finance-desk browser searched how to clone a staff badge audit export and how long deleted exports remain recoverable.",
+        "evidenceTime": "7:51 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-hard-for-008",
+        "unlockSec": 1080,
+        "title": "Physical Evidence Report: Emergency Kit Location",
+        "text": "Lena\u2019s emergency kit is recovered behind a folded linen cart along the duplicate badge path.",
+        "evidenceTime": "8:35 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-hard-for-009",
+        "unlockSec": 1240,
+        "title": "Message Extraction Report: Vendor Sheet Warning",
+        "text": "Lena messaged Marisol: \u201cThe second vendor sheet does not match the sponsor deck. I need the real version tonight.\u201d",
+        "evidenceTime": "7:36 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      },
+      {
+        "id": "for-hard-for-010",
+        "unlockSec": 1370,
+        "title": "Final Financial Summary: Shell Vendor Motive",
+        "text": "The hidden vendor ledger, mailbox link, and finance terminal metadata show the sponsor theft was Marisol\u2019s operation.",
+        "evidenceTime": "9:07 PM",
+        "evidenceGroup": "forensics",
+        "category": "forensics",
+        "source": "Recovered from the scene and processed by Forensics.",
+        "type": "forensics"
+      }
+    ],
+    "interrogation": [
+      {
+        "id": "int-hard-int-001",
+        "unlockSec": 90,
+        "title": "Suspect Statement: Marisol Vega",
+        "text": "Marisol says she never left finance and that Owen was the only person with enough access to stage the sponsor files.",
+        "type": "interrogation",
+        "claimTime": "8:23 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-hard-int-002",
+        "unlockSec": 250,
+        "title": "Suspect Statement: Owen Landry",
+        "text": "Owen says his login must have been used while he was on the bar floor because he never returned to the office during the blackout.",
+        "type": "interrogation",
+        "claimTime": "8:28 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-hard-int-003",
+        "unlockSec": 510,
+        "title": "Suspect Statement: Tessa Marchand",
+        "text": "Tessa says she saw Marisol near the linen cart earlier, holding a folder she folded shut when Lena approached.",
+        "type": "interrogation",
+        "claimTime": "8:31 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-hard-int-004",
+        "unlockSec": 760,
+        "title": "Suspect Statement: Brielle Fox",
+        "text": "Brielle says Marisol told her not to send the second vendor sheet until \u201cthe sponsor confusion\u201d was fixed.",
+        "type": "interrogation",
+        "claimTime": "8:32 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      },
+      {
+        "id": "int-hard-int-005",
+        "unlockSec": 1040,
+        "title": "Suspect Statement: Cole Darden",
+        "text": "Cole says the finance desk monitor showed a badge-audit screen before Marisol hurried back to close it.",
+        "type": "interrogation",
+        "claimTime": "8:34 PM",
+        "evidenceGroup": "interrogation",
+        "category": "interrogation",
+        "source": "Interrogation"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "tl-body-found",
+        "unlockSec": 0,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:52 PM",
+        "title": "Body Found",
+        "text": "Lena Broussard is found after the event turns from staged mystery into a real case.",
+        "source": "Confirmed event"
+      },
+      {
+        "id": "tl-hard-for-001",
+        "unlockSec": 60,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "7:58 PM",
+        "title": "Duplicate Badge Export",
+        "text": "Verified by Document / Metadata Review: A deleted badge-audit export shows a duplicate credential created under Marisol\u2019s finance permissions.",
+        "source": "Document / Metadata Review"
+      },
+      {
+        "id": "tl-hard-for-002",
+        "unlockSec": 150,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:21 PM",
+        "title": "Stationary Device",
+        "text": "Verified by Recovered Phone Analysis: Marisol\u2019s phone stayed still near the finance desk while the duplicate badge moved through the office hall.",
+        "source": "Recovered Phone Analysis"
+      },
+      {
+        "id": "tl-hard-for-003",
+        "unlockSec": 290,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:26 PM",
+        "title": "Location Analysis: Badge Path",
+        "text": "Verified by Location Analysis: The duplicate badge path runs finance desk \u2192 office \u2192 service hall \u2192 linen cart alcove during the blackout window.",
+        "source": "Location Analysis"
+      },
+      {
+        "id": "tl-hard-for-004",
+        "unlockSec": 450,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:28 PM",
+        "title": "Owen Visible at Bar",
+        "text": "Verified by Photo / Video Review: A guest photo shows Owen at the bar while his login is active on an office computer.",
+        "source": "Photo / Video Review"
+      },
+      {
+        "id": "tl-hard-for-005",
+        "unlockSec": 610,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:29 PM",
+        "title": "Staged Login Terminal",
+        "text": "Verified by Document / Metadata Review: Metadata shows Owen\u2019s login was used from a finance-desk terminal, not from Owen\u2019s office workstation.",
+        "source": "Document / Metadata Review"
+      },
+      {
+        "id": "tl-hard-for-006",
+        "unlockSec": 760,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:33 PM",
+        "title": "Bayou Night Logistics",
+        "text": "Verified by Financial Records Review: Sponsor deposits route through Bayou Night Logistics, a vendor using Marisol\u2019s apartment mailbox.",
+        "source": "Financial Records Review"
+      },
+      {
+        "id": "tl-hard-for-007",
+        "unlockSec": 920,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "7:51 PM",
+        "title": "Badge Audit Search",
+        "text": "Verified by Browser History Review: A finance-desk browser searched how to clone a staff badge audit export and how long deleted exports remain recoverable.",
+        "source": "Browser History Review"
+      },
+      {
+        "id": "tl-hard-for-008",
+        "unlockSec": 1080,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "8:35 PM",
+        "title": "Emergency Kit Location",
+        "text": "Verified by Physical Evidence Report: Lena\u2019s emergency kit is recovered behind a folded linen cart along the duplicate badge path.",
+        "source": "Physical Evidence Report"
+      },
+      {
+        "id": "tl-hard-for-009",
+        "unlockSec": 1240,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "7:36 PM",
+        "title": "Vendor Sheet Warning",
+        "text": "Verified by Message Extraction Report: Lena messaged Marisol: \u201cThe second vendor sheet does not match the sponsor deck. I need the real version tonight.\u201d",
+        "source": "Message Extraction Report"
+      },
+      {
+        "id": "tl-hard-for-010",
+        "unlockSec": 1370,
+        "type": "timeline",
+        "category": "verifiedTimeline",
+        "time": "9:07 PM",
+        "title": "Final Financial Summary: Shell Vendor Motive",
+        "text": "Verified by Financial Records Review: The hidden vendor ledger, mailbox link, and finance terminal metadata show the sponsor theft was Marisol\u2019s operation.",
+        "source": "Financial Records Review"
+      }
+    ],
+    "deduction": []
+  },
+  "rounds": [
+    {
+      "id": "hard-round-1",
+      "title": "Round 1: The Duplicate Badge",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the duplicate badge.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Duplicate Badge shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the duplicate badge evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 115,
+      "openingDialogue": "The Duplicate Badge: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "hard-round-2",
+      "title": "Round 2: The Staged Login",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the staged login.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Staged Login shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the staged login evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 415,
+      "openingDialogue": "The Staged Login: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "hard-round-3",
+      "title": "Round 3: The Metadata Trail",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the metadata trail.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Metadata Trail shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the metadata trail evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 715,
+      "openingDialogue": "The Metadata Trail: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "hard-round-4",
+      "title": "Round 4: The Shell Vendor",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the shell vendor.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Shell Vendor shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the shell vendor evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 1015,
+      "openingDialogue": "The Shell Vendor: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "hard-round-5",
+      "title": "Round 5: The Frame Breaks",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1440,
+      "objective": "Review Forensics, question suspects in Interrogation, update the Timeline, then answer the Deduction for the frame breaks.",
+      "dialogue": "A new lead has surfaced. Compare Forensics with Interrogation before you answer in Deduction.",
+      "breakingUpdate": "Deduction is ready. Review the evidence from this round before answering.",
+      "liveActionTitle": "The Frame Breaks shifts the investigation.",
+      "liveActionDialogue": "Investigators pin the the frame breaks evidence beside the newest suspect statements. The room can feel the case narrowing.",
+      "liveActionSec": 1315,
+      "openingDialogue": "The Frame Breaks: Forensics has returned a new report. Interrogation may contradict it. Use Timeline to place the evidence before answering the Deduction."
+    },
+    {
+      "id": "hard-round-6",
+      "title": "Final Accusation",
+      "shortTitle": "Final",
+      "startSec": 1440,
+      "endSec": 1800,
+      "objective": "Submit the final accusation in Deduction.",
+      "dialogue": "Final accusation is open. Use Deduction to lock in the complete theory.",
+      "breakingUpdate": "Final Accusation is ready in Deduction.",
+      "liveActionTitle": "The room goes quiet.",
+      "liveActionDialogue": "The detectives step back from the evidence board. Every report, statement, and timeline gap now points toward one final decision.",
+      "liveActionSec": 1470,
+      "openingDialogue": "The case is now in final accusation. Open Deduction and choose carefully."
+    }
+  ],
+  "openingNarration": "This case is not about the loudest suspect. Forensics has recovered badge data, financial records, device records, and deleted exports. Interrogate the suspects, build the Timeline, and use Deduction to test the frame.",
+  "revealScript": "Marisol built the frame to make Owen look like the sponsor thief and the killer. But the duplicate badge kept moving while her phone stayed still, Owen\u2019s login was used from the wrong terminal, and the shell vendor\u2019s mailbox led back to her.",
+  "accusation": {
+    "questions": [
+      {
+        "id": "cp1",
+        "stage": "deduction",
+        "roundId": "hard-round-1",
+        "unlockSec": 300,
+        "prompt": "Deduction 1: What proves this case may be a frame?",
+        "correctOptionId": "badge-duplicate",
+        "options": [
+          {
+            "id": "badge-duplicate",
+            "label": "A duplicate badge export under finance permissions"
+          },
+          {
+            "id": "menu-error",
+            "label": "A typo on the menu"
+          },
+          {
+            "id": "stage-fog",
+            "label": "A fog machine cue"
+          },
+          {
+            "id": "guest-tip",
+            "label": "A large guest tip"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp2",
+        "stage": "deduction",
+        "roundId": "hard-round-2",
+        "unlockSec": 600,
+        "prompt": "Deduction 2: What weakens the case against Owen?",
+        "correctOptionId": "owen-photo",
+        "options": [
+          {
+            "id": "owen-photo",
+            "label": "A photo places Owen at the bar while his login is active elsewhere"
+          },
+          {
+            "id": "bar-tab",
+            "label": "A bar tab with his name"
+          },
+          {
+            "id": "door-sign",
+            "label": "A door sign in the hall"
+          },
+          {
+            "id": "music-cue",
+            "label": "A loud music cue"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp3",
+        "stage": "deduction",
+        "roundId": "hard-round-3",
+        "unlockSec": 900,
+        "prompt": "Deduction 3: Which metadata clue matters most?",
+        "correctOptionId": "finance-terminal",
+        "options": [
+          {
+            "id": "finance-terminal",
+            "label": "Owen\u2019s login was used from the finance terminal"
+          },
+          {
+            "id": "guest-caption",
+            "label": "A guest caption mentions the event"
+          },
+          {
+            "id": "old-calendar",
+            "label": "An old calendar invite"
+          },
+          {
+            "id": "receipt-ink",
+            "label": "A receipt is printed in blue ink"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp4",
+        "stage": "deduction",
+        "roundId": "hard-round-4",
+        "unlockSec": 1200,
+        "prompt": "Deduction 4: What financial clue reveals motive?",
+        "correctOptionId": "shell-vendor",
+        "options": [
+          {
+            "id": "payroll-error",
+            "label": "A payroll typo"
+          },
+          {
+            "id": "shell-vendor",
+            "label": "Bayou Night Logistics ties to Marisol\u2019s apartment mailbox"
+          },
+          {
+            "id": "food-cost",
+            "label": "A high food-cost report"
+          },
+          {
+            "id": "parking-pass",
+            "label": "A parking pass"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "cp5",
+        "stage": "deduction",
+        "roundId": "hard-round-4",
+        "unlockSec": 1440,
+        "prompt": "Deduction 5: Which clue pairing defeats the frame?",
+        "correctOptionId": "badge-kit",
+        "options": [
+          {
+            "id": "badge-kit",
+            "label": "Duplicate badge path plus emergency kit location"
+          },
+          {
+            "id": "song-photo",
+            "label": "Playlist plus selfie"
+          },
+          {
+            "id": "rain-umbrella",
+            "label": "Rain report plus umbrella"
+          },
+          {
+            "id": "guestbook",
+            "label": "Guest book plus logo"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and Timeline from this round. Do not guess from later evidence."
+      },
+      {
+        "id": "final_culprit",
+        "stage": "final",
+        "roundId": "hard-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 1: Who killed Lena Broussard?",
+        "correctOptionId": "marisol",
+        "options": [
+          {
+            "id": "owen",
+            "label": "Owen Landry"
+          },
+          {
+            "id": "tessa",
+            "label": "Tessa Marchand"
+          },
+          {
+            "id": "marisol",
+            "label": "Marisol Vega"
+          },
+          {
+            "id": "brielle",
+            "label": "Brielle Fox"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_method",
+        "stage": "final",
+        "roundId": "hard-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 2: How was the murder carried out?",
+        "correctOptionId": "badge-frame",
+        "options": [
+          {
+            "id": "badge-frame",
+            "label": "By using a duplicate badge to move the emergency kit and staging Owen\u2019s login"
+          },
+          {
+            "id": "drink-only",
+            "label": "By only switching a drink at random"
+          },
+          {
+            "id": "stage-light",
+            "label": "By breaking a stage light"
+          },
+          {
+            "id": "fake-text",
+            "label": "By sending one fake text"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_motive",
+        "stage": "final",
+        "roundId": "hard-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 3: Why was Lena killed?",
+        "correctOptionId": "shell-money",
+        "options": [
+          {
+            "id": "lead-job",
+            "label": "To win a lead bartender job"
+          },
+          {
+            "id": "shell-money",
+            "label": "To hide sponsor deposits routed through a shell vendor"
+          },
+          {
+            "id": "social-post",
+            "label": "To stop a harmless post"
+          },
+          {
+            "id": "karaoke",
+            "label": "Because of karaoke rivalry"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_evidence",
+        "stage": "final",
+        "roundId": "hard-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 4: Which evidence best proves it?",
+        "correctOptionId": "badge-ledger-metadata",
+        "options": [
+          {
+            "id": "badge-ledger-metadata",
+            "label": "Duplicate badge, shell vendor ledger, finance-terminal metadata, and emergency kit path"
+          },
+          {
+            "id": "menu-photo",
+            "label": "Menu photo and playlist"
+          },
+          {
+            "id": "weather-map",
+            "label": "Weather map and hallway sign"
+          },
+          {
+            "id": "bar-tab",
+            "label": "Bar tab and guest book"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      },
+      {
+        "id": "final_statement",
+        "stage": "final",
+        "roundId": "hard-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final 5: Which statement falls apart?",
+        "correctOptionId": "marisol-statement",
+        "options": [
+          {
+            "id": "owen-statement",
+            "label": "Owen saying his login was used elsewhere"
+          },
+          {
+            "id": "marisol-statement",
+            "label": "Marisol saying she had no badge or vendor connection"
+          },
+          {
+            "id": "tessa-statement",
+            "label": "Tessa saying she saw a folder"
+          },
+          {
+            "id": "cole-statement",
+            "label": "Cole saying he saw a finance screen"
+          }
+        ],
+        "roundScope": "Use the complete case record: Forensics, Interrogation, Timeline, and prior Deductions."
+      }
+    ]
+  },
+  "difficulty": "hard",
+  "difficultyLabel": "Hard",
+  "gameId": "barfly-mystery-template",
+  "gameTitle": "The Hidden Sponsor Thread",
+  "levelId": "hard",
+  "levelName": "Hard",
+  "levelLabel": "Hard",
+  "seriesTitle": "Barfly Social Mystery",
+  "seriesArc": "A connected sponsor-thread mystery series built around Forensics, Interrogation, Timeline, and Deduction.",
+  "lobbyBackstory": "The crime scene team recovers duplicate-badge reports, office terminal metadata, sponsor ledgers, phone-location data, and the emergency kit. Forensics will return the pieces that reveal whether Owen was guilty or staged.",
+  "titleGraphic": "/assets/barfly-social-mystery-fullscreen-bg.png",
+  "rsvpExcerpt": "The obvious suspect may be a frame. Follow badge data, metadata, and shell-vendor records to uncover the hidden sponsor thread.",
+  "subtitle": "A Live Detective Mystery Experience",
+  "customSubtitle": "Forensics \u2022 Interrogation \u2022 Timeline \u2022 Deduction",
+  "venueName": "Barfly Social Mystery Venue",
+  "venueLogoUrl": ""
+}
