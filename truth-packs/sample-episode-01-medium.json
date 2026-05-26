@@ -1,0 +1,587 @@
+{
+  "venue": "Barfly Social Mystery Venue",
+  "venueName": "Barfly Social Mystery Venue",
+  "venueLogoUrl": "",
+  "gameId": "barfly-mystery-template",
+  "seriesTitle": "Barfly Social Mystery",
+  "seriesArc": "A connected mystery series built around Forensics, Interrogation, Timeline, and Deduction.",
+  "titleGraphic": "/assets/barfly-social-mystery-fullscreen-bg.png",
+  "subtitle": "A Live Detective Mystery Experience",
+  "customSubtitle": "Forensics • Interrogation • Timeline • Deduction",
+  "publicClues": [],
+  "id": "sample-episode-01-medium",
+  "title": "The Sponsor Gap",
+  "gameTitle": "The Sponsor Gap",
+  "levelId": "medium",
+  "levelName": "Medium",
+  "levelLabel": "Medium",
+  "difficulty": "medium",
+  "difficultyLabel": "Medium",
+  "description": "A sponsor-payment mystery where a corridor meeting, missing security minutes, and a hidden vendor payout expose a manager’s cover-up.",
+  "lobbyBackstory": "Lena found a sponsor discrepancy before the reveal. Investigators recovered phones, corridor footage, a manager laptop, bank records, and vendor files.",
+  "rsvpExcerpt": "A missing sponsor payment and a deleted video window point to one manager who controlled the files.",
+  "openingNarration": "The sponsor reveal became a crime scene. Forensics has phones, bank records, video exports, and documents. Test every explanation against the verified timeline.",
+  "revealScript": "Owen arranged the corridor meeting, altered the export, and hid the private vendor payment.",
+  "answerKey": {
+    "culprit": "Owen Landry",
+    "method": "He lured Lena to the corridor, created a security gap, and used a private vendor payment to hide sponsor funds.",
+    "motive": "Lena discovered sponsor money routed through a private vendor label connected to Owen’s office computer.",
+    "keyEvidence": "Corridor phone pings, missing security minutes, metadata from Owen’s manager login, and the private vendor payout.",
+    "explanation": "Owen’s statement fails against the pings, export metadata, and vendor trail."
+  },
+  "rounds": [
+    {
+      "id": "medium-round-1",
+      "title": "Round 1: First Report",
+      "shortTitle": "R1",
+      "startSec": 0,
+      "endSec": 300,
+      "objective": "Review Forensics, question Interrogation, confirm the Timeline, then answer Deduction.",
+      "dialogue": "A new lead has surfaced. Compare hard evidence with suspect claims before answering in Deduction.",
+      "openingDialogue": "Review the newest forensic report, then test statements against the verified timeline."
+    },
+    {
+      "id": "medium-round-2",
+      "title": "Round 2: Access Window",
+      "shortTitle": "R2",
+      "startSec": 300,
+      "endSec": 600,
+      "objective": "Review Forensics, question Interrogation, confirm the Timeline, then answer Deduction.",
+      "dialogue": "A new lead has surfaced. Compare hard evidence with suspect claims before answering in Deduction.",
+      "openingDialogue": "Review the newest forensic report, then test statements against the verified timeline."
+    },
+    {
+      "id": "medium-round-3",
+      "title": "Round 3: Digital Trail",
+      "shortTitle": "R3",
+      "startSec": 600,
+      "endSec": 900,
+      "objective": "Review Forensics, question Interrogation, confirm the Timeline, then answer Deduction.",
+      "dialogue": "A new lead has surfaced. Compare hard evidence with suspect claims before answering in Deduction.",
+      "openingDialogue": "Review the newest forensic report, then test statements against the verified timeline."
+    },
+    {
+      "id": "medium-round-4",
+      "title": "Round 4: Money and Motive",
+      "shortTitle": "R4",
+      "startSec": 900,
+      "endSec": 1200,
+      "objective": "Review Forensics, question Interrogation, confirm the Timeline, then answer Deduction.",
+      "dialogue": "A new lead has surfaced. Compare hard evidence with suspect claims before answering in Deduction.",
+      "openingDialogue": "Review the newest forensic report, then test statements against the verified timeline."
+    },
+    {
+      "id": "medium-round-5",
+      "title": "Round 5: Contradiction",
+      "shortTitle": "R5",
+      "startSec": 1200,
+      "endSec": 1440,
+      "objective": "Review Forensics, question Interrogation, confirm the Timeline, then answer Deduction.",
+      "dialogue": "A new lead has surfaced. Compare hard evidence with suspect claims before answering in Deduction.",
+      "openingDialogue": "Review the newest forensic report, then test statements against the verified timeline."
+    },
+    {
+      "id": "medium-round-6",
+      "title": "Final Accusation",
+      "shortTitle": "Final",
+      "startSec": 1440,
+      "endSec": 1680,
+      "objective": "Lock in the final accusation.",
+      "dialogue": "Final accusation is open.",
+      "openingDialogue": "Close the case."
+    }
+  ],
+  "apps": {
+    "forensics": [
+      {
+        "id": "med-f1",
+        "unlockSec": 0,
+        "type": "forensics",
+        "category": "phone",
+        "source": "Recovered Phone Analysis",
+        "title": "Lena’s Last Message",
+        "text": "Lena texted Owen, “We need to talk before the sponsor reveal.”",
+        "evidenceTime": "9:40 PM"
+      },
+      {
+        "id": "med-f2",
+        "unlockSec": 80,
+        "type": "forensics",
+        "category": "phone",
+        "source": "Location Analysis",
+        "title": "Two Phones in Patio Corridor",
+        "text": "Lena’s phone and Owen’s phone both pinged near the patio corridor.",
+        "evidenceTime": "9:48 PM"
+      },
+      {
+        "id": "med-f3",
+        "unlockSec": 210,
+        "type": "forensics",
+        "category": "video",
+        "source": "Security Export Review",
+        "title": "Corridor Footage Gap",
+        "text": "The security export skips the exact two-minute corridor window.",
+        "evidenceTime": "9:50 PM"
+      },
+      {
+        "id": "med-f4",
+        "unlockSec": 370,
+        "type": "forensics",
+        "category": "file",
+        "source": "Document / Metadata Review",
+        "title": "Manager Login on Export",
+        "text": "The corrupted video export was created under Owen’s manager login.",
+        "evidenceTime": "10:02 PM"
+      },
+      {
+        "id": "med-f5",
+        "unlockSec": 520,
+        "type": "forensics",
+        "category": "bank",
+        "source": "Financial Records Review",
+        "title": "Private Vendor Payout",
+        "text": "A sponsor deposit was duplicated under a private vendor label.",
+        "evidenceTime": "10:05 PM"
+      },
+      {
+        "id": "med-f6",
+        "unlockSec": 700,
+        "type": "forensics",
+        "category": "file",
+        "source": "Document / Metadata Review",
+        "title": "Vendor File on Office Computer",
+        "text": "The private vendor invoice template was opened on Owen’s office computer.",
+        "evidenceTime": "10:06 PM"
+      },
+      {
+        "id": "med-f7",
+        "unlockSec": 870,
+        "type": "forensics",
+        "category": "browser",
+        "source": "Browser History Review",
+        "title": "Metadata Removal Search",
+        "text": "Browser history shows searches about removing metadata from exported security clips.",
+        "evidenceTime": "10:08 PM"
+      },
+      {
+        "id": "med-f8",
+        "unlockSec": 1040,
+        "type": "forensics",
+        "category": "photo",
+        "source": "Photo / Video Review",
+        "title": "Hallway Reflection Still",
+        "text": "A reflection in the corridor glass shows Owen’s jacket during the missing footage window.",
+        "evidenceTime": "9:49 PM"
+      },
+      {
+        "id": "med-f9",
+        "unlockSec": 1210,
+        "type": "forensics",
+        "category": "physical",
+        "source": "Physical Evidence Report",
+        "title": "Keycard Scuff at Office Reader",
+        "text": "The office keycard reader logged a fresh scrape matching Owen’s card sleeve.",
+        "evidenceTime": "10:11 PM"
+      },
+      {
+        "id": "med-f10",
+        "unlockSec": 1370,
+        "type": "forensics",
+        "category": "file",
+        "source": "Audit Log Review",
+        "title": "Export Deleted and Recreated",
+        "text": "The original corridor export was deleted and recreated seven minutes later from Owen’s account.",
+        "evidenceTime": "10:12 PM"
+      }
+    ],
+    "interrogation": [
+      {
+        "id": "med-i1",
+        "unlockSec": 50,
+        "type": "interrogation",
+        "category": "suspect",
+        "source": "Interrogation",
+        "title": "Owen Landry",
+        "text": "Owen says Lena asked to meet, but he never made it to the corridor.",
+        "claimTime": "9:40 PM"
+      },
+      {
+        "id": "med-i2",
+        "unlockSec": 250,
+        "type": "interrogation",
+        "category": "witness",
+        "source": "Interrogation",
+        "title": "Nia Cole",
+        "text": "Nia says Owen walked toward the patio corridor after checking his phone.",
+        "claimTime": "9:48 PM"
+      },
+      {
+        "id": "med-i3",
+        "unlockSec": 490,
+        "type": "interrogation",
+        "category": "suspect",
+        "source": "Interrogation",
+        "title": "Jules Mercer",
+        "text": "Jules says only managers had rights to export and replace corridor footage.",
+        "claimTime": "10:02 PM"
+      },
+      {
+        "id": "med-i4",
+        "unlockSec": 760,
+        "type": "interrogation",
+        "category": "witness",
+        "source": "Interrogation",
+        "title": "Rae Fontenot",
+        "text": "Rae says Owen argued with Lena about sponsor numbers before the reveal.",
+        "claimTime": "10:05 PM"
+      },
+      {
+        "id": "med-i5",
+        "unlockSec": 1050,
+        "type": "interrogation",
+        "category": "suspect",
+        "source": "Interrogation",
+        "title": "Owen Follow-Up",
+        "text": "Owen says the private vendor file was probably an old template, but cannot explain why it opened after the corridor gap.",
+        "claimTime": "10:08 PM"
+      }
+    ],
+    "timeline": [
+      {
+        "id": "med-t0",
+        "unlockSec": 0,
+        "type": "timeline",
+        "category": "verified",
+        "source": "Message Extraction Report",
+        "title": "Lena Requests Sponsor Talk",
+        "text": "Lena texts Owen about the sponsor reveal.",
+        "time": "9:40 PM"
+      },
+      {
+        "id": "med-t1",
+        "unlockSec": 80,
+        "type": "timeline",
+        "category": "verified",
+        "source": "Recovered Phone Analysis",
+        "title": "Phones Enter Corridor Zone",
+        "text": "Lena and Owen’s phones ping near the patio corridor.",
+        "time": "9:48 PM"
+      },
+      {
+        "id": "med-t2",
+        "unlockSec": 210,
+        "type": "timeline",
+        "category": "verified",
+        "source": "Security Export Review",
+        "title": "Security Gap Begins",
+        "text": "The corridor footage skips the critical window.",
+        "time": "9:50 PM"
+      },
+      {
+        "id": "med-t3",
+        "unlockSec": 370,
+        "type": "timeline",
+        "category": "verified",
+        "source": "Metadata Review",
+        "title": "Owen Login Creates Export",
+        "text": "The corrupted export is created under Owen’s login.",
+        "time": "10:02 PM"
+      },
+      {
+        "id": "med-t4",
+        "unlockSec": 520,
+        "type": "timeline",
+        "category": "verified",
+        "source": "Financial Records Review",
+        "title": "Private Vendor Payout Posts",
+        "text": "A duplicated sponsor payment posts under a private vendor label.",
+        "time": "10:05 PM"
+      },
+      {
+        "id": "med-t5",
+        "unlockSec": 1370,
+        "type": "timeline",
+        "category": "verified",
+        "source": "Audit Log Review",
+        "title": "Original Export Deleted",
+        "text": "Audit records show the original corridor export was deleted and recreated.",
+        "time": "10:12 PM"
+      }
+    ],
+    "deduction": []
+  },
+  "accusation": {
+    "questions": [
+      {
+        "id": "cp1",
+        "stage": "deduction",
+        "roundId": "medium-round-1",
+        "unlockSec": 300,
+        "prompt": "Deduction 1: What proves Lena wanted to confront Owen?",
+        "correctOptionId": "last-message",
+        "options": [
+          {
+            "id": "last-message",
+            "label": "Lena’s message to Owen before the reveal"
+          },
+          {
+            "id": "last-message-w1",
+            "label": "A drink ticket"
+          },
+          {
+            "id": "last-message-w2",
+            "label": "A music request"
+          },
+          {
+            "id": "last-message-w3",
+            "label": "A seating chart"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      },
+      {
+        "id": "cp2",
+        "stage": "deduction",
+        "roundId": "medium-round-2",
+        "unlockSec": 600,
+        "prompt": "Deduction 2: Which evidence contradicts Owen saying he never reached the corridor?",
+        "correctOptionId": "phone-pings",
+        "options": [
+          {
+            "id": "phone-pings",
+            "label": "Both phones pinging in the patio corridor"
+          },
+          {
+            "id": "phone-pings-w1",
+            "label": "A sponsor logo"
+          },
+          {
+            "id": "phone-pings-w2",
+            "label": "A table receipt"
+          },
+          {
+            "id": "phone-pings-w3",
+            "label": "A broken coaster"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      },
+      {
+        "id": "cp3",
+        "stage": "deduction",
+        "roundId": "medium-round-3",
+        "unlockSec": 900,
+        "prompt": "Deduction 3: What shows the footage gap was controlled, not accidental?",
+        "correctOptionId": "manager-login",
+        "options": [
+          {
+            "id": "manager-login",
+            "label": "The export was created under Owen’s manager login"
+          },
+          {
+            "id": "manager-login-w1",
+            "label": "A guest complaint"
+          },
+          {
+            "id": "manager-login-w2",
+            "label": "The weather"
+          },
+          {
+            "id": "manager-login-w3",
+            "label": "A chair moved"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      },
+      {
+        "id": "cp4",
+        "stage": "deduction",
+        "roundId": "medium-round-4",
+        "unlockSec": 1200,
+        "prompt": "Deduction 4: What was Owen trying to hide?",
+        "correctOptionId": "vendor-payout",
+        "options": [
+          {
+            "id": "vendor-payout",
+            "label": "A private vendor payout tied to sponsor money"
+          },
+          {
+            "id": "vendor-payout-w1",
+            "label": "A karaoke score"
+          },
+          {
+            "id": "vendor-payout-w2",
+            "label": "A late RSVP"
+          },
+          {
+            "id": "vendor-payout-w3",
+            "label": "A missing napkin"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      },
+      {
+        "id": "cp5",
+        "stage": "deduction",
+        "roundId": "medium-round-5",
+        "unlockSec": 1440,
+        "prompt": "Deduction 5: Which final report ties Owen to the cover-up?",
+        "correctOptionId": "deleted-export",
+        "options": [
+          {
+            "id": "deleted-export",
+            "label": "The original export was deleted and recreated from Owen’s account"
+          },
+          {
+            "id": "deleted-export-w1",
+            "label": "The room was loud"
+          },
+          {
+            "id": "deleted-export-w2",
+            "label": "Lena liked blue drinks"
+          },
+          {
+            "id": "deleted-export-w3",
+            "label": "The host changed microphones"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      },
+      {
+        "id": "final1",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final: Who killed Lena?",
+        "correctOptionId": "owen",
+        "options": [
+          {
+            "id": "owen",
+            "label": "Owen Landry"
+          },
+          {
+            "id": "owen-w1",
+            "label": "Nia Cole"
+          },
+          {
+            "id": "owen-w2",
+            "label": "Jules Mercer"
+          },
+          {
+            "id": "owen-w3",
+            "label": "Rae Fontenot"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      },
+      {
+        "id": "final2",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final: What was the motive?",
+        "correctOptionId": "money",
+        "options": [
+          {
+            "id": "money",
+            "label": "Hiding the sponsor-money payout"
+          },
+          {
+            "id": "money-w1",
+            "label": "Jealousy over music"
+          },
+          {
+            "id": "money-w2",
+            "label": "A seating dispute"
+          },
+          {
+            "id": "money-w3",
+            "label": "A bad review"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      },
+      {
+        "id": "final3",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final: Which evidence places Owen near Lena?",
+        "correctOptionId": "corridor-ping",
+        "options": [
+          {
+            "id": "corridor-ping",
+            "label": "The corridor phone pings"
+          },
+          {
+            "id": "corridor-ping-w1",
+            "label": "A napkin photo"
+          },
+          {
+            "id": "corridor-ping-w2",
+            "label": "A playlist log"
+          },
+          {
+            "id": "corridor-ping-w3",
+            "label": "A parking note"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      },
+      {
+        "id": "final4",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final: What did Owen manipulate?",
+        "correctOptionId": "security-export",
+        "options": [
+          {
+            "id": "security-export",
+            "label": "The corridor security export"
+          },
+          {
+            "id": "security-export-w1",
+            "label": "The dessert menu"
+          },
+          {
+            "id": "security-export-w2",
+            "label": "The guest list"
+          },
+          {
+            "id": "security-export-w3",
+            "label": "The Wi-Fi name"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      },
+      {
+        "id": "final5",
+        "stage": "final",
+        "roundId": "medium-round-6",
+        "unlockSec": 1440,
+        "prompt": "Final: Which statement is false?",
+        "correctOptionId": "never-corridor",
+        "options": [
+          {
+            "id": "never-corridor",
+            "label": "Owen saying he never made it to the corridor"
+          },
+          {
+            "id": "never-corridor-w1",
+            "label": "Nia saying he checked his phone"
+          },
+          {
+            "id": "never-corridor-w2",
+            "label": "Jules saying managers can export footage"
+          },
+          {
+            "id": "never-corridor-w3",
+            "label": "Rae saying there was an argument"
+          }
+        ],
+        "roundScope": "Use Forensics, Interrogation, and the verified Timeline. Suspect claims are not facts until evidence supports them."
+      }
+    ]
+  }
+}
