@@ -1,0 +1,27 @@
+IMPORTANT — UPLOAD CONTENTS, NOT THE ZIP
+
+Render must see package.json at the first/root level of your GitHub repo.
+
+Correct GitHub first page:
+package.json
+server.js
+render.yaml
+database.js
+public/
+truth-packs/
+data/
+
+Wrong:
+BARFLY_RENDER_UPLOAD_CONTENTS_ONLY_ROOT_READY.zip
+
+Wrong:
+BARFLY_RENDER_UPLOAD_CONTENTS_ONLY_ROOT_READY/
+  package.json
+
+How to upload:
+1. Unzip this file on your computer.
+2. Open the unzipped folder.
+3. Select everything INSIDE the folder.
+4. Upload those files/folders to GitHub.
+5. Confirm package.json is visible on the first page of the repo.
+6. In Render, use Manual Deploy -> Clear build cache & deploy.
